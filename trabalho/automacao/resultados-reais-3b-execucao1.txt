@@ -1,0 +1,47 @@
+# Calculadora 11.2607.0.0 X64; cultura pt-BR; UI pt-BR; 2026-10-22T19:28:48
+# Formato: ID [→n apos X]: visor | expressao(OCR) | hist: [expressao | resultado]; ... (topo primeiro) | mem: v1; v2 (topo primeiro) | botoes -- obs
+# visor = NormalOutput (UIA RawView); hist/mem = texto dos TextBlocks HistoryItemExpression/HistoryItemValue/MemoryItemValue (UIA RawView, sem transcricao); expressao = OCR da captura capturas/<ID>-<n|final>.png
+3b-09 →1 [apos =]: 12 | (vazia) | hist(1): [7   +   5 = | 12] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-09 →2 [apos [Alt+2]]: 0 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-09 →3 [apos =]: 2 | (vazia) | hist(1): [1   +   1 = | 2] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-09: 0 | (vazia) | hist(1): [7   +   5 = | 12] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-11: 7 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-18 →1 [apos MS]: 7 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-18: 7 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-19 →1 [apos MR]: 0,3333333333333333 | (vazia) | hist(1): [1   ÷   3 = | 0,3333333333333333] | mem: 0,3333333333333333 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-19: 1 | 0,3333333333333333 x 3 = | hist(2): [0,3333333333333333   ×   3 = | 1]; [1   ÷   3 = | 0,3333333333333333] | mem: 0,3333333333333333 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-25 →1 [apos MS]: 7 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-25 →2 [apos [Alt+2]]: 0 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-25: 7 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-26 →1 [apos =]: Não é possível dividir por zero | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 7 | MC=des MR=des M+=des M−=des MS=des M▾=hab
+3b-26: 7 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-01: 12 | (vazia) | hist(1): [7   +   5 = | 12] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-02 →1 [apos ×]: 5 | (vazia) | hist(1): [2   +   3 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-02: 20 | (vazia) | hist(2): [5   ×   4 = | 20]; [2   +   3 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-02c →1 [apos ×]: 3 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-02c: 14 | 2+3 x | hist(1): [2   +   3   ×   4 = | 14] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-03 →1 [apos =]: 5 | (vazia) | hist(1): [2   +   3 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-03: 8 | (vazia) | hist(2): [5   +   3 = | 8]; [2   +   3 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-04 →1 [apos =]: 5 | (vazia) | hist(1): [5 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-04: 5 | (vazia) | hist(2): [5 = | 5]; [5 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-05 →1 [apos =]: Não é possível dividir por zero | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=des M−=des MS=des M▾=des
+3b-05: 2 | (vazia) | hist(1): [1   +   1 = | 2] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-06 →1 [apos √]: 3 | (9) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-06: 5 | (9) | hist(1): [√( 9 ) | 3] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-07: 3 | (vazia) | hist(1): [√( 9 ) = | 3] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-08: 22 | 21+1= | hist(18): [21   +   1 = | 22]; [20   +   1 = | 21]; [19   +   1 = | 20]; [18   +   1 = | 19]; [17   +   1 = | 18]; [16   +   1 = | 17]; [15   +   1 = | 16]; [14   +   1 = | 15]; [13   +   1 = | 14]; [12   +   1 = | 13]; [11   +   1 = | 12]; [10   +   1 = | 11]; [9   +   1 = | 10]; [8   +   1 = | 9]; [7   +   1 = | 8]; [6   +   1 = | 7]; [5   +   1 = | 6]; [4   +   1 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-10 →1 [apos =]: 2 | (vazia) | hist(1): [1   +   1 = | 2] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-10: 2 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des -- LH: limpo
+3b-12: 3 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 3; 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-13: 3 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 10 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-14: 3 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 4 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-15: 5 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 5 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-16: 5 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: -5 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-17: 3 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 3; 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-20: 1.234 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 1.234 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-21 →1 [apos =]: 5 | (vazia) | hist(1): [2   +   3 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-21: 5 | (vazia) | hist(1): [2   +   3 = | 5] | mem: 5 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-22: 12 | (vazia) | hist(1): [5   +   7 = | 12] | mem: 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-23: 7 | (9) | hist(1): [√( 9 ) | 3] | mem: 7 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-24 →1 [apos M+]: 3 | (vazia) | hist(0): (vazia; HistoryEmpty='Ainda não há histórico.') | mem: 10 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab
+3b-24: 5 | (vazia) | hist(1): [2   +   3 = | 5] | mem: 10 | MC=hab MR=hab M+=hab M−=hab MS=hab M▾=hab

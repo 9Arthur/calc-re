@@ -1,0 +1,168 @@
+# Arvore UIA dos submenus de historico e memoria - Calculadora 11.2607.0.0; 2026-10-22T19:26:26
+visor antes: 12
+
+##### apos Invoke HistoryButton #####
+[Window] Name="Calculadora" AutomationId="" Class="ApplicationFrameWindow" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="TitleBar" Class="ApplicationFrameTitleBarWindow" Enabled=True Offscreen=False
+    [MenuBar] Name="Sistema" AutomationId="SystemMenuBar" Class="" Enabled=True Offscreen=False
+      [MenuItem] Name="Sistema" AutomationId="" Class="" Enabled=True Offscreen=False
+    [Button] Name="Minimizar Calculadora" AutomationId="Minimize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Maximizar Calculadora" AutomationId="Maximize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Fechar Calculadora" AutomationId="Close" Class="" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="" Class="Windows.UI.Core.CoreWindow" Enabled=True Offscreen=False
+    [Window] Name="Popup" AutomationId="" Class="Popup" Enabled=True Offscreen=False
+      [Pane] Name="Histórico" AutomationId="HistoryFlyout" Class="Flyout" Enabled=True Offscreen=False
+        [List] Name="" AutomationId="HistoryListView" Class="ListView" Enabled=True Offscreen=False
+          [ListItem] Name="7 + 5= 12" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Group] Name="7 + 5= 12" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [ListItem] Name="5 + 2= 7" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Group] Name="5 + 2= 7" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [ListItem] Name="2 + 3= 5" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Group] Name="2 + 3= 5" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [ListItem] Name="50 × 0,1= 5" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Group] Name="50 × 0,1= 5" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [ListItem] Name="50 + 5= 55" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Group] Name="50 + 5= 55" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [ListItem] Name="5 × 3= 15" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="5 × 3= 15" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="5 × 5= 25" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="5 × 5= 25" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="4 + 3= 7" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="4 + 3= 7" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="2 + 3= 5" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="2 + 3= 5" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="5 + 3= 8" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="5 + 3= 8" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="2 + 3= 5" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="2 + 3= 5" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="9 Menos ( 12= Menos (3" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="9 Menos ( 12= Menos (3" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="5 × 4= 20" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="5 × 4= 20" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="2 + 3= 5" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="2 + 3= 5" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="7 + 5= 12" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="7 + 5= 12" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="9999999999999999 + 1= 1,e+16" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="9999999999999999 + 1= 1,e+16" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="1 ÷ 3000= 3,333333333333333eMenos (4" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="1 ÷ 3000= 3,333333333333333eMenos (4" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="2 ÷ 3= 0,6666666666666667" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="2 ÷ 3= 0,6666666666666667" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="1 ÷ 3= 0,3333333333333333" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="1 ÷ 3= 0,3333333333333333" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+          [ListItem] Name="9 Menos ( 12= Menos (3" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=True
+            [Group] Name="9 Menos ( 12= Menos (3" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=True
+        [Button] Name="Limpar todo o histórico" AutomationId="ClearHistory" Class="Button" Enabled=True Offscreen=False
+    [Button] Name="Fechar" AutomationId="Light Dismiss" Class="PopupRoot" Enabled=True Offscreen=False
+    [Text] Name="Calculadora" AutomationId="AppName" Class="TextBlock" Enabled=True Offscreen=False
+    [Custom] Name="" AutomationId="NavView" Class="" Enabled=True Offscreen=False
+      [Button] Name="Abrir Navegação" AutomationId="TogglePaneButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="" AutomationId="PaneTitleTextBlock" Class="TextBlock" Enabled=True Offscreen=True
+      [Group] Name="" AutomationId="" Class="LandmarkTarget" Enabled=True Offscreen=False
+        [Text] Name="A exibição é 12" AutomationId="CalculatorResults" Class="" Enabled=True Offscreen=False
+        [Button] Name="Fechar submenu de histórico" AutomationId="HistoryButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Controles de memória" AutomationId="MemoryPanel" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Limpar toda a memória" AutomationId="ClearMemoryButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Rechamada de memória" AutomationId="MemRecall" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Adição de memória" AutomationId="MemPlus" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Subtração de memória" AutomationId="MemMinus" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Armazenamento de memória" AutomationId="memButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Abrir submenu de memória" AutomationId="MemoryButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Controles de exibição" AutomationId="DisplayControls" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Por cento" AutomationId="percentButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Limpar entrada" AutomationId="clearEntryButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Limpar" AutomationId="clearButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Backspace" AutomationId="backSpaceButton" Class="Button" Enabled=False Offscreen=False
+        [Group] Name="Funções padrão" AutomationId="StandardFunctions" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Recíproco" AutomationId="invertButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Quadrado" AutomationId="xpower2Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Raiz quadrada" AutomationId="squareRootButton" Class="Button" Enabled=False Offscreen=False
+        [Group] Name="Operadores padrão" AutomationId="StandardOperators" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Dividir por" AutomationId="divideButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Multiplicar por" AutomationId="multiplyButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Menos" AutomationId="minusButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Mais" AutomationId="plusButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Igual a" AutomationId="equalButton" Class="Button" Enabled=False Offscreen=False
+        [Group] Name="Teclado numérico" AutomationId="NumberPad" Class="NamedContainerAutomationPeer" Enabled=False Offscreen=False
+          [Button] Name="Zero" AutomationId="num0Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Um" AutomationId="num1Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Dois" AutomationId="num2Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Três" AutomationId="num3Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Quatro" AutomationId="num4Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Cinco" AutomationId="num5Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Seis" AutomationId="num6Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Sete" AutomationId="num7Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Oito" AutomationId="num8Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Nove" AutomationId="num9Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Separador decimal" AutomationId="decimalSeparatorButton" Class="Button" Enabled=False Offscreen=False
+        [Button] Name="Positivo negativo" AutomationId="negateButton" Class="Button" Enabled=False Offscreen=False
+      [Text] Name="Modo Calculadora Padrão" AutomationId="Header" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Manter na parte superior" AutomationId="NormalAlwaysOnTopButton" Class="Button" Enabled=True Offscreen=False
+  [Pane] Name="" AutomationId="" Class="ApplicationFrameInputSinkWindow" Enabled=True Offscreen=False
+HistoryListView encontrado: True
+apos 2o Invoke: HistoryListView ainda presente: False; visor: 12
+
+##### apos Invoke MemoryButton #####
+[Window] Name="Calculadora" AutomationId="" Class="ApplicationFrameWindow" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="TitleBar" Class="ApplicationFrameTitleBarWindow" Enabled=True Offscreen=False
+    [MenuBar] Name="Sistema" AutomationId="SystemMenuBar" Class="" Enabled=True Offscreen=False
+      [MenuItem] Name="Sistema" AutomationId="" Class="" Enabled=True Offscreen=False
+    [Button] Name="Minimizar Calculadora" AutomationId="Minimize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Maximizar Calculadora" AutomationId="Maximize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Fechar Calculadora" AutomationId="Close" Class="" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="" Class="Windows.UI.Core.CoreWindow" Enabled=True Offscreen=False
+    [Window] Name="Popup" AutomationId="" Class="Popup" Enabled=True Offscreen=False
+      [Pane] Name="Memória" AutomationId="MemoryFlyout" Class="Flyout" Enabled=True Offscreen=False
+        [List] Name="" AutomationId="MemoryListView" Class="ListView" Enabled=True Offscreen=False
+          [ListItem] Name="12" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Group] Name="12" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+        [Button] Name="Limpar toda a memória" AutomationId="ClearMemory" Class="Button" Enabled=True Offscreen=False
+    [Button] Name="Fechar" AutomationId="Light Dismiss" Class="PopupRoot" Enabled=True Offscreen=False
+    [Text] Name="Calculadora" AutomationId="AppName" Class="TextBlock" Enabled=True Offscreen=False
+    [Custom] Name="" AutomationId="NavView" Class="" Enabled=True Offscreen=False
+      [Button] Name="Abrir Navegação" AutomationId="TogglePaneButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="" AutomationId="PaneTitleTextBlock" Class="TextBlock" Enabled=True Offscreen=True
+      [Group] Name="" AutomationId="" Class="LandmarkTarget" Enabled=True Offscreen=False
+        [Text] Name="A exibição é 12" AutomationId="CalculatorResults" Class="" Enabled=True Offscreen=False
+        [Button] Name="Abrir submenu de histórico" AutomationId="HistoryButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Controles de memória" AutomationId="MemoryPanel" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Limpar toda a memória" AutomationId="ClearMemoryButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Rechamada de memória" AutomationId="MemRecall" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Adição de memória" AutomationId="MemPlus" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Subtração de memória" AutomationId="MemMinus" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Armazenamento de memória" AutomationId="memButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Fechar submenu de memória" AutomationId="MemoryButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Controles de exibição" AutomationId="DisplayControls" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Por cento" AutomationId="percentButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Limpar entrada" AutomationId="clearEntryButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Limpar" AutomationId="clearButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Backspace" AutomationId="backSpaceButton" Class="Button" Enabled=False Offscreen=False
+        [Group] Name="Funções padrão" AutomationId="StandardFunctions" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Recíproco" AutomationId="invertButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Quadrado" AutomationId="xpower2Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Raiz quadrada" AutomationId="squareRootButton" Class="Button" Enabled=False Offscreen=False
+        [Group] Name="Operadores padrão" AutomationId="StandardOperators" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Dividir por" AutomationId="divideButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Multiplicar por" AutomationId="multiplyButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Menos" AutomationId="minusButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Mais" AutomationId="plusButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Igual a" AutomationId="equalButton" Class="Button" Enabled=False Offscreen=False
+        [Group] Name="Teclado numérico" AutomationId="NumberPad" Class="NamedContainerAutomationPeer" Enabled=False Offscreen=False
+          [Button] Name="Zero" AutomationId="num0Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Um" AutomationId="num1Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Dois" AutomationId="num2Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Três" AutomationId="num3Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Quatro" AutomationId="num4Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Cinco" AutomationId="num5Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Seis" AutomationId="num6Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Sete" AutomationId="num7Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Oito" AutomationId="num8Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Nove" AutomationId="num9Button" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Separador decimal" AutomationId="decimalSeparatorButton" Class="Button" Enabled=False Offscreen=False
+        [Button] Name="Positivo negativo" AutomationId="negateButton" Class="Button" Enabled=False Offscreen=False
+      [Text] Name="Modo Calculadora Padrão" AutomationId="Header" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Manter na parte superior" AutomationId="NormalAlwaysOnTopButton" Class="Button" Enabled=True Offscreen=False
+  [Pane] Name="" AutomationId="" Class="ApplicationFrameInputSinkWindow" Enabled=True Offscreen=False
+MemoryListView encontrado: True
+apos 2o Invoke: MemoryListView ainda presente: False; visor: 12

@@ -1,0 +1,8 @@
+congelamento do diferencial 2: 2026-10-23T11:54:59-03:00
+8df85a473e5c12bd8a4d0ed500aa30a6431e2ae3b39363cf38d0b2ae415e4826  relatorio/03-diferencial2-casos.json
+6a8da490eaf71873b399dd1836886e3bced0b795ec2c40a978b55aa258b1650e  trabalho/automacao/rodar-casos.ps1
+eb1c98849f2db74a5a6d19d7e2d277f8e2ba351f45bdca0f09218c45f6b54d69  trabalho/diferencial/comparar.py
+f9188e6c9fd8b30741e6d140a10676e1fb2d8be5ee8ebd1ec77e80bc9e6592ab  trabalho/diferencial/gerar_casos.py
+f1cdaaa336d8e12d87cd66385f356b87cac72acfb6beb8f9bbbed3fc9dcdf82b  trabalho/diferencial/rodar_reimpl.py
+"sha256_arvore": "2a2df4fe1ceef1a63022ad6c4cd10ef5ed40f15a5243b9c9efb602c1ae463ef9"
+nenhuma execução (Calculadora ou reimplementação) dos casos dif2 antes deste registro; execução com DIFVERIFICAR=1

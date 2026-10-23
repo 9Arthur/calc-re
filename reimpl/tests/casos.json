@@ -1,0 +1,3331 @@
+{
+ "fonte": "trabalho/automacao/rodar-casos.ps1",
+ "casos": [
+  {
+   "id": "3a-18",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "1",
+    "/",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3a-19",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "2",
+    "/",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3a-22",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "1",
+    "/",
+    "3000",
+    "="
+   ]
+  },
+  {
+   "id": "3a-21",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "9999999999999999",
+    "+",
+    "1",
+    "="
+   ]
+  },
+  {
+   "id": "3a-20",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "1234567890123456",
+    ">",
+    "7"
+   ]
+  },
+  {
+   "id": "3a-08",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "4",
+    "NEG",
+    "SQRT"
+   ]
+  },
+  {
+   "id": "3a-26",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "9999999999999999",
+    "SQR",
+    ">",
+    "SQR",
+    ">",
+    "SQR",
+    ">",
+    "SQR",
+    ">",
+    "SQR",
+    ">",
+    "SQR",
+    ">",
+    "SQR",
+    ">",
+    "SQR",
+    ">",
+    "SQR",
+    ">",
+    "SQR"
+   ]
+  },
+  {
+   "id": "3a-01",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "7",
+    "+",
+    "5",
+    "="
+   ]
+  },
+  {
+   "id": "3a-02",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "2",
+    "+",
+    "3",
+    "*",
+    ">",
+    "4",
+    "="
+   ]
+  },
+  {
+   "id": "3a-02c",
+   "fase": "3a",
+   "modo": "cientifico",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "2",
+    "+",
+    "3",
+    "*",
+    ">",
+    "4",
+    "="
+   ]
+  },
+  {
+   "id": "3a-03",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "9",
+    "-",
+    "12",
+    "="
+   ]
+  },
+  {
+   "id": "3a-04",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "8",
+    "/",
+    "0",
+    "="
+   ]
+  },
+  {
+   "id": "3a-05",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "0",
+    "/",
+    "0",
+    "="
+   ]
+  },
+  {
+   "id": "3a-06",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "/",
+    "0",
+    "="
+   ]
+  },
+  {
+   "id": "3a-07",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "0",
+    "INV"
+   ]
+  },
+  {
+   "id": "3a-10",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "8",
+    "/",
+    "0",
+    "=",
+    ">",
+    "CE"
+   ]
+  },
+  {
+   "id": "3a-11",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "2",
+    "+",
+    "3",
+    "=",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3a-12",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "2",
+    "+",
+    "3",
+    "=",
+    ">",
+    "4",
+    "="
+   ]
+  },
+  {
+   "id": "3a-13",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "5",
+    "*",
+    "="
+   ]
+  },
+  {
+   "id": "3a-14",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "5",
+    "+",
+    "*",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3a-15",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "50",
+    "+",
+    "10",
+    "%",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3a-16",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "50",
+    "*",
+    "10",
+    "%",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3a-17",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "10",
+    "%"
+   ]
+  },
+  {
+   "id": "3a-24",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "2",
+    "+",
+    "3",
+    "=",
+    ">",
+    "BS"
+   ]
+  },
+  {
+   "id": "3a-27",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "9",
+    "SQRT"
+   ]
+  },
+  {
+   "id": "3a-28",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "3",
+    "SQR",
+    ">",
+    "C",
+    "4",
+    "INV"
+   ]
+  },
+  {
+   "id": "3a-29",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "5",
+    "+",
+    "3",
+    "CE",
+    "2",
+    "="
+   ]
+  },
+  {
+   "id": "3a-09",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "8",
+    "/",
+    "0",
+    "=",
+    ">",
+    "+",
+    ">",
+    "5"
+   ]
+  },
+  {
+   "id": "3a-23",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "000",
+    ">",
+    "DEC",
+    ">",
+    "BS"
+   ]
+  },
+  {
+   "id": "3a-25",
+   "fase": "3a",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "C",
+    "0",
+    "NEG",
+    ">",
+    "C",
+    "5",
+    "NEG"
+   ]
+  },
+  {
+   "id": "3b-09",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "+",
+    "5",
+    "=",
+    ">",
+    "ALT2",
+    ">",
+    "1",
+    "+",
+    "1",
+    "=",
+    ">",
+    "ALT1"
+   ]
+  },
+  {
+   "id": "3b-11",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS"
+   ]
+  },
+  {
+   "id": "3b-18",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    ">",
+    "MC"
+   ]
+  },
+  {
+   "id": "3b-19",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "/",
+    "3",
+    "=",
+    "MS",
+    "C",
+    "MR",
+    ">",
+    "*",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3b-25",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    ">",
+    "ALT2",
+    ">",
+    "MR"
+   ]
+  },
+  {
+   "id": "3b-26",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    "8",
+    "/",
+    "0",
+    "=",
+    ">",
+    "C",
+    "MR"
+   ]
+  },
+  {
+   "id": "3b-01",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "+",
+    "5",
+    "="
+   ]
+  },
+  {
+   "id": "3b-02",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "+",
+    "3",
+    "*",
+    ">",
+    "4",
+    "="
+   ]
+  },
+  {
+   "id": "3b-02c",
+   "fase": "3b",
+   "modo": "cientifico",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "+",
+    "3",
+    "*",
+    ">",
+    "4",
+    "="
+   ]
+  },
+  {
+   "id": "3b-03",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "+",
+    "3",
+    "=",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3b-04",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "5",
+    "=",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3b-05",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "8",
+    "/",
+    "0",
+    "=",
+    ">",
+    "C",
+    "1",
+    "+",
+    "1",
+    "="
+   ]
+  },
+  {
+   "id": "3b-06",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "9",
+    "SQRT",
+    ">",
+    "5"
+   ]
+  },
+  {
+   "id": "3b-07",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "9",
+    "SQRT",
+    "="
+   ]
+  },
+  {
+   "id": "3b-08",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "+",
+    "1",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+    "="
+   ]
+  },
+  {
+   "id": "3b-10",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "+",
+    "1",
+    "=",
+    ">",
+    "LH"
+   ]
+  },
+  {
+   "id": "3b-12",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    "3",
+    "MS"
+   ]
+  },
+  {
+   "id": "3b-13",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    "3",
+    "M+"
+   ]
+  },
+  {
+   "id": "3b-14",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    "3",
+    "M-"
+   ]
+  },
+  {
+   "id": "3b-15",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "5",
+    "M+"
+   ]
+  },
+  {
+   "id": "3b-16",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "5",
+    "M-"
+   ]
+  },
+  {
+   "id": "3b-17",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    "3",
+    "MS",
+    "C",
+    "MR"
+   ]
+  },
+  {
+   "id": "3b-20",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1234",
+    "MS"
+   ]
+  },
+  {
+   "id": "3b-21",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "+",
+    "3",
+    "=",
+    ">",
+    "MS"
+   ]
+  },
+  {
+   "id": "3b-22",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    "C",
+    "5",
+    "+",
+    "MR",
+    "="
+   ]
+  },
+  {
+   "id": "3b-23",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    "C",
+    "9",
+    "SQRT",
+    "MR"
+   ]
+  },
+  {
+   "id": "3b-24",
+   "fase": "3b",
+   "modo": "padrao",
+   "angulo": null,
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MS",
+    "C",
+    "2",
+    "+",
+    "3",
+    "M+",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3c-01",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "90",
+    "COS"
+   ]
+  },
+  {
+   "id": "3c-02",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "90",
+    "TAN"
+   ]
+  },
+  {
+   "id": "3c-03",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "RAD",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "PI",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-04",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "180",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-05",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "RAD",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "0",
+    "COS"
+   ]
+  },
+  {
+   "id": "3c-06",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "ASIN"
+   ]
+  },
+  {
+   "id": "3c-07",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "ASIN"
+   ]
+  },
+  {
+   "id": "3c-08",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "EXP",
+    "100",
+    ">",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-09",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "ANG",
+    "2"
+   ]
+  },
+  {
+   "id": "3c-10",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "5",
+    "FACT"
+   ]
+  },
+  {
+   "id": "3c-11",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "0",
+    "FACT"
+   ]
+  },
+  {
+   "id": "3c-12",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "20",
+    "FACT"
+   ]
+  },
+  {
+   "id": "3c-13",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "NEG",
+    "FACT"
+   ]
+  },
+  {
+   "id": "3c-14",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "3250",
+    "FACT"
+   ]
+  },
+  {
+   "id": "3c-15",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MOD",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3c-16",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "NEG",
+    "MOD",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3c-17",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MOD",
+    "3",
+    "NEG",
+    "="
+   ]
+  },
+  {
+   "id": "3c-18",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "DEC",
+    "5",
+    "MOD",
+    "2",
+    "="
+   ]
+  },
+  {
+   "id": "3c-19",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "5",
+    "MOD",
+    "0",
+    "="
+   ]
+  },
+  {
+   "id": "3c-20",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "POW",
+    "10",
+    "="
+   ]
+  },
+  {
+   "id": "3c-21",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "POW",
+    "1",
+    "NEG",
+    "="
+   ]
+  },
+  {
+   "id": "3c-22",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "0",
+    "POW",
+    "1",
+    "NEG",
+    "="
+   ]
+  },
+  {
+   "id": "3c-23",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "3",
+    "P10"
+   ]
+  },
+  {
+   "id": "3c-24",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "31",
+    "P10"
+   ]
+  },
+  {
+   "id": "3c-25",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "32",
+    "P10"
+   ]
+  },
+  {
+   "id": "3c-26",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "0",
+    "LOG"
+   ]
+  },
+  {
+   "id": "3c-27",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "NEG",
+    "LN"
+   ]
+  },
+  {
+   "id": "3c-28",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "EXP",
+    ">",
+    "3",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3c-29",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "EXP",
+    "4",
+    "NEG",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3c-30",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "123",
+    "=",
+    ">",
+    "FE",
+    ">",
+    "FE"
+   ]
+  },
+  {
+   "id": "3c-31",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "5",
+    "NEG",
+    "ABS"
+   ]
+  },
+  {
+   "id": "3c-32",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "/",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3c-33",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "/",
+    "30",
+    "="
+   ]
+  },
+  {
+   "id": "3c-34",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "/",
+    "300",
+    "="
+   ]
+  },
+  {
+   "id": "3c-35",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "/",
+    "3000",
+    "="
+   ]
+  },
+  {
+   "id": "3c-36",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "12345678901234567890123456789012",
+    ">",
+    "3"
+   ]
+  },
+  {
+   "id": "3c-37",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "*",
+    "3",
+    "+",
+    ">",
+    "4",
+    "*",
+    "5",
+    "="
+   ]
+  },
+  {
+   "id": "3c-38",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "POW",
+    "3",
+    "POW",
+    ">",
+    "2",
+    "="
+   ]
+  },
+  {
+   "id": "3c-39",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "+",
+    "3",
+    "*",
+    "4",
+    "POW",
+    "2",
+    "="
+   ]
+  },
+  {
+   "id": "3c-40",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "7",
+    "MOD",
+    "4",
+    "*",
+    "2",
+    "="
+   ]
+  },
+  {
+   "id": "3c-41",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "+",
+    "3",
+    "+",
+    "*",
+    ">",
+    "4",
+    "="
+   ]
+  },
+  {
+   "id": "3c-42",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "(",
+    "2",
+    "+",
+    "3",
+    ")",
+    ">",
+    "*",
+    "4",
+    "="
+   ]
+  },
+  {
+   "id": "3c-43",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "(",
+    "2",
+    "+",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3c-44",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "*",
+    "(",
+    "3",
+    "+",
+    "(",
+    "4",
+    "-",
+    "1",
+    "="
+   ]
+  },
+  {
+   "id": "3c-45",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "(",
+    "3",
+    "+",
+    "4",
+    ")",
+    "="
+   ]
+  },
+  {
+   "id": "3c-46",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "+",
+    "(",
+    "2",
+    "+",
+    "3",
+    ")",
+    ">",
+    "4",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3c-47",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "+",
+    "3",
+    ")",
+    "*",
+    "4",
+    "="
+   ]
+  },
+  {
+   "id": "3c-50",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "30",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-51",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "60",
+    "COS"
+   ]
+  },
+  {
+   "id": "3c-52",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "45",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-53",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "45",
+    "TAN"
+   ]
+  },
+  {
+   "id": "3c-54",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "30",
+    "NEG",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-55",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "RAD",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-56",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "RAD",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "TAN"
+   ]
+  },
+  {
+   "id": "3c-57",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "GRAD",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "COS"
+   ]
+  },
+  {
+   "id": "3c-58",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "GRAD",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "100",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-59",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "0",
+    "DEC",
+    "5",
+    "ASIN"
+   ]
+  },
+  {
+   "id": "3c-60",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "RAD",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "0",
+    "DEC",
+    "5",
+    "ACOS"
+   ]
+  },
+  {
+   "id": "3c-61",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "GRAD",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "ATAN"
+   ]
+  },
+  {
+   "id": "3c-62",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "NEG",
+    "EXP",
+    "100",
+    ">",
+    "SIN"
+   ]
+  },
+  {
+   "id": "3c-63",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "PI",
+    ">",
+    "FE",
+    ">",
+    "FE"
+   ]
+  },
+  {
+   "id": "3c-64",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "E"
+   ]
+  },
+  {
+   "id": "3c-65",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1",
+    "EX"
+   ]
+  },
+  {
+   "id": "3c-66",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "10",
+    "NEG",
+    "EX"
+   ]
+  },
+  {
+   "id": "3c-67",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "10",
+    "LN"
+   ]
+  },
+  {
+   "id": "3c-68",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "LOG"
+   ]
+  },
+  {
+   "id": "3c-69",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "1000",
+    "LOG"
+   ]
+  },
+  {
+   "id": "3c-70",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "0",
+    "DEC",
+    "5",
+    "P10"
+   ]
+  },
+  {
+   "id": "3c-71",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "2",
+    "POW",
+    "0",
+    "DEC",
+    "5",
+    "="
+   ]
+  },
+  {
+   "id": "3c-72",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "27",
+    "YROOT",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3c-73",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "8",
+    "NEG",
+    "YROOT",
+    "3",
+    "="
+   ]
+  },
+  {
+   "id": "3c-74",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "8",
+    "LOGY",
+    "2",
+    "="
+   ]
+  },
+  {
+   "id": "3c-75",
+   "fase": "3c",
+   "modo": "cientifico",
+   "angulo": "DEG",
+   "base": null,
+   "tamanho": null,
+   "deslocamento": null,
+   "passos": [
+    "0",
+    "DEC",
+    "5",
+    "FACT"
+   ]
+  },
+  {
+   "id": "3d-01",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#255"
+   ]
+  },
+  {
+   "id": "3d-02",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1000"
+   ]
+  },
+  {
+   "id": "3d-03",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1A3"
+   ]
+  },
+  {
+   "id": "3d-04",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#255",
+    ">",
+    "R:HEX",
+    ">",
+    "R:OCT",
+    ">",
+    "R:BIN",
+    ">",
+    "R:DEC"
+   ]
+  },
+  {
+   "id": "3d-05",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#123456789ABCDEF01"
+   ]
+  },
+  {
+   "id": "3d-06",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "OCT",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1777777777777777777777"
+   ]
+  },
+  {
+   "id": "3d-07",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "OCT",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#2777777777777777777777"
+   ]
+  },
+  {
+   "id": "3d-08",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "BIN",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#10000000000000000000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "id": "3d-09",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#9223372036854775808"
+   ]
+  },
+  {
+   "id": "3d-10",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#922337203685477580",
+    "NEG",
+    ">",
+    "#8"
+   ]
+  },
+  {
+   "id": "3d-11",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#9223372036854775807"
+   ]
+  },
+  {
+   "id": "3d-12",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": null,
+   "passos": [
+    "#128"
+   ]
+  },
+  {
+   "id": "3d-13",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": null,
+   "passos": [
+    "#200"
+   ]
+  },
+  {
+   "id": "3d-14",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "WORD",
+   "deslocamento": null,
+   "passos": [
+    "#12345"
+   ]
+  },
+  {
+   "id": "3d-20",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#300",
+    ">",
+    "W:BYTE"
+   ]
+  },
+  {
+   "id": "3d-21",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#200",
+    ">",
+    "W:BYTE",
+    ">",
+    "W:QWORD"
+   ]
+  },
+  {
+   "id": "3d-22",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#65535",
+    ">",
+    "W:WORD",
+    ">",
+    "W:QWORD"
+   ]
+  },
+  {
+   "id": "3d-23",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#2147483648",
+    ">",
+    "W:DWORD"
+   ]
+  },
+  {
+   "id": "3d-24",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#4294967296",
+    ">",
+    "W:DWORD"
+   ]
+  },
+  {
+   "id": "3d-25",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "DWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1",
+    "NEG",
+    ">",
+    "W:QWORD"
+   ]
+  },
+  {
+   "id": "3d-26",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#FFFFFFFFFF",
+    ">",
+    "W:DWORD"
+   ]
+  },
+  {
+   "id": "3d-30",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1",
+    "NEG"
+   ]
+  },
+  {
+   "id": "3d-31",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1",
+    "NEG"
+   ]
+  },
+  {
+   "id": "3d-32",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": null,
+   "passos": [
+    "#80"
+   ]
+  },
+  {
+   "id": "3d-33",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#9223372036854775807",
+    "+",
+    "#1",
+    "="
+   ]
+  },
+  {
+   "id": "3d-34",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "DWORD",
+   "deslocamento": null,
+   "passos": [
+    "#2147483647",
+    "+",
+    "#1",
+    "="
+   ]
+  },
+  {
+   "id": "3d-35",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "WORD",
+   "deslocamento": null,
+   "passos": [
+    "#32767",
+    "+",
+    "#1",
+    "="
+   ]
+  },
+  {
+   "id": "3d-36",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": null,
+   "passos": [
+    "#127",
+    "+",
+    "#1",
+    "="
+   ]
+  },
+  {
+   "id": "3d-37",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": null,
+   "passos": [
+    "#100",
+    "*",
+    "#3",
+    "="
+   ]
+  },
+  {
+   "id": "3d-38",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#4294967296",
+    "*",
+    "#4294967296",
+    "="
+   ]
+  },
+  {
+   "id": "3d-39",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#4294967295",
+    "*",
+    "#4294967295",
+    "="
+   ]
+  },
+  {
+   "id": "3d-40",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#7",
+    "/",
+    "#2",
+    "="
+   ]
+  },
+  {
+   "id": "3d-41",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#7",
+    "NEG",
+    "/",
+    "#2",
+    "="
+   ]
+  },
+  {
+   "id": "3d-42",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#7",
+    "NEG",
+    "%",
+    "#3",
+    "="
+   ]
+  },
+  {
+   "id": "3d-43",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#7",
+    "%",
+    "#3",
+    "NEG",
+    "="
+   ]
+  },
+  {
+   "id": "3d-44",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#5",
+    "%",
+    "#0",
+    "="
+   ]
+  },
+  {
+   "id": "3d-45",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#5",
+    "/",
+    "#0",
+    "="
+   ]
+  },
+  {
+   "id": "3d-46",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#0",
+    "/",
+    "#0",
+    "="
+   ]
+  },
+  {
+   "id": "3d-47",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#5",
+    "/",
+    "#0",
+    "=",
+    ">",
+    "R:HEX"
+   ]
+  },
+  {
+   "id": "3d-48",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1",
+    "-",
+    "#2",
+    "="
+   ]
+  },
+  {
+   "id": "3d-50",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#12",
+    "AND",
+    "#10",
+    "="
+   ]
+  },
+  {
+   "id": "3d-51",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#12",
+    "OR",
+    "#10",
+    "="
+   ]
+  },
+  {
+   "id": "3d-52",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#12",
+    "XOR",
+    "#10",
+    "="
+   ]
+  },
+  {
+   "id": "3d-53",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#12",
+    "NAND",
+    "#10",
+    "="
+   ]
+  },
+  {
+   "id": "3d-54",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#12",
+    "NOR",
+    "#10",
+    "="
+   ]
+  },
+  {
+   "id": "3d-55",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#5",
+    "NOT"
+   ]
+  },
+  {
+   "id": "3d-56",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": null,
+   "passos": [
+    "#5",
+    "NOT"
+   ]
+  },
+  {
+   "id": "3d-57",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": null,
+   "passos": [
+    "#F0",
+    "NOT"
+   ]
+  },
+  {
+   "id": "3d-58",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#6",
+    "OR",
+    "#1",
+    "AND",
+    "#2",
+    "="
+   ]
+  },
+  {
+   "id": "3d-59",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#12",
+    "XOR",
+    "#10",
+    "AND",
+    "#6",
+    "="
+   ]
+  },
+  {
+   "id": "3d-60",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1",
+    "OR",
+    "#5",
+    "NAND",
+    "#3",
+    "="
+   ]
+  },
+  {
+   "id": "3d-61",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#5",
+    "+",
+    "NOT",
+    ">",
+    "="
+   ]
+  },
+  {
+   "id": "3d-62",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#F",
+    "AND",
+    "#3",
+    "="
+   ]
+  },
+  {
+   "id": "3d-70",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Arit",
+   "passos": [
+    "#1",
+    "LSH",
+    "#4",
+    "="
+   ]
+  },
+  {
+   "id": "3d-71",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Arit",
+   "passos": [
+    "#1",
+    "LSH",
+    "#63",
+    "="
+   ]
+  },
+  {
+   "id": "3d-72",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Arit",
+   "passos": [
+    "#1",
+    "LSH",
+    "#64",
+    "="
+   ]
+  },
+  {
+   "id": "3d-73",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Arit",
+   "passos": [
+    "#7",
+    "NEG",
+    "RSH",
+    "#1",
+    "="
+   ]
+  },
+  {
+   "id": "3d-74",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Arit",
+   "passos": [
+    "#16",
+    "NEG",
+    "RSH",
+    "#2",
+    "="
+   ]
+  },
+  {
+   "id": "3d-75",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": "Arit",
+   "passos": [
+    "#3",
+    "LSH",
+    "#7",
+    "="
+   ]
+  },
+  {
+   "id": "3d-76",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": "Arit",
+   "passos": [
+    "#1",
+    "LSH",
+    "#8",
+    "="
+   ]
+  },
+  {
+   "id": "3d-77",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": "Arit",
+   "passos": [
+    "#80",
+    "RSH",
+    "#1",
+    "="
+   ]
+  },
+  {
+   "id": "3d-78",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Arit",
+   "passos": [
+    "#8",
+    "RSH",
+    "#64",
+    "="
+   ]
+  },
+  {
+   "id": "3d-79",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Arit",
+   "passos": [
+    "#1",
+    "+",
+    "#1",
+    "LSH",
+    "#2",
+    "="
+   ]
+  },
+  {
+   "id": "3d-80",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Arit",
+   "passos": [
+    "#8",
+    "LSH",
+    "#1",
+    "NEG",
+    "="
+   ]
+  },
+  {
+   "id": "3d-81",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Log",
+   "passos": [
+    "#1",
+    "NEG",
+    "RSH",
+    "#1",
+    "="
+   ]
+  },
+  {
+   "id": "3d-82",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Log",
+   "passos": [
+    "#16",
+    "NEG",
+    "RSH",
+    "#60",
+    "="
+   ]
+  },
+  {
+   "id": "3d-83",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": "Log",
+   "passos": [
+    "#80",
+    "RSH",
+    "#1",
+    "="
+   ]
+  },
+  {
+   "id": "3d-84",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Log",
+   "passos": [
+    "#1",
+    "LSH",
+    "#63",
+    "="
+   ]
+  },
+  {
+   "id": "3d-85",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": "Log",
+   "passos": [
+    "#5",
+    "RSH",
+    "#8",
+    "="
+   ]
+  },
+  {
+   "id": "3d-86",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": "Circ",
+   "passos": [
+    "#81",
+    "ROL",
+    ">",
+    "ROR"
+   ]
+  },
+  {
+   "id": "3d-87",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": "Circ",
+   "passos": [
+    "#1",
+    "ROR"
+   ]
+  },
+  {
+   "id": "3d-88",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": "Circ",
+   "passos": [
+    "#1",
+    "ROR"
+   ]
+  },
+  {
+   "id": "3d-89",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "QWORD",
+   "deslocamento": "Circ",
+   "passos": [
+    "#8000000000000000",
+    "ROL"
+   ]
+  },
+  {
+   "id": "3d-90",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": "Carry",
+   "passos": [
+    "#80",
+    "ROLC",
+    ">",
+    "ROLC",
+    ">",
+    "ROLC"
+   ]
+  },
+  {
+   "id": "3d-91",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": "Carry",
+   "passos": [
+    "#1",
+    "RORC",
+    ">",
+    "RORC",
+    ">",
+    "RORC"
+   ]
+  },
+  {
+   "id": "3d-92",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": "Carry",
+   "passos": [
+    "#80",
+    "ROLC",
+    ">",
+    "#5",
+    "ROLC"
+   ]
+  },
+  {
+   "id": "3d-93",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "BYTE",
+   "deslocamento": "Carry",
+   "passos": [
+    "#80",
+    "ROLC",
+    ">",
+    "C",
+    "#5",
+    "ROLC"
+   ]
+  },
+  {
+   "id": "3d-100",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "KB:BITS",
+    "BIT0",
+    ">",
+    "BIT3"
+   ]
+  },
+  {
+   "id": "3d-101",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "KB:BITS",
+    "BIT63"
+   ]
+  },
+  {
+   "id": "3d-102",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "BYTE",
+   "deslocamento": null,
+   "passos": [
+    "KB:BITS",
+    "BIT7"
+   ]
+  },
+  {
+   "id": "3d-103",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#5",
+    "KB:BITS",
+    ">",
+    "BIT2"
+   ]
+  },
+  {
+   "id": "3d-104",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#5",
+    "+",
+    "KB:BITS",
+    "BIT0",
+    ">",
+    "KB:FULL",
+    "="
+   ]
+  },
+  {
+   "id": "3d-105",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#12",
+    "KB:BITS",
+    "BIT0",
+    ">",
+    "KB:FULL",
+    "#4"
+   ]
+  },
+  {
+   "id": "3d-106",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "DEC",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "#1",
+    "NEG",
+    "KB:BITS",
+    "BIT63"
+   ]
+  },
+  {
+   "id": "3d-107",
+   "fase": "3d",
+   "modo": "programador",
+   "angulo": null,
+   "base": "HEX",
+   "tamanho": "QWORD",
+   "deslocamento": null,
+   "passos": [
+    "KB:BITS",
+    "BIT4",
+    "BIT0"
+   ]
+  }
+ ]
+}

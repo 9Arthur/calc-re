@@ -1,0 +1,129 @@
+# Execucao 3b 2026-10-22T19:28:48 - Calculadora 11.2607.0.0 X64, cultura pt-BR, UI pt-BR
+# SHA-256 instalado CalculatorApp.exe = f26a20f8bd65fd23f9a7cf13145a52b01f37beb51962a7aa3b7892eb7894b242
+# SHA-256 instalado CalculatorApp.dll = e08455206dab3ab28ee355c0b085d5da6a91afee19e4e21b09174330a462cf28
+# SHA-256 instalado CalcViewModel.dll = 072cd589ec97875b71e4a63c31b1c8a7eb38952721321019f22ecad0acd9d21d
+
+== 3b-09 (modo Alt+1): 7 + 5 = > ALT2 > 1 + 1 = > ALT1
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [=]: NormalOutput='12' expressao.Name='Expression é 7 + 5=' OCR='(vazia)' hist.N=1 narrador.hist='7 + 5= 12' narrador.mem= captura=capturas/3b-09-1.png
+   leitura apos [[Alt+2]]: NormalOutput='0' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem= captura=capturas/3b-09-2.png
+   leitura apos [=]: NormalOutput='2' expressao.Name='Expression é 1 + 1=' OCR='(vazia)' hist.N=1 narrador.hist='1 + 1= 2' narrador.mem= captura=capturas/3b-09-3.png
+   leitura apos [[Alt+1]]: NormalOutput='0' expressao.Name='' OCR='(vazia)' hist.N=1 narrador.hist='7 + 5= 12' narrador.mem= captura=capturas/3b-09-final.png
+
+== 3b-11 (modo Alt+1): 7 MS
+   preparo: historico modo 2: limpo; historico modo 1: limpo
+   leitura apos [MS]: NormalOutput='7' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='7' captura=capturas/3b-11-final.png
+
+== 3b-18 (modo Alt+1): 7 MS > MC
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [MS]: NormalOutput='7' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='7' captura=capturas/3b-18-1.png
+   leitura apos [MC]: NormalOutput='7' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem= captura=capturas/3b-18-final.png
+
+== 3b-19 (modo Alt+1): 1 / 3 = MS C MR > * 3 =
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar
+   leitura apos [MR]: NormalOutput='0,3333333333333333' expressao.Name='' OCR='(vazia)' hist.N=1 narrador.hist='1 ÷ 3= 0,3333333333333333' narrador.mem='0,3333333333333333' captura=capturas/3b-19-1.png
+   leitura apos [=]: NormalOutput='1' expressao.Name='Expression é 0,3333333333333333 × 3=' OCR='0,3333333333333333 x 3 =' hist.N=2 narrador.hist='0,3333333333333333 × 3= 1' '1 ÷ 3= 0,3333333333333333' narrador.mem='0,3333333333333333' captura=capturas/3b-19-final.png
+
+== 3b-25 (modo Alt+1): 7 MS > ALT2 > MR
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo; MC
+   leitura apos [MS]: NormalOutput='7' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='7' captura=capturas/3b-25-1.png
+   leitura apos [[Alt+2]]: NormalOutput='0' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='7' captura=capturas/3b-25-2.png
+   leitura apos [MR]: NormalOutput='7' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='7' captura=capturas/3b-25-final.png
+
+== 3b-26 (modo Alt+1): 7 MS 8 / 0 = > C MR
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [=]: NormalOutput='Não é possível dividir por zero' expressao.Name='Expression é 8 ÷ ' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='7' captura=capturas/3b-26-1.png
+   leitura apos [MR]: NormalOutput='7' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='7' captura=capturas/3b-26-final.png
+
+== 3b-01 (modo Alt+1): 7 + 5 =
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [=]: NormalOutput='12' expressao.Name='Expression é 7 + 5=' OCR='(vazia)' hist.N=1 narrador.hist='7 + 5= 12' narrador.mem= captura=capturas/3b-01-final.png
+
+== 3b-02 (modo Alt+1): 2 + 3 * > 4 =
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo
+   leitura apos [×]: NormalOutput='5' expressao.Name='Expression é 5 × ' OCR='(vazia)' hist.N=1 narrador.hist='2 + 3= 5' narrador.mem= captura=capturas/3b-02-1.png
+   leitura apos [=]: NormalOutput='20' expressao.Name='Expression é 5 × 4=' OCR='(vazia)' hist.N=2 narrador.hist='5 × 4= 20' '2 + 3= 5' narrador.mem= captura=capturas/3b-02-final.png
+
+== 3b-02c (modo Alt+2): 2 + 3 * > 4 =
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo
+   leitura apos [×]: NormalOutput='3' expressao.Name='Expression é 2 + 3 × ' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem= captura=capturas/3b-02c-1.png
+   leitura apos [=]: NormalOutput='14' expressao.Name='Expression é 2 + 3 × 4=' OCR='2+3 x' hist.N=1 narrador.hist='2 + 3 × 4= 14' narrador.mem= captura=capturas/3b-02c-final.png
+
+== 3b-03 (modo Alt+1): 2 + 3 = > =
+   preparo: historico modo 2: limpo; historico modo 1: nada a limpar
+   leitura apos [=]: NormalOutput='5' expressao.Name='Expression é 2 + 3=' OCR='(vazia)' hist.N=1 narrador.hist='2 + 3= 5' narrador.mem= captura=capturas/3b-03-1.png
+   leitura apos [=]: NormalOutput='8' expressao.Name='Expression é 5 + 3=' OCR='(vazia)' hist.N=2 narrador.hist='5 + 3= 8' '2 + 3= 5' narrador.mem= captura=capturas/3b-03-final.png
+
+== 3b-04 (modo Alt+1): 5 = > =
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo
+   leitura apos [=]: NormalOutput='5' expressao.Name='Expression é 5=' OCR='(vazia)' hist.N=1 narrador.hist='5= 5' narrador.mem= captura=capturas/3b-04-1.png
+   leitura apos [=]: NormalOutput='5' expressao.Name='Expression é 5=' OCR='(vazia)' hist.N=2 narrador.hist='5= 5' '5= 5' narrador.mem= captura=capturas/3b-04-final.png
+
+== 3b-05 (modo Alt+1): 8 / 0 = > C 1 + 1 =
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo
+   leitura apos [=]: NormalOutput='Não é possível dividir por zero' expressao.Name='Expression é 8 ÷ ' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem= captura=capturas/3b-05-1.png
+   leitura apos [=]: NormalOutput='2' expressao.Name='Expression é 1 + 1=' OCR='(vazia)' hist.N=1 narrador.hist='1 + 1= 2' narrador.mem= captura=capturas/3b-05-final.png
+
+== 3b-06 (modo Alt+1): 9 SQRT > 5
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo
+   leitura apos [√]: NormalOutput='3' expressao.Name='Expression é √(9)' OCR='(9)' hist.N=0 narrador.hist= narrador.mem= captura=capturas/3b-06-1.png
+   leitura apos [5]: NormalOutput='5' expressao.Name='Expression é √(9)' OCR='(9)' hist.N=1 narrador.hist='√(9) 3' narrador.mem= captura=capturas/3b-06-final.png
+
+== 3b-07 (modo Alt+1): 9 SQRT =
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo
+   leitura apos [=]: NormalOutput='3' expressao.Name='Expression é √(9)=' OCR='(vazia)' hist.N=1 narrador.hist='√(9)= 3' narrador.mem= captura=capturas/3b-07-final.png
+
+== 3b-08 (modo Alt+1): 1 + 1 = = = = = = = = = = = = = = = = = = = = =
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo
+   leitura apos [=]: NormalOutput='22' expressao.Name='Expression é 21 + 1=' OCR='21+1=' hist.N=18 narrador.hist='21 + 1= 22' '20 + 1= 21' '19 + 1= 20' '18 + 1= 19' '17 + 1= 18' '16 + 1= 17' '15 + 1= 16' '14 + 1= 15' '13 + 1= 14' '12 + 1= 13' '11 + 1= 12' '10 + 1= 11' '9 + 1= 10' '8 + 1= 9' '7 + 1= 8' '6 + 1= 7' '5 + 1= 6' '4 + 1= 5' narrador.mem= captura=capturas/3b-08-final.png
+
+== 3b-10 (modo Alt+1): 1 + 1 = > LH
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo
+   leitura apos [=]: NormalOutput='2' expressao.Name='Expression é 1 + 1=' OCR='(vazia)' hist.N=1 narrador.hist='1 + 1= 2' narrador.mem= captura=capturas/3b-10-1.png
+   leitura apos [LH]: NormalOutput='2' expressao.Name='Expression é 1 + 1=' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem= captura=capturas/3b-10-final.png
+
+== 3b-12 (modo Alt+1): 7 MS 3 MS
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar
+   leitura apos [MS]: NormalOutput='3' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='3' '7' captura=capturas/3b-12-final.png
+
+== 3b-13 (modo Alt+1): 7 MS 3 M+
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [M+]: NormalOutput='3' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='10' captura=capturas/3b-13-final.png
+
+== 3b-14 (modo Alt+1): 7 MS 3 M-
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [M−]: NormalOutput='3' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='4' captura=capturas/3b-14-final.png
+
+== 3b-15 (modo Alt+1): 5 M+
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [M+]: NormalOutput='5' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='5' captura=capturas/3b-15-final.png
+
+== 3b-16 (modo Alt+1): 5 M-
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [M−]: NormalOutput='5' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='-5' captura=capturas/3b-16-final.png
+
+== 3b-17 (modo Alt+1): 7 MS 3 MS C MR
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [MR]: NormalOutput='3' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='3' '7' captura=capturas/3b-17-final.png
+
+== 3b-20 (modo Alt+1): 1234 MS
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [MS]: NormalOutput='1.234' expressao.Name='' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='1.234' captura=capturas/3b-20-final.png
+
+== 3b-21 (modo Alt+1): 2 + 3 = > MS
+   preparo: historico modo 2: nada a limpar; historico modo 1: nada a limpar; MC
+   leitura apos [=]: NormalOutput='5' expressao.Name='Expression é 2 + 3=' OCR='(vazia)' hist.N=1 narrador.hist='2 + 3= 5' narrador.mem= captura=capturas/3b-21-1.png
+   leitura apos [MS]: NormalOutput='5' expressao.Name='' OCR='(vazia)' hist.N=1 narrador.hist='2 + 3= 5' narrador.mem='5' captura=capturas/3b-21-final.png
+
+== 3b-22 (modo Alt+1): 7 MS C 5 + MR =
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo; MC
+   leitura apos [=]: NormalOutput='12' expressao.Name='Expression é 5 + 7=' OCR='(vazia)' hist.N=1 narrador.hist='5 + 7= 12' narrador.mem='7' captura=capturas/3b-22-final.png
+
+== 3b-23 (modo Alt+1): 7 MS C 9 SQRT MR
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo; MC
+   leitura apos [MR]: NormalOutput='7' expressao.Name='Expression é √(9)' OCR='(9)' hist.N=1 narrador.hist='√(9) 3' narrador.mem='7' captura=capturas/3b-23-final.png
+
+== 3b-24 (modo Alt+1): 7 MS C 2 + 3 M+ > =
+   preparo: historico modo 2: nada a limpar; historico modo 1: limpo; MC
+   leitura apos [M+]: NormalOutput='3' expressao.Name='Expression é 2 + ' OCR='(vazia)' hist.N=0 narrador.hist= narrador.mem='10' captura=capturas/3b-24-1.png
+   leitura apos [=]: NormalOutput='5' expressao.Name='Expression é 2 + 3=' OCR='(vazia)' hist.N=1 narrador.hist='2 + 3= 5' narrador.mem='10' captura=capturas/3b-24-final.png

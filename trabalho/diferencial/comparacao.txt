@@ -1,0 +1,223 @@
+padrao: 100/100 (100%); sem leitura 0; com indício de falha da automação 0
+cientifico: 58/100 (58%); sem leitura 0; com indício de falha da automação 27
+programador: 87/100 (87%); sem leitura 0; com indício de falha da automação 0
+
+dif-Ci-031 {'angulo': 'RAD'}: MS NEG 8 / 2 5 4 COSH M+ 8 NEG * ( NEG =
+  real  : '0' erro=False [] 
+  reimpl: '-1' erro=False []
+
+dif-Ci-037 {'angulo': 'DEG'}: POW ATAN ASIN LN EXP * * PI 1 9 =
+  real  : '19' erro=False ['EXP: botao expButton desabilitado, nao pressionado', '*: botao multiplyButton desabilitado, nao pressionado', '*: botao multiplyButton desabilitado, nao pressionado', 'PI: botao piButton desabilitado, nao pressionado'] 
+  reimpl: '0' erro=False []
+
+dif-Ci-061 {'angulo': 'RAD'}: PI 4 ACOS + FE 9 NEG =
+  real  : '-9' erro=False ['+: botao plusButton desabilitado, nao pressionado'] 
+  reimpl: '-9,e+0' erro=False []
+
+dif-Ci-062 {'angulo': 'DEG'}: 8 NEG ( 0 0 MS 8 CBRT * / 2^X 7 NEG ) =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '2,2857142857142857142857142857143' erro=False []
+
+dif-Ci-063 {'angulo': 'RAD'}: - 0 E EX =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '-15,15426224147926418976043027263' erro=False []
+
+dif-Ci-064 {'angulo': 'GRAD'}: + 7 0 NEG 0 P10 NEG = =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '-2,e-700' erro=False []
+
+dif-Ci-065 {'angulo': 'RAD'}: * MS 1 NEG 1 SQRT =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-066 {'angulo': 'RAD'}: ) BS 2 MOD E =
+  real  : '2,e+0' erro=False [] 
+  reimpl: '2' erro=False []
+
+dif-Ci-067 {'angulo': 'RAD'}: ATAN 4 - 0 M- MS 9 =
+  real  : '-5,e+0' erro=False [] 
+  reimpl: '-5' erro=False []
+
+dif-Ci-068 {'angulo': 'GRAD'}: MOD 1 9 DEC SQRT 8 =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-069 {'angulo': 'DEG'}: / 4 =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-070 {'angulo': 'DEG'}: SIN - =
+  real  : '0,e+0' erro=False [] 
+  reimpl: '0' erro=False []
+
+dif-Ci-071 {'angulo': 'RAD'}: / COS / 9 3 =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-072 {'angulo': 'DEG'}: 4 ( / SINH 4 E 4 NEG 6 4 MOD 9 4 =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '375,9655172413793103448275862069' erro=False []
+
+dif-Ci-073 {'angulo': 'GRAD'}: * 4 6 8 LOG 3 4 8 9 0 ( 4 ) * =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-074 {'angulo': 'DEG'}: - 2 3 2^X CUBE C 1 SQR + =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '2' erro=False []
+
+dif-Ci-075 {'angulo': 'DEG'}: SQRT 3 MS 7 5 PI SIN DEC 9 2 POW ) / =
+  real  : '1,e+0' erro=False [] 
+  reimpl: '1' erro=False []
+
+dif-Ci-076 {'angulo': 'DEG'}: C + = 2 =
+  real  : '2,e+0' erro=False [] 
+  reimpl: '2' erro=False []
+
+dif-Ci-077 {'angulo': 'DEG'}: 1 * 7 PI 3 3 4 9 SIN LOG 3 =
+  real  : '3,e+0' erro=False [] 
+  reimpl: '3' erro=False []
+
+dif-Ci-078 {'angulo': 'RAD'}: ( 1 ) 3 DEC - PI + MOD = =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-079 {'angulo': 'DEG'}: POW 5 * * 8 =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-080 {'angulo': 'RAD'}: / 8 POW CEIL SQRT 2 COSH 8 FE ASIN LOGY MOD FLOOR MC =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0,e+0' erro=False []
+
+dif-Ci-081 {'angulo': 'DEG'}: 0 5 + COSH =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '79,209948524787844444106108044488' erro=False []
+
+dif-Ci-082 {'angulo': 'GRAD'}: CUBE 7 3 EXP EXP / MS M- / 8 8 1 = 4 =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0,00454029511918274687854710556186' erro=False []
+
+dif-Ci-083 {'angulo': 'GRAD'}: 7 ) ASIN + FLOOR 6 ( 8 DEC =
+  real  : '4,8e+1' erro=False ['+: botao plusButton desabilitado, nao pressionado', 'FLOOR: submenu de funcButton nao abriu'] 
+  reimpl: '48' erro=False []
+
+dif-Ci-084 {'angulo': 'GRAD'}: MC 6 CUBE ASIN ) - ( 7 7 M+ / EXP =
+  real  : '1,e+0' erro=False ['MC: botao ClearMemoryButton desabilitado, nao pressionado', '): botao closeParenthesisButton desabilitado, nao pressionado', '-: botao minusButton desabilitado, nao pressionado', '(: botao openParenthesisButton desabilitado, nao pressionado'] 
+  reimpl: '-1' erro=False []
+
+dif-Ci-085 {'angulo': 'DEG'}: ACOS * CEIL =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '8.100' erro=False []
+
+dif-Ci-086 {'angulo': 'DEG'}: LN 8 ) ASIN DEC MS PI EXP - 8 TANH 0 =
+  real  : '0,e+0' erro=False ['DEC: botao decimalSeparatorButton desabilitado, nao pressionado', 'MS: botao memButton desabilitado, nao pressionado', 'PI: botao piButton desabilitado, nao pressionado', 'EXP: botao expButton desabilitado, nao pressionado', '-: botao minusButton desabilitado, nao pressionado'] 
+  reimpl: '3,1415926535897932384626433832795' erro=False []
+
+dif-Ci-087 {'angulo': 'DEG'}: NEG BS 8 5 / TANH COSH MR =
+  real  : '5,5084613261430258963873075024223e+1' erro=False ['MR: botao MemRecall desabilitado, nao pressionado'] 
+  reimpl: '55,084613261430258963873075024223' erro=False []
+
+dif-Ci-088 {'angulo': 'RAD'}: C 8 CUBE 5 5 NEG ATAN ASIN MOD FE + LN NEG NEG =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0,e+0' erro=False []
+
+dif-Ci-089 {'angulo': 'GRAD'}: SQRT M+ 5 EXP 7 3 MOD POW P10 7 E 0 ( 7 =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-090 {'angulo': 'DEG'}: P10 POW ( * =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '1' erro=False []
+
+dif-Ci-091 {'angulo': 'GRAD'}: * ABS 5 = * E 2 + SIN + MOD COS =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-092 {'angulo': 'GRAD'}: TAN PI ABS MOD ( 4 1 ) 2^X LOG 8 =
+  real  : '3,1415926535897932384626433832795e+0' erro=False [] 
+  reimpl: '3,1415926535897932384626433832795' erro=False []
+
+dif-Ci-093 {'angulo': 'RAD'}: ( DEC 9 CEIL BS 1 MOD CBRT MC =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-094 {'angulo': 'DEG'}: ) EX MS ASIN NEG COS CEIL 5 * =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '25' erro=False []
+
+dif-Ci-095 {'angulo': 'GRAD'}: NEG COS ) 7 C * 5 ABS 5 SINH / =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: 'Resultado indefinido' erro=True []
+
+dif-Ci-096 {'angulo': 'RAD'}: 8 CEIL 0 4 TANH MS 6 7 YROOT * =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '4.489' erro=False []
+
+dif-Ci-097 {'angulo': 'GRAD'}: 1 ASIN * FE P10 2 7 =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '2,7e+3' erro=False []
+
+dif-Ci-098 {'angulo': 'GRAD'}: P10 POW FE COSH 6 8 =
+  real  : '1' erro=False [] 
+  reimpl: '1,e+0' erro=False []
+
+dif-Ci-099 {'angulo': 'DEG'}: - CBRT ) SIN 7 8 NEG M- ) DEC =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Ci-100 {'angulo': 'RAD'}: POW BS 9 8 DEC ( ) MC NEG 1 2^X CUBE BS * =
+  real  : None erro=False [] estado inicial: visor '0,e+0'
+  reimpl: '0' erro=False []
+
+dif-Pr-013 {'base': 'BIN', 'tamanho': 'QWORD', 'deslocamento': 'Arit'}: AND BS #0 = #0 NOT #0 NEG ( NEG #0 NOR #1 + =
+  real  : '1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1101' erro=False [] 
+  reimpl: '0' erro=False []
+
+dif-Pr-020 {'base': 'BIN', 'tamanho': 'BYTE', 'deslocamento': 'Carry'}: #0 NAND OR ( #1 C RORC #1 TAM % + #1 =
+  real  : '0010' erro=False [] 
+  reimpl: '10' erro=False []
+
+dif-Pr-024 {'base': 'OCT', 'tamanho': 'WORD', 'deslocamento': 'Circ'}: #1 * #2 #3 ROL + ) #3 R:BIN #1 #1 #0 #0 NEG =
+  real  : '0001 1010' erro=False [] 
+  reimpl: '1 1010' erro=False []
+
+dif-Pr-028 {'base': 'BIN', 'tamanho': 'DWORD', 'deslocamento': 'Circ'}: #1 - * BS + #0 #1 =
+  real  : '0010' erro=False [] 
+  reimpl: '10' erro=False []
+
+dif-Pr-045 {'base': 'BIN', 'tamanho': 'WORD', 'deslocamento': 'Circ'}: #1 #1 / =
+  real  : '0001' erro=False [] 
+  reimpl: '1' erro=False []
+
+dif-Pr-047 {'base': 'HEX', 'tamanho': 'DWORD', 'deslocamento': 'Circ'}: #2 #5 TAM #E R:BIN ROR XOR #0 / #1 NEG #0 #0 #1 =
+  real  : '0111' erro=False [] 
+  reimpl: '111' erro=False []
+
+dif-Pr-055 {'base': 'DEC', 'tamanho': 'BYTE', 'deslocamento': 'Circ'}: OR #5 NEG ( AND + =
+  real  : '-10' erro=False [] 
+  reimpl: '50' erro=False []
+
+dif-Pr-069 {'base': 'BIN', 'tamanho': 'WORD', 'deslocamento': 'Circ'}: #0 - / ( #1 % ROL #0 - #1 #0 #1 =
+  real  : '0101' erro=False [] 
+  reimpl: '101' erro=False []
+
+dif-Pr-070 {'base': 'BIN', 'tamanho': 'DWORD', 'deslocamento': 'Arit'}: BS / =
+  real  : '0Resultado indefinido' erro=True [] 
+  reimpl: 'Resultado indefinido' erro=True []
+
+dif-Pr-072 {'base': 'OCT', 'tamanho': 'QWORD', 'deslocamento': 'Log'}: - #1 * ( =
+  real  : '0' erro=False [] 
+  reimpl: '1 777 777 777 777 777 777 777' erro=False []
+
+dif-Pr-089 {'base': 'DEC', 'tamanho': 'QWORD', 'deslocamento': 'Log'}: NEG #4 #5 * ( / % #2 =
+  real  : '0' erro=False [] 
+  reimpl: '45' erro=False []
+
+dif-Pr-096 {'base': 'HEX', 'tamanho': 'WORD', 'deslocamento': 'Carry'}: #F % #C #6 RORC XOR #C NOT #D + #B / ( =
+  real  : 'Não é possível dividir por zero' erro=True [] 
+  reimpl: '1' erro=False []
+
+dif-Pr-100 {'base': 'BIN', 'tamanho': 'QWORD', 'deslocamento': 'Log'}: #1 #1 - AND OR #0 OR =
+  real  : '0011' erro=False [] 
+  reimpl: '11' erro=False []

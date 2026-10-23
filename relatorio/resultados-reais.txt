@@ -1,0 +1,69 @@
+# Calculadora 11.2607.0.0 X64; cultura pt-BR; UI pt-BR; 2026-10-22T18:55:07
+# Formato: ID: visor | expressao -- observacoes. 'ID →n [apos X]' = leitura intermediaria n.
+# visor = texto de NormalOutput (UIA RawView); expressao = transcrita da captura e conferida (trabalho/automacao/capturas/<ID>-<n|final>.png)
+# Espacos na expressao: transcritos pelo afastamento visual; nao da para distinguir caractere espaco de espacamento de layout. O Name UIA da expressao e o texto do Narrador (ex.: "quadrado (" por "sqr("), guardado em trabalho/automacao/log-execucao.txt.
+# Bruto do script (OCR): trabalho/automacao/saida-script-bruta.txt. Transcricao: trabalho/automacao/transcricao-capturas.tsv, aplicada por aplicar-transcricao.py.
+BASE (Padrao, apos C): desabilitados: MC MR M▾ ; habilitados: Navegação Histórico M+ M− MS % CE C ⌫ 1/x x² √ ÷ × − + = 0 1 2 3 4 5 6 7 8 9 , ± Sobrepor
+3a-18: 0,3333333333333333 | 1 ÷ 3 = -- OCR leu '(vazia)'
+3a-19: 0,6666666666666667 | 2 ÷ 3 = -- OCR leu '(vazia)'
+3a-22: 3,333333333333333e-4 | 1 ÷ 3000 = -- OCR leu '1 + 3000'
+3a-21: 1,e+16 | 9999999999999999 + 1 =
+3a-20 →1 [apos 6]: 1.234.567.890.123.456 | (vazia)
+3a-20: 1.234.567.890.123.456 | (vazia)
+3a-08: Entrada inválida | √( -4 ) -- OCR leu '(vazia)'; em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-26 →1 [apos x²]: 9,999999999999998e+31 | sqr( 9999999999999999 )
+3a-26 →2 [apos x²]: 9,999999999999996e+63 | sqr( sqr( 9999999999999999 ) )
+3a-26 →3 [apos x²]: 9,999999999999992e+127 | sqr( sqr( sqr( 9999999999999999 ) ) )
+3a-26 →4 [apos x²]: 9,999999999999984e+255 | sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) )
+3a-26 →5 [apos x²]: 9,999999999999968e+511 | sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) )
+3a-26 →6 [apos x²]: 9,999999999999936e+1023 | sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) )
+3a-26 →7 [apos x²]: 9,999999999999872e+2047 | sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) )
+3a-26 →8 [apos x²]: 9,999999999999744e+4095 | sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) )
+3a-26 →9 [apos x²]: 9,999999999999488e+8191 | sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) ) )
+3a-26: Estouro | ‹qr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) ) ) ) -- linha cortada à esquerda, com seta de rolagem: 9 "sqr(" inteiros + "qr(" cortado; o Name UIA (Narrador) tem 10 "quadrado ("; OCR leu '< qr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) ) ) )'; em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-01: 12 | 7 + 5 = -- OCR leu '(vazia)'
+3a-02 →1 [apos ×]: 5 | 5 × -- OCR leu '(vazia)'
+3a-02: 20 | 5 × 4 = -- OCR leu '(vazia)'
+3a-02c →1 [apos ×]: 3 | 2 + 3 × -- OCR leu '(vazia)'
+3a-02c: 14 | 2 + 3 × 4 = -- OCR leu '2+3 x'
+3a-03: -3 | 9 - 12 =
+3a-04: Não é possível dividir por zero | 8 ÷ -- OCR leu '(vazia)'; em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-05: Resultado indefinido | 0 ÷ -- OCR leu '(vazia)'; em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-06: Resultado indefinido | 0 ÷ -- OCR leu '(vazia)'; em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-07: Não é possível dividir por zero | 1/( 0 ) -- em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-10 →1 [apos =]: Não é possível dividir por zero | 8 ÷ -- OCR leu '(vazia)'; em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-10: 0 | (vazia)
+3a-11 →1 [apos =]: 5 | 2 + 3 = -- OCR leu '(vazia)'
+3a-11: 8 | 5 + 3 = -- OCR leu '(vazia)'
+3a-12 →1 [apos =]: 5 | 2 + 3 = -- OCR leu '(vazia)'
+3a-12: 7 | 4 + 3 = -- OCR leu '(vazia)'
+3a-13: 25 | 5 × 5 = -- OCR leu '(vazia)'
+3a-14: 15 | 5 × 3 = -- OCR leu '(vazia)'
+3a-15 →1 [apos %]: 5 | 50 + 5
+3a-15: 55 | 50 + 5 =
+3a-16 →1 [apos %]: 0,1 | 50 × 0,1 -- OCR leu '50 x'
+3a-16: 5 | 50 × 0,1 = -- OCR leu '50 x ='
+3a-17: 0 | 0 -- OCR leu '(vazia)'
+3a-24 →1 [apos =]: 5 | 2 + 3 = -- OCR leu '(vazia)'
+3a-24: 5 | (vazia)
+3a-27: 3 | √( 9 ) -- OCR leu '(9)'
+3a-28 →1 [apos x²]: 9 | sqr( 3 ) -- OCR leu '(vazia)'
+3a-28: 0,25 | 1/( 4 ) -- OCR leu '(vazia)'
+3a-29: 7 | 5 + 2 = -- OCR leu '(vazia)'
+3a-09 →1 [apos =]: Não é possível dividir por zero | 8 ÷ -- OCR leu '(vazia)'; em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-09 →2 [apos +]: Não é possível dividir por zero | 8 ÷ -- OCR leu '(vazia)'; tecla + desabilitada, nao pressionada; em erro, desabilitados: MC MR M+ M− MS M▾ % 1/x x² √ ÷ × − + , ± ; habilitados: Navegação Histórico CE C ⌫ = 0 1 2 3 4 5 6 7 8 9 Sobrepor
+3a-09: 5 | (vazia)
+3a-23 →1 [apos 0]: 0 | (vazia)
+3a-23 →2 [apos ,]: 0, | (vazia)
+3a-23: 0 | (vazia)
+3a-25 →1 [apos ±]: 0 | (vazia)
+3a-25: -5 | (vazia)
+
+# Checagem cruzada com os resultados manuais (fornecidos pelo usuario)
+3a-18: igual (visor e expressao)
+3a-19: igual
+3a-22: igual
+3a-21: igual (sem pontos de milhar na expressao, tambem na automacao)
+3a-20: igual (visor parou em 16 digitos)
+3a-01: igual
+3a-26: visor "Estouro" igual; estado dos botoes em erro igual (a automacao lista tambem M▾, Navegacao, Historico e Sobrepor, que o manual nao cita). DIVERGENCIA na expressao: manual com 8 "sqr(", automacao com 10 (Name UIA: 10 "quadrado ("; na tela a linha esta cortada a esquerda, com seta de rolagem). Causa provavel [INFERIDO]: o manual transcreveu so a parte visivel numa janela de outra largura.

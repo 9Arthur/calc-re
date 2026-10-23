@@ -1,0 +1,27 @@
+# transcricao das capturas 3d (2026-10-23): captura, origem (ocr = o OCR leu igual sem espacos; manual = lida a olho na folha de capturas), texto
+3d-33-final	ocr	9223372036854775807 + 1 =
+3d-34-final	ocr	2147483647 + 1 =
+3d-37-final	manual	100 × 3 =
+3d-40-final	manual	7 ÷ 2 =
+3d-41-final	manual	-7 ÷ 2 =
+3d-42-final	manual	-7 % 3 =
+3d-43-final	manual	7 % -3 =
+3d-48-final	manual	1 - 2 =
+3d-50-final	manual	12 AND 10 =
+3d-51-final	manual	12 OR 10 =
+3d-52-final	manual	12 XOR 10 =
+3d-53-final	manual	12 NAND 10 =
+3d-54-final	manual	12 NOR 10 =
+3d-55-final	ocr	NOT( 5 )
+3d-56-final	ocr	NOT( 5 )
+3d-58-final	manual	6 OR 1 AND 2 =
+3d-59-final	manual	12 XOR 10 AND 6 =
+3d-60-final	manual	1 OR 5 NAND 3 =
+3d-61-final	ocr	5 + NOT( 5 ) =
+3d-62-final	ocr	F AND 3 =
+3d-70-final	manual	1 Lsh 4 =
+3d-73-final	manual	-7 Rsh 1 =
+3d-79-final	ocr	1 + 1 Lsh 2 =
+3d-81-final	manual	-1 Rsh 1 =
+3d-86-final	manual	RoR( RoL( 81 ) )
+3d-87-final	manual	RoR( 1 )

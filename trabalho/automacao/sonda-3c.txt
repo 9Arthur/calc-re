@@ -1,0 +1,8 @@
+visor inicial: 5
+abrir:  aberto=True
+trigButton toggle=Off
+(a) apos Toggle no trigButton: aberto=True visor=5
+Trigflyout padroes=InvokePatternIdentifiers.Pattern,ScrollItemPatternIdentifiers.Pattern
+(b) apos ESC com foco no submenu: aberto=False visor=5
+abrir de novo:  aberto=True
+(c) apos cos: aberto=False visor=0,28366218546322626446663917151356 expr=Expression é radianos do cosseno (5)

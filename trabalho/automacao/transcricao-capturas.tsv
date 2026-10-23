@@ -1,0 +1,55 @@
+captura	expressao_visivel
+3a-18-final	1 ÷ 3 =
+3a-19-final	2 ÷ 3 =
+3a-22-final	1 ÷ 3000 =
+3a-21-final	9999999999999999 + 1 =
+3a-20-1	(vazia)
+3a-20-final	(vazia)
+3a-08-final	√( -4 )
+3a-26-1	sqr( 9999999999999999 )
+3a-26-2	sqr( sqr( 9999999999999999 ) )
+3a-26-3	sqr( sqr( sqr( 9999999999999999 ) ) )
+3a-26-4	sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) )
+3a-26-5	sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) )
+3a-26-6	sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) )
+3a-26-7	sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) )
+3a-26-8	sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) )
+3a-26-9	sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) ) )
+3a-26-final	‹qr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) ) ) )  [linha cortada à esquerda, com seta de rolagem: 9 "sqr(" inteiros + "qr(" cortado; o Name UIA (Narrador) tem 10 "quadrado ("]
+3a-01-final	7 + 5 =
+3a-02-1	5 ×
+3a-02-final	5 × 4 =
+3a-02c-1	2 + 3 ×
+3a-02c-final	2 + 3 × 4 =
+3a-03-final	9 - 12 =
+3a-04-final	8 ÷
+3a-05-final	0 ÷
+3a-06-final	0 ÷
+3a-07-final	1/( 0 )
+3a-10-1	8 ÷
+3a-10-final	(vazia)
+3a-11-1	2 + 3 =
+3a-11-final	5 + 3 =
+3a-12-1	2 + 3 =
+3a-12-final	4 + 3 =
+3a-13-final	5 × 5 =
+3a-14-final	5 × 3 =
+3a-15-1	50 + 5
+3a-15-final	50 + 5 =
+3a-16-1	50 × 0,1
+3a-16-final	50 × 0,1 =
+3a-17-final	0
+3a-24-1	2 + 3 =
+3a-24-final	(vazia)
+3a-27-final	√( 9 )
+3a-28-1	sqr( 3 )
+3a-28-final	1/( 4 )
+3a-29-final	5 + 2 =
+3a-09-1	8 ÷
+3a-09-2	8 ÷
+3a-09-final	(vazia)
+3a-23-1	(vazia)
+3a-23-2	(vazia)
+3a-23-final	(vazia)
+3a-25-1	(vazia)
+3a-25-final	(vazia)

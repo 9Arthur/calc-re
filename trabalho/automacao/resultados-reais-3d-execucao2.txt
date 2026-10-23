@@ -1,0 +1,4 @@
+# Calculadora 11.2607.0.0 X64; cultura pt-BR; UI pt-BR; 2026-10-23T01:38:13
+# Formato: ID [→n apos X]: visor | expressao(OCR) | linhas | bits -- obs; visor = NormalOutput; linhas = ContentPresenter de hex/decimal/octol/binaryButton; bits = Bit0..63 ligados
+3d-93 →1 [apos RolC]: 0 | RoL(80) | H='0' D='0' O='0' B='0' | bits=
+3d-93: A | RoL(5) | H='A' D='10' O='12' B='1010' | bits=

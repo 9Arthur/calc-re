@@ -1,0 +1,6353 @@
+{
+ "descricao": "Teste diferencial fora da amostra: Calculadora real (UIA) × reimplementação (reimpl/)",
+ "gerado_em": "2026-10-23T11:54:59-03:00",
+ "semente": 20261024,
+ "gerador": {
+  "arquivo": "trabalho/diferencial/gerar_casos.py",
+  "sha256": "f9188e6c9fd8b30741e6d140a10676e1fb2d8be5ee8ebd1ec77e80bc9e6592ab",
+  "python": "3.12.3",
+  "rng": "random.Random(semente), Mersenne Twister"
+ },
+ "reimplementacao_congelada": {
+  "pasta": "reimpl/calculadora",
+  "sha256_arvore": "2a2df4fe1ceef1a63022ad6c4cd10ef5ed40f15a5243b9c9efb602c1ae463ef9",
+  "regra_do_hash": "sha256 de \"caminho\\0sha256(arquivo)\\n\" para cada *.py em ordem, sem __pycache__"
+ },
+ "ferramentas_de_comparacao": {
+  "rodar_reimpl.py": "f1cdaaa336d8e12d87cd66385f356b87cac72acfb6beb8f9bbbed3fc9dcdf82b",
+  "comparar.py": "eb1c98849f2db74a5a6d19d7e2d277f8e2ba351f45bdca0f09218c45f6b54d69"
+ },
+ "alfabeto": {
+  "padrao": {
+   "digito": 40,
+   "binario": [
+    [
+     "+",
+     4
+    ],
+    [
+     "-",
+     4
+    ],
+    [
+     "*",
+     4
+    ],
+    [
+     "/",
+     4
+    ]
+   ],
+   "outras": [
+    [
+     "DEC",
+     3
+    ],
+    [
+     "NEG",
+     3
+    ],
+    [
+     "BS",
+     3
+    ],
+    [
+     "CE",
+     2
+    ],
+    [
+     "C",
+     1
+    ],
+    [
+     "%",
+     3
+    ],
+    [
+     "SQRT",
+     3
+    ],
+    [
+     "SQR",
+     3
+    ],
+    [
+     "INV",
+     3
+    ],
+    [
+     "=",
+     3
+    ],
+    [
+     "MS",
+     2
+    ],
+    [
+     "MR",
+     2
+    ],
+    [
+     "M+",
+     2
+    ],
+    [
+     "M-",
+     2
+    ],
+    [
+     "MC",
+     1
+    ]
+   ]
+  },
+  "cientifico": {
+   "digito": 36,
+   "binario": [
+    [
+     "+",
+     3
+    ],
+    [
+     "-",
+     3
+    ],
+    [
+     "*",
+     3
+    ],
+    [
+     "/",
+     3
+    ],
+    [
+     "POW",
+     2
+    ],
+    [
+     "MOD",
+     2
+    ],
+    [
+     "YROOT",
+     1
+    ],
+    [
+     "LOGY",
+     1
+    ]
+   ],
+   "outras": [
+    [
+     "DEC",
+     3
+    ],
+    [
+     "NEG",
+     3
+    ],
+    [
+     "BS",
+     2
+    ],
+    [
+     "C",
+     1
+    ],
+    [
+     "PI",
+     1.5
+    ],
+    [
+     "E",
+     1.5
+    ],
+    [
+     "EXP",
+     2
+    ],
+    [
+     "(",
+     3
+    ],
+    [
+     ")",
+     3
+    ],
+    [
+     "FE",
+     1
+    ],
+    [
+     "=",
+     2
+    ],
+    [
+     "MS",
+     1
+    ],
+    [
+     "MR",
+     1
+    ],
+    [
+     "M+",
+     1
+    ],
+    [
+     "M-",
+     1
+    ],
+    [
+     "MC",
+     1
+    ],
+    [
+     "SQR",
+     0.8
+    ],
+    [
+     "SQRT",
+     0.8
+    ],
+    [
+     "INV",
+     0.8
+    ],
+    [
+     "ABS",
+     0.8
+    ],
+    [
+     "FACT",
+     0.8
+    ],
+    [
+     "P10",
+     0.8
+    ],
+    [
+     "LOG",
+     0.8
+    ],
+    [
+     "LN",
+     0.8
+    ],
+    [
+     "EX",
+     0.8
+    ],
+    [
+     "SIN",
+     0.8
+    ],
+    [
+     "COS",
+     0.8
+    ],
+    [
+     "TAN",
+     0.8
+    ],
+    [
+     "ASIN",
+     0.8
+    ],
+    [
+     "ACOS",
+     0.8
+    ],
+    [
+     "ATAN",
+     0.8
+    ],
+    [
+     "SINH",
+     0.8
+    ],
+    [
+     "COSH",
+     0.8
+    ],
+    [
+     "TANH",
+     0.8
+    ],
+    [
+     "CUBE",
+     0.8
+    ],
+    [
+     "CBRT",
+     0.8
+    ],
+    [
+     "2^X",
+     0.8
+    ],
+    [
+     "FLOOR",
+     0.8
+    ],
+    [
+     "CEIL",
+     0.8
+    ]
+   ]
+  },
+  "programador": {
+   "digito": "dígitos válidos na base corrente, peso 40",
+   "binario": [
+    [
+     "+",
+     3
+    ],
+    [
+     "-",
+     3
+    ],
+    [
+     "*",
+     3
+    ],
+    [
+     "/",
+     3
+    ],
+    [
+     "%",
+     2
+    ],
+    [
+     "AND",
+     1.5
+    ],
+    [
+     "OR",
+     1.5
+    ],
+    [
+     "XOR",
+     1.5
+    ],
+    [
+     "NAND",
+     1.5
+    ],
+    [
+     "NOR",
+     1.5
+    ]
+   ],
+   "deslocamento_por_opcao": {
+    "Arit": [
+     [
+      "LSH",
+      2
+     ],
+     [
+      "RSH",
+      2
+     ]
+    ],
+    "Log": [
+     [
+      "LSH",
+      2
+     ],
+     [
+      "RSH",
+      2
+     ]
+    ],
+    "Circ": [
+     [
+      "ROL",
+      2
+     ],
+     [
+      "ROR",
+      2
+     ]
+    ],
+    "Carry": [
+     [
+      "ROLC",
+      2
+     ],
+     [
+      "RORC",
+      2
+     ]
+    ]
+   },
+   "outras": [
+    [
+     "NOT",
+     2
+    ],
+    [
+     "NEG",
+     3
+    ],
+    [
+     "BS",
+     3
+    ],
+    [
+     "C",
+     1
+    ],
+    [
+     "(",
+     2
+    ],
+    [
+     ")",
+     2
+    ],
+    [
+     "=",
+     2
+    ],
+    [
+     "R:",
+     3
+    ],
+    [
+     "TAM",
+     2
+    ]
+   ]
+  }
+ },
+ "exclusoes": [
+  "DMS, Degrees, Rand (não reimplementados)",
+  "conversão de unidades (L30)",
+  "sec/csc/cot, sech/csch/coth e hiperbólicas inversas (L31)",
+  "⌫ depois de Exp (L31)",
+  "xʸ com base digitada só de zeros (L31: 0⁰)",
+  "histórico (clique em item, L22), teclado de bits",
+  "CE no Científico e no Programador (divide a posição com C)",
+  "memória no Programador (sem MR no painel)"
+ ],
+ "rejeitadas_por_motivo": {
+  "padrao: sem operador binário": 35,
+  "cientifico: sem operador binário": 44,
+  "cientifico: L31: base 0 em xʸ (0⁰)": 1,
+  "programador: sem operador binário": 16
+ },
+ "criterio": {
+  "leitura_real": "só UIA: visor = NormalOutput (RawView); erro = plusButton.IsEnabled == False; sem capturas nem transcrição",
+  "leitura_reimpl": "visor = Calculadora.visor; erro = Calculadora.em_erro",
+  "acerto": "visor idêntico (texto exato) E estado de erro igual",
+  "preparo": "calculadora limpa no modo do caso (C, memória vazia, F-E/2nd/hyp desligados) com o ângulo, a base, o tamanho e a opção de deslocamento do caso",
+  "tecla_desabilitada": "a automação não pressiona botão desabilitado e registra; a reimplementação faz o que teclas.pressionar faz",
+  "classes_de_divergencia": [
+   "bug da reimplementação",
+   "lacuna de documentação",
+   "desvio do motor numérico (3f)",
+   "problema da automação"
+  ],
+  "taxa": "primeira passada, por modo, sobre os 100 casos; casos com falha da automação também à parte"
+ },
+ "casos": [
+  {
+   "id": "dif2-Pd-001",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "1",
+    "0",
+    "0",
+    "%",
+    "*",
+    "8",
+    "INV",
+    "NEG",
+    "DEC",
+    "8",
+    "2",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-002",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "7",
+    "/",
+    "SQR",
+    "5",
+    "0",
+    "INV",
+    "INV",
+    "4",
+    "CE",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-003",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "0",
+    "1",
+    "-",
+    "DEC",
+    "*",
+    "*",
+    "NEG",
+    "MC",
+    "3",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-004",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "7",
+    "CE",
+    "4",
+    "BS",
+    "*",
+    "DEC",
+    "2",
+    "NEG",
+    "8",
+    "7",
+    "NEG",
+    "M-",
+    "MC",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pd-005",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "2",
+    "=",
+    "INV",
+    "%",
+    "MR",
+    "-",
+    "NEG",
+    "1",
+    "7",
+    "5",
+    "*",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-006",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "+",
+    "5",
+    "6",
+    "4",
+    "*",
+    "NEG",
+    "3",
+    "%",
+    "-",
+    "*",
+    "CE",
+    "=",
+    "%",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pd-007",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "=",
+    "0",
+    "BS",
+    "SQRT",
+    "+",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-008",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "+",
+    "6",
+    "4",
+    "1",
+    "BS",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-009",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "+",
+    "8",
+    "6",
+    "-",
+    "NEG",
+    "+",
+    "8",
+    "8",
+    "%",
+    "5",
+    "5",
+    "6",
+    "9",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pd-010",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "MR",
+    "3",
+    "-",
+    "M+",
+    "5",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-011",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "DEC",
+    "7",
+    "1",
+    "NEG",
+    "9",
+    "/",
+    "M-",
+    "4",
+    "2",
+    "8",
+    "M+",
+    "/",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pd-012",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "M-",
+    "%",
+    "0",
+    "4",
+    "-",
+    "2",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-013",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "7",
+    "=",
+    "0",
+    "*",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-014",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "9",
+    "8",
+    "CE",
+    "5",
+    "MS",
+    "M+",
+    "%",
+    "SQRT",
+    "3",
+    "*",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-015",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "8",
+    "+",
+    "3",
+    "1",
+    "INV",
+    "DEC",
+    "CE",
+    "8",
+    "-",
+    "C",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-016",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "SQRT",
+    "5",
+    "%",
+    "8",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-017",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "5",
+    "DEC",
+    "+",
+    "DEC",
+    "*",
+    "9",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-018",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "3",
+    "3",
+    "DEC",
+    "SQRT",
+    "SQR",
+    "+",
+    "NEG",
+    "DEC",
+    "6",
+    "+",
+    "BS",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-019",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "8",
+    "+",
+    "5",
+    "0",
+    "/",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-020",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "5",
+    "-",
+    "%",
+    "%",
+    "2",
+    "2",
+    "=",
+    "CE",
+    "2",
+    "MR",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-021",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "DEC",
+    "-",
+    "6",
+    "3",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-022",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "+",
+    "-",
+    "DEC",
+    "8",
+    "MS",
+    "NEG",
+    "/",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-023",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "MS",
+    "0",
+    "SQR",
+    "3",
+    "NEG",
+    "SQR",
+    "1",
+    "+",
+    "SQR",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-024",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "8",
+    "7",
+    "SQRT",
+    "5",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-025",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "NEG",
+    "5",
+    "-",
+    "=",
+    "3",
+    "SQR",
+    "+",
+    "4",
+    "-",
+    "DEC",
+    "+",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-026",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "BS",
+    "INV",
+    "CE",
+    "DEC",
+    "9",
+    "3",
+    "MC",
+    "+",
+    "-",
+    "SQRT",
+    "1",
+    "6",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pd-027",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "MC",
+    "/",
+    "6",
+    "INV",
+    "2",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-028",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "SQR",
+    "*",
+    "9",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-029",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "7",
+    "0",
+    "-",
+    "4",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-030",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "SQR",
+    "BS",
+    "2",
+    "=",
+    "0",
+    "SQR",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-031",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "3",
+    "+",
+    "INV",
+    "M-",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-032",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "5",
+    "5",
+    "1",
+    "M-",
+    "DEC",
+    "M-",
+    "MS",
+    "M+",
+    "%",
+    "1",
+    "SQRT",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-033",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "2",
+    "%",
+    "="
+   ],
+   "n_teclas": 3
+  },
+  {
+   "id": "dif2-Pd-034",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "INV",
+    "*",
+    "INV",
+    "+",
+    "-",
+    "=",
+    "/",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-035",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "7",
+    "*",
+    "1",
+    "+",
+    "7",
+    "SQRT",
+    "-",
+    "/",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pd-036",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "5",
+    "M+",
+    "9",
+    "INV",
+    "+",
+    "INV",
+    "0",
+    "3",
+    "7",
+    "DEC",
+    "SQRT",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-037",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "BS",
+    "2",
+    "8",
+    "MC",
+    "=",
+    "MS",
+    "*",
+    "+",
+    "*",
+    "3",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-038",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "=",
+    "9",
+    "SQR",
+    "NEG",
+    "-",
+    "%",
+    "BS",
+    "BS",
+    "CE",
+    "*",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-039",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "M+",
+    "9",
+    "1",
+    "0",
+    "DEC",
+    "+",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-040",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "/",
+    "M+",
+    "BS",
+    "6",
+    "DEC",
+    "6",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-041",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "6",
+    "%",
+    "NEG",
+    "0",
+    "M+",
+    "5",
+    "%",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-042",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "/",
+    "C",
+    "8",
+    "-",
+    "MS",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-043",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "1",
+    "*",
+    "1",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-044",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "-",
+    "5",
+    "4",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Pd-045",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "5",
+    "C",
+    "/",
+    "%",
+    "6",
+    "7",
+    "6",
+    "NEG",
+    "+",
+    "1",
+    "1",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-046",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "-",
+    "5",
+    "3",
+    "3",
+    "3",
+    "5",
+    "=",
+    "BS",
+    "0",
+    "5",
+    "4",
+    "7",
+    "BS",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pd-047",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "/",
+    "9",
+    "M-",
+    "8",
+    "INV",
+    "+",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-048",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "3",
+    "9",
+    "3",
+    "%",
+    "M+",
+    "CE",
+    "7",
+    "INV",
+    "SQRT",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-049",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "C",
+    "+",
+    "1",
+    "C",
+    "SQR",
+    "+",
+    "7",
+    "NEG",
+    "9",
+    "DEC",
+    "9",
+    "SQR",
+    "CE",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pd-050",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "+",
+    "*",
+    "1",
+    "CE",
+    "MR",
+    "C",
+    "8",
+    "0",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pd-051",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "M-",
+    "5",
+    "-",
+    "%",
+    "MR",
+    "6",
+    "=",
+    "7",
+    "0",
+    "2",
+    "MR",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-052",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "SQR",
+    "NEG",
+    "2",
+    "SQR",
+    "6",
+    "-",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-053",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "M+",
+    "0",
+    "SQRT",
+    "+",
+    "*",
+    "CE",
+    "SQR",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-054",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "SQRT",
+    "3",
+    "*",
+    "9",
+    "M-",
+    "*",
+    "SQRT",
+    "3",
+    "+",
+    "SQR",
+    "NEG",
+    "6",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pd-055",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "-",
+    "0",
+    "MC",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Pd-056",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "%",
+    "2",
+    "-",
+    "SQR",
+    "M-",
+    "6",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-057",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "3",
+    "0",
+    "1",
+    "-",
+    "1",
+    "9",
+    "1",
+    "2",
+    "NEG",
+    "=",
+    "+",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-058",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "6",
+    "0",
+    "NEG",
+    "8",
+    "%",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-059",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "5",
+    "INV",
+    "3",
+    "CE",
+    "0",
+    "0",
+    "CE",
+    "*",
+    "CE",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-060",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "NEG",
+    "+",
+    "4",
+    "+",
+    "NEG",
+    "8",
+    "SQRT",
+    "=",
+    "/",
+    "M-",
+    "9",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pd-061",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "0",
+    "*",
+    "SQR",
+    "5",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-062",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "INV",
+    "SQR",
+    "0",
+    "*",
+    "+",
+    "DEC",
+    "0",
+    "4",
+    "-",
+    "SQR",
+    "/",
+    "6",
+    "*",
+    "8",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pd-063",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "1",
+    "7",
+    "4",
+    "*",
+    "7",
+    "*",
+    "M+",
+    "6",
+    "5",
+    "6",
+    "8",
+    "MR",
+    "%",
+    "7",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pd-064",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "INV",
+    "3",
+    "8",
+    "SQRT",
+    "MS",
+    "/",
+    "M-",
+    "*",
+    "0",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-065",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "+",
+    "3",
+    "C",
+    "*",
+    "2",
+    "+",
+    "%",
+    "2",
+    "M-",
+    "M-",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-066",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "INV",
+    "BS",
+    "7",
+    "-",
+    "5",
+    "3",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-067",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "M+",
+    "MR",
+    "SQR",
+    "2",
+    "9",
+    "+",
+    "2",
+    "4",
+    "SQR",
+    "+",
+    "M+",
+    "9",
+    "2",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pd-068",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "NEG",
+    "NEG",
+    "+",
+    "BS",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-069",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "NEG",
+    "*",
+    "%",
+    "6",
+    "*",
+    "DEC",
+    "M-",
+    "1",
+    "4",
+    "%",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-070",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "/",
+    "*",
+    "M-",
+    "-",
+    "+",
+    "7",
+    "1",
+    "MS",
+    "=",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-071",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "MS",
+    "+",
+    "5",
+    "INV",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-072",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "INV",
+    "BS",
+    "9",
+    "9",
+    "/",
+    "9",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-073",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "M-",
+    "9",
+    "MS",
+    "SQR",
+    "DEC",
+    "DEC",
+    "5",
+    "8",
+    "BS",
+    "1",
+    "BS",
+    "%",
+    "0",
+    "0",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pd-074",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "/",
+    "1",
+    "8",
+    "%",
+    "MC",
+    "+",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-075",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "2",
+    "MR",
+    "/",
+    "9",
+    "/",
+    "MR",
+    "/",
+    "6",
+    "-",
+    "9",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-076",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "DEC",
+    "0",
+    "SQR",
+    "M+",
+    "7",
+    "1",
+    "%",
+    "=",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pd-077",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "INV",
+    "CE",
+    "M+",
+    "1",
+    "-",
+    "6",
+    "SQR",
+    "3",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pd-078",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "2",
+    "-",
+    "0",
+    "NEG",
+    "*",
+    "0",
+    "*",
+    "DEC",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-079",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "-",
+    "/",
+    "-",
+    "CE",
+    "SQRT",
+    "9",
+    "MS",
+    "CE",
+    "1",
+    "NEG",
+    "BS",
+    "SQRT",
+    "8",
+    "SQR",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pd-080",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "/",
+    "*",
+    "9",
+    "2",
+    "6",
+    "INV",
+    "*",
+    "0",
+    "INV",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-081",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "6",
+    "DEC",
+    "=",
+    "-",
+    "7",
+    "5",
+    "C",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-082",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "*",
+    "-",
+    "NEG",
+    "BS",
+    "0",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-083",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "NEG",
+    "+",
+    "6",
+    "*",
+    "7",
+    "M-",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-084",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "2",
+    "6",
+    "2",
+    "1",
+    "INV",
+    "0",
+    "C",
+    "0",
+    "+",
+    "5",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-085",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "7",
+    "1",
+    "BS",
+    "-",
+    "+",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pd-086",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "INV",
+    "+",
+    "5",
+    "7",
+    "7",
+    "SQRT",
+    "BS",
+    "NEG",
+    "INV",
+    "SQRT",
+    "SQRT",
+    "9",
+    "0",
+    "0",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pd-087",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "BS",
+    "7",
+    "=",
+    "3",
+    "MS",
+    "3",
+    "%",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-088",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "SQR",
+    "2",
+    "+",
+    "1",
+    "CE",
+    "/",
+    "2",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-089",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "=",
+    "-",
+    "INV",
+    "CE",
+    "NEG",
+    "M+",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-090",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "-",
+    "1",
+    "+",
+    "8",
+    "=",
+    "DEC",
+    "6",
+    "9",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pd-091",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "3",
+    "+",
+    "0",
+    "9",
+    "7",
+    "9",
+    "DEC",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pd-092",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "SQRT",
+    "=",
+    "MS",
+    "-",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pd-093",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "/",
+    "1",
+    "4",
+    "MR",
+    "0",
+    "DEC",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pd-094",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "BS",
+    "BS",
+    "0",
+    "6",
+    "4",
+    "DEC",
+    "2",
+    "%",
+    "3",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pd-095",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "/",
+    "3",
+    "*",
+    "8",
+    "=",
+    "7",
+    "*",
+    "7",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pd-096",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "6",
+    "0",
+    "-",
+    "MR",
+    "SQRT",
+    "M+",
+    "+",
+    "5",
+    "/",
+    "INV",
+    "C",
+    "-",
+    "9",
+    "+",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pd-097",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "NEG",
+    "M-",
+    "=",
+    "+",
+    "9",
+    "5",
+    "8",
+    "-",
+    "%",
+    "+",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pd-098",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "0",
+    "0",
+    "9",
+    "8",
+    "%",
+    "5",
+    "1",
+    "BS",
+    "1",
+    "SQRT",
+    "%",
+    "6",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pd-099",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "MC",
+    "CE",
+    "*",
+    "CE",
+    "7",
+    "8",
+    "BS",
+    "7",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pd-100",
+   "modo": "padrao",
+   "preparo": {},
+   "passos": [
+    "-",
+    "1",
+    "1",
+    "6",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Ci-001",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "4",
+    "7",
+    "/",
+    "9",
+    "1",
+    "/",
+    "E",
+    ")",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-002",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "/",
+    "/",
+    "DEC",
+    "+",
+    "DEC",
+    "2^X",
+    "EXP",
+    "CUBE",
+    "PI",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-003",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "E",
+    "MS",
+    "NEG",
+    "5",
+    "5",
+    "E",
+    "DEC",
+    "*",
+    "+",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-004",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "LN",
+    "ASIN",
+    "NEG",
+    "*",
+    "7",
+    "DEC",
+    "E",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Ci-005",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "C",
+    "0",
+    "BS",
+    "MOD",
+    "NEG",
+    ")",
+    "/",
+    "3",
+    "6",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-006",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "*",
+    "*",
+    "6",
+    "*",
+    "5",
+    "NEG",
+    "-",
+    "NEG",
+    "SQRT",
+    "6",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-007",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "NEG",
+    "-",
+    "E",
+    "1",
+    "3",
+    "+",
+    "MOD",
+    "(",
+    "-",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-008",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "4",
+    "+",
+    "1",
+    "MS",
+    "MC",
+    "DEC",
+    "PI",
+    "/",
+    "E",
+    "SQRT",
+    "7",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Ci-009",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "ABS",
+    "6",
+    "0",
+    "7",
+    "TAN",
+    "+",
+    "7",
+    "5",
+    "3",
+    "=",
+    "MR",
+    "TANH",
+    "+",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Ci-010",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    ")",
+    "-",
+    "SIN",
+    "EX",
+    "+",
+    "MC",
+    "8",
+    "(",
+    "(",
+    "=",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-011",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "MOD",
+    "MR",
+    "="
+   ],
+   "n_teclas": 3
+  },
+  {
+   "id": "dif2-Ci-012",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "/",
+    "E",
+    "5",
+    "LOGY",
+    "+",
+    "TAN",
+    "BS",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Ci-013",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "=",
+    "BS",
+    "2^X",
+    "P10",
+    "/",
+    "MS",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-014",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "0",
+    "8",
+    "2^X",
+    "CBRT",
+    "-",
+    "2^X",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-015",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "0",
+    "SIN",
+    ")",
+    "2",
+    "LOGY",
+    "COS",
+    "1",
+    "EXP",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-016",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "+",
+    "P10",
+    "NEG",
+    "MR",
+    "DEC",
+    "+",
+    "EX",
+    "0",
+    "M-",
+    "-",
+    "=",
+    ")",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-017",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "9",
+    "1",
+    "1",
+    "POW",
+    "8",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Ci-018",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "COS",
+    "/",
+    "9",
+    "*",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Ci-019",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "*",
+    "M+",
+    "="
+   ],
+   "n_teclas": 3
+  },
+  {
+   "id": "dif2-Ci-020",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "FE",
+    "5",
+    "BS",
+    "1",
+    "3",
+    "POW",
+    "SIN",
+    "4",
+    "(",
+    "NEG",
+    "6",
+    "6",
+    "+",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Ci-021",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "*",
+    "1",
+    "9",
+    "1",
+    "(",
+    "9",
+    "SINH",
+    "5",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-022",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "6",
+    "C",
+    "2^X",
+    "NEG",
+    "YROOT",
+    "MR",
+    "-",
+    "ABS",
+    "7",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-023",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "8",
+    ")",
+    "(",
+    "3",
+    "POW",
+    "/",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-024",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "DEC",
+    "8",
+    "MS",
+    "+",
+    "ABS",
+    "C",
+    "/",
+    "DEC",
+    "4",
+    "FE",
+    "9",
+    "4",
+    "3",
+    "4",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Ci-025",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "*",
+    "*",
+    "+",
+    "MC",
+    "2^X",
+    ")",
+    "+",
+    "+",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-026",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    ")",
+    "SIN",
+    "*",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Ci-027",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "8",
+    "P10",
+    "0",
+    "-",
+    "NEG",
+    "E",
+    "6",
+    "7",
+    "1",
+    "COSH",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-028",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "8",
+    "*",
+    "+",
+    "-",
+    "6",
+    "8",
+    "COS",
+    "FE",
+    "3",
+    "(",
+    "C",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Ci-029",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "6",
+    "MC",
+    "POW",
+    "DEC",
+    "2",
+    "(",
+    "INV",
+    "DEC",
+    "DEC",
+    "DEC",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-030",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "LOGY",
+    "C",
+    "CEIL",
+    "6",
+    "SQRT",
+    "POW",
+    "8",
+    "7",
+    "-",
+    "BS",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-031",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "NEG",
+    "NEG",
+    "/",
+    "TAN",
+    "/",
+    "DEC",
+    "2^X",
+    "2",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-032",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "SINH",
+    "NEG",
+    "+",
+    "2",
+    "INV",
+    "MR",
+    "=",
+    "ASIN",
+    "NEG",
+    "8",
+    "SQR",
+    "+",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-033",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "-",
+    "3",
+    "TAN",
+    "-",
+    "LOG",
+    "COS",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-034",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "POW",
+    "+",
+    "2",
+    "9",
+    "7",
+    "MC",
+    "ABS",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Ci-035",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "9",
+    "EXP",
+    "SQRT",
+    "*",
+    "POW",
+    "ACOS",
+    "INV",
+    "=",
+    "POW",
+    "3",
+    "NEG",
+    "5",
+    "ASIN",
+    "5",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Ci-036",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    ")",
+    "P10",
+    "CUBE",
+    "-",
+    ")",
+    "3",
+    "0",
+    "MOD",
+    "DEC",
+    "-",
+    "MOD",
+    "7",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-037",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "NEG",
+    "6",
+    "/",
+    "4",
+    "MC",
+    "4",
+    "CEIL",
+    "-",
+    "9",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-038",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "0",
+    ")",
+    "TAN",
+    "=",
+    "FACT",
+    "1",
+    "0",
+    "*",
+    "ABS",
+    "CUBE",
+    "-",
+    "3",
+    "TANH",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Ci-039",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "8",
+    "FE",
+    "FE",
+    "3",
+    "9",
+    "9",
+    "MR",
+    "SINH",
+    "8",
+    "4",
+    "MR",
+    "-",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-040",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "0",
+    "5",
+    "0",
+    "4",
+    ")",
+    "YROOT",
+    "3",
+    "2",
+    "(",
+    "9",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-041",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "=",
+    "0",
+    "2^X",
+    "LOGY",
+    "7",
+    "BS",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-042",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "2",
+    "+",
+    "-",
+    "*",
+    ")",
+    "(",
+    "*",
+    "/",
+    "MOD",
+    "5",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-043",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "=",
+    "1",
+    "7",
+    "1",
+    "-",
+    "9",
+    "1",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Ci-044",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "+",
+    "2^X",
+    "-",
+    "MS",
+    "*",
+    "9",
+    "+",
+    "3",
+    "/",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-045",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "TAN",
+    "COSH",
+    "FLOOR",
+    "INV",
+    "7",
+    "+",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-046",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "9",
+    "POW",
+    "5",
+    "ATAN",
+    "3",
+    "0",
+    "MR",
+    "TAN",
+    "LOG",
+    ")",
+    "YROOT",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Ci-047",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "DEC",
+    "(",
+    "MC",
+    "SINH",
+    "2",
+    "5",
+    "BS",
+    "9",
+    "/",
+    "POW",
+    "E",
+    "MS",
+    "2",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Ci-048",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "FLOOR",
+    "EX",
+    "SINH",
+    "LOGY",
+    "C",
+    "1",
+    "CUBE",
+    "7",
+    "YROOT",
+    "SINH",
+    "5",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Ci-049",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "MOD",
+    "NEG",
+    "POW",
+    "+",
+    "0",
+    "*",
+    "(",
+    "/",
+    "/",
+    ")",
+    "*",
+    "POW",
+    "0",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Ci-050",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    ")",
+    "=",
+    "5",
+    "3",
+    "+",
+    "POW",
+    "LOG",
+    "BS",
+    "0",
+    "-",
+    "(",
+    "4",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-051",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "6",
+    "*",
+    "0",
+    "FLOOR",
+    "7",
+    "3",
+    "(",
+    "3",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-052",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "TANH",
+    "TAN",
+    "BS",
+    "0",
+    "FACT",
+    "DEC",
+    "3",
+    "/",
+    "EXP",
+    "0",
+    "7",
+    "6",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-053",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "-",
+    "(",
+    "ABS",
+    "M+",
+    "9",
+    "COS",
+    "ASIN",
+    "-",
+    "9",
+    "1",
+    "FLOOR",
+    "EXP",
+    "FE",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Ci-054",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "9",
+    "1",
+    "2",
+    "4",
+    "MOD",
+    "TAN",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-055",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "6",
+    "EXP",
+    "M+",
+    "1",
+    "PI",
+    "*",
+    "6",
+    "2",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-056",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "7",
+    "POW",
+    "*",
+    "3",
+    "(",
+    "NEG",
+    "2",
+    "LOG",
+    "1",
+    "POW",
+    "6",
+    "/",
+    "*",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Ci-057",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "NEG",
+    "1",
+    "LN",
+    "M-",
+    "POW",
+    "4",
+    "MOD",
+    "/",
+    "+",
+    "3",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-058",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "TANH",
+    "8",
+    "LN",
+    "NEG",
+    "9",
+    "6",
+    "CBRT",
+    "POW",
+    "NEG",
+    "COS",
+    "/",
+    "6",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-059",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "1",
+    "/",
+    "9",
+    "2",
+    "ACOS",
+    "BS",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-060",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "ATAN",
+    "MC",
+    "1",
+    "8",
+    "DEC",
+    "MOD",
+    "COSH",
+    "INV",
+    "LN",
+    "1",
+    "ATAN",
+    "DEC",
+    "M-",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Ci-061",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "/",
+    "3",
+    "2",
+    "7",
+    "7",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Ci-062",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "ABS",
+    "POW",
+    "+",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Ci-063",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "ACOS",
+    "MOD",
+    "EX",
+    "C",
+    "SINH",
+    "DEC",
+    "COSH",
+    "+",
+    "/",
+    "BS",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-064",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "5",
+    "/",
+    "DEC",
+    "7",
+    "EXP",
+    "ABS",
+    "5",
+    "ASIN",
+    "E",
+    "=",
+    "2",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Ci-065",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    ")",
+    "0",
+    "MS",
+    "5",
+    "INV",
+    "MOD",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-066",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "8",
+    "6",
+    "C",
+    "9",
+    "NEG",
+    "9",
+    "2",
+    "-",
+    "+",
+    "(",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-067",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "BS",
+    "CUBE",
+    "4",
+    "6",
+    "2",
+    "CUBE",
+    "E",
+    "POW",
+    "BS",
+    "1",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-068",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "7",
+    "COSH",
+    "1",
+    "3",
+    "SINH",
+    "CBRT",
+    "MC",
+    "E",
+    "LOGY",
+    "8",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-069",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "LOGY",
+    "NEG",
+    "ATAN",
+    "5",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Ci-070",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "1",
+    "*",
+    "/",
+    "2",
+    "8",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Ci-071",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "SQR",
+    "(",
+    "7",
+    "2",
+    "LOG",
+    "+",
+    "4",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Ci-072",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "TANH",
+    "MS",
+    "/",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Ci-073",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "BS",
+    "6",
+    "(",
+    "-",
+    "LN",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Ci-074",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "=",
+    "CUBE",
+    "9",
+    "MOD",
+    "CUBE",
+    "5",
+    "C",
+    "5",
+    "M+",
+    "*",
+    "5",
+    "+",
+    "2",
+    "-",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Ci-075",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "DEC",
+    "M-",
+    "POW",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Ci-076",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "(",
+    "POW",
+    "5",
+    "NEG",
+    "INV",
+    "LN",
+    "EX",
+    "SQRT",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-077",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "2",
+    "6",
+    "SQR",
+    "SQRT",
+    "+",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-078",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "(",
+    "POW",
+    "7",
+    "POW",
+    "/",
+    "8",
+    "1",
+    "1",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-079",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "(",
+    "/",
+    "2",
+    "5",
+    "6",
+    "6",
+    "2",
+    "9",
+    "MOD",
+    "5",
+    "-",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Ci-080",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "3",
+    "E",
+    "LOGY",
+    "+",
+    "5",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Ci-081",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    ")",
+    "+",
+    "=",
+    "EX",
+    "6",
+    "8",
+    "ACOS",
+    "6",
+    "YROOT",
+    "3",
+    "4",
+    "+",
+    "5",
+    "+",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Ci-082",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "C",
+    "CEIL",
+    "7",
+    "TAN",
+    "6",
+    "1",
+    "6",
+    "2",
+    "MOD",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-083",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "(",
+    "-",
+    "1",
+    "1",
+    "7",
+    "BS",
+    "5",
+    "2",
+    "YROOT",
+    "EXP",
+    "*",
+    "7",
+    "+",
+    "5",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Ci-084",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "0",
+    "+",
+    "7",
+    "2",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Ci-085",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "2",
+    "SIN",
+    "YROOT",
+    "/",
+    "9",
+    "ACOS",
+    "ACOS",
+    "=",
+    "ASIN",
+    "*",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-086",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "5",
+    "CBRT",
+    "9",
+    "4",
+    "POW",
+    "SIN",
+    "ATAN",
+    "CUBE",
+    "4",
+    "*",
+    "5",
+    "3",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-087",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "SQR",
+    "ABS",
+    "/",
+    "9",
+    "E",
+    "=",
+    "LOG",
+    "POW",
+    "M+",
+    "FACT",
+    "/",
+    "+",
+    "5",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Ci-088",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "*",
+    "+",
+    "MS",
+    "7",
+    "2",
+    "EXP",
+    "COS",
+    "7",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Ci-089",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "SIN",
+    "/",
+    "6",
+    "3",
+    "MOD",
+    "BS",
+    "POW",
+    "9",
+    "EX",
+    "*",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Ci-090",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "4",
+    "8",
+    "CEIL",
+    "/",
+    "*",
+    "=",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-091",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "SQRT",
+    "CUBE",
+    "P10",
+    "7",
+    "(",
+    "C",
+    "ACOS",
+    "6",
+    "YROOT",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Ci-092",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    ")",
+    "0",
+    "5",
+    "ATAN",
+    "-",
+    "1",
+    "COS",
+    "/",
+    "INV",
+    "+",
+    "E",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Ci-093",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "2^X",
+    "*",
+    "5",
+    "+",
+    ")",
+    "2",
+    "FACT",
+    "/",
+    "/",
+    "SINH",
+    "8",
+    "0",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-094",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "TAN",
+    "DEC",
+    "YROOT",
+    "*",
+    "CBRT",
+    "3",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Ci-095",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "+",
+    "(",
+    "DEC",
+    "4",
+    "8",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Ci-096",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "(",
+    "6",
+    "*",
+    "5",
+    "*",
+    "CUBE",
+    "4",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Ci-097",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": [
+    "E",
+    "PI",
+    "E",
+    "SQR",
+    "NEG",
+    "P10",
+    "PI",
+    "CBRT",
+    "-",
+    "DEC",
+    "ACOS",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Ci-098",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": [
+    "E",
+    "POW",
+    "9",
+    "TANH",
+    "FLOOR",
+    "MS",
+    ")",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Ci-099",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    "(",
+    "7",
+    "+",
+    "-",
+    "*",
+    "COSH",
+    "=",
+    "9",
+    "/",
+    "FE",
+    "SINH",
+    "LOGY",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Ci-100",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": [
+    ")",
+    "+",
+    "4",
+    "1",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pr-001",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "DWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "*",
+    "#1",
+    "TAM",
+    "#0",
+    "BS",
+    "-",
+    "BS",
+    "#0",
+    "#1",
+    "/",
+    "BS",
+    "#0",
+    "#1",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pr-002",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#6",
+    "#0",
+    "BS",
+    "#7",
+    "NOT",
+    "#7",
+    "-",
+    "NOT",
+    "AND",
+    "-",
+    "=",
+    "C",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-003",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "BS",
+    "R:OCT",
+    "/",
+    ")",
+    "%",
+    "#0",
+    "-",
+    "R:BIN",
+    "AND",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-004",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "BYTE",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "#4",
+    "=",
+    "NAND",
+    "-",
+    "NAND",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pr-005",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#4",
+    "#4",
+    "#7",
+    "#6",
+    "BS",
+    "C",
+    "*",
+    "#0",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-006",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "WORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "#B",
+    "BS",
+    "#2",
+    "#7",
+    ")",
+    "LSH",
+    "#D",
+    "LSH",
+    "#3",
+    "#C",
+    "#4",
+    "#8",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-007",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#1",
+    "#3",
+    "#2",
+    "#5",
+    "-",
+    "#E",
+    "#B",
+    "#6",
+    "#1",
+    "NEG",
+    "#B",
+    "LSH",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-008",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "/",
+    "RORC",
+    "#0",
+    "NAND",
+    "#4",
+    "*",
+    "(",
+    "#2",
+    "-",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-009",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#2",
+    "C",
+    "#1",
+    "-",
+    "XOR",
+    "+",
+    "RORC",
+    "-",
+    "OR",
+    "#4",
+    "#6",
+    "OR",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-010",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "/",
+    "#3",
+    "#9",
+    "#8",
+    "#2",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pr-011",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "DWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "NEG",
+    "#E",
+    "/",
+    "*",
+    "/",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pr-012",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "NEG",
+    "#9",
+    "#5",
+    "#2",
+    "/",
+    "*",
+    "R:DEC",
+    "RSH",
+    "#2",
+    "#1",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-013",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "NEG",
+    "*",
+    "*",
+    "-",
+    "-",
+    "#4",
+    "NOT",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pr-014",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "NOT",
+    "#2",
+    "BS",
+    ")",
+    "#7",
+    "#4",
+    "NOR",
+    "#4",
+    "#9",
+    "RORC",
+    "#6",
+    "R:HEX",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-015",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#4",
+    "#0",
+    "#8",
+    "%",
+    "#8",
+    "AND",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-016",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "QWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#F",
+    "LSH",
+    "#E",
+    "#5",
+    "C",
+    "#B",
+    "#7",
+    "-",
+    "#0",
+    "TAM",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-017",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#5",
+    "BS",
+    "/",
+    "R:BIN",
+    "NOR",
+    "#0",
+    "#1",
+    ")",
+    "NOR",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-018",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#1",
+    "%",
+    "#3",
+    "#8",
+    "NAND",
+    "RORC",
+    "R:DEC",
+    "#1",
+    "R:OCT",
+    "R:DEC",
+    "#8",
+    "ROLC",
+    "#4",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pr-019",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "ROLC",
+    "/",
+    "RORC",
+    "NOT",
+    "#7",
+    "#2",
+    "*",
+    "TAM",
+    "NOR",
+    "#3",
+    "=",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pr-020",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "DWORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#E",
+    "BS",
+    "BS",
+    "*",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pr-021",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#0",
+    "#7",
+    "#4",
+    "#3",
+    "R:DEC",
+    "#5",
+    "*",
+    "ROL",
+    "#6",
+    "/",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-022",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "+",
+    "#8",
+    "#2",
+    "LSH",
+    "XOR",
+    "XOR",
+    "#5",
+    "=",
+    "NOR",
+    "#6",
+    "#2",
+    "*",
+    "*",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pr-023",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "DWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "*",
+    "-",
+    "#0",
+    "+",
+    "#1",
+    "#1",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-024",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#4",
+    "NEG",
+    "ROLC",
+    "NOT",
+    "XOR",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pr-025",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "BS",
+    "#1",
+    "#1",
+    "TAM",
+    ")",
+    "AND",
+    "RSH",
+    "#0",
+    "LSH",
+    "/",
+    "#0",
+    "BS",
+    "#1",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pr-026",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "TAM",
+    "+",
+    "%",
+    "NOT",
+    "ROLC",
+    "=",
+    "#4",
+    "NEG",
+    "*",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-027",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "R:OCT",
+    "#6",
+    "LSH",
+    "#6",
+    "#2",
+    "#4",
+    "LSH",
+    "#4",
+    "NEG",
+    "#3",
+    "#4",
+    "LSH",
+    "#4",
+    "#3",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-028",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#5",
+    "BS",
+    "%",
+    "#7",
+    "=",
+    "R:HEX",
+    "#E",
+    "OR",
+    "#C",
+    "/",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-029",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "BS",
+    "#1",
+    "XOR",
+    "AND",
+    "+",
+    ")",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-030",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "WORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "%",
+    "#1",
+    "/",
+    "NEG",
+    "#0",
+    "LSH",
+    "#1",
+    "#0",
+    "OR",
+    ")",
+    "R:OCT",
+    "#0",
+    "#5",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pr-031",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "BYTE",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "#7",
+    "#6",
+    "NAND",
+    "#4",
+    "+",
+    "-",
+    "R:BIN",
+    "#0",
+    "BS",
+    "RSH",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pr-032",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#1",
+    "NOT",
+    "R:OCT",
+    "#1",
+    "NOR",
+    "*",
+    "%",
+    "#4",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pr-033",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "DWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "R:OCT",
+    "#4",
+    "#1",
+    "#4",
+    "#0",
+    "OR",
+    "BS",
+    "#6",
+    "#0",
+    "BS",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-034",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "C",
+    "+",
+    "#1",
+    "#1",
+    "#0",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pr-035",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "WORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "/",
+    "BS",
+    "/",
+    "-",
+    "+",
+    "#3",
+    "RSH",
+    "#5",
+    "(",
+    "#0",
+    "%",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pr-036",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#3",
+    "NOR",
+    "#7",
+    "-",
+    "#2",
+    "#3",
+    "NEG",
+    "#5",
+    "#6",
+    "BS",
+    "(",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pr-037",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "XOR",
+    "XOR",
+    "-",
+    "NEG",
+    "#4",
+    "#2",
+    "#3",
+    "#2",
+    "NOR",
+    "RORC",
+    "#7",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-038",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#1",
+    "#0",
+    "OR",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Pr-039",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "WORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#1",
+    "ROLC",
+    "R:OCT",
+    "#6",
+    "(",
+    "#3",
+    "#2",
+    "#7",
+    "TAM",
+    "-",
+    "#5",
+    "#5",
+    "#4",
+    "#2",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-040",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "RORC",
+    "-",
+    "="
+   ],
+   "n_teclas": 3
+  },
+  {
+   "id": "dif2-Pr-041",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "QWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#2",
+    "LSH",
+    "NOT",
+    "NOT",
+    "#7",
+    "#1",
+    "/",
+    "#9",
+    "#9",
+    "(",
+    "TAM",
+    "#3",
+    "#7",
+    "#3",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-042",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#4",
+    "#9",
+    "+",
+    "#D",
+    "#3",
+    "#2",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-043",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#4",
+    "#6",
+    "RSH",
+    "/",
+    "#0",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pr-044",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "WORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "+",
+    "#B",
+    "*",
+    "=",
+    "#7",
+    "AND",
+    "#E",
+    "R:OCT",
+    "(",
+    "#5",
+    "/",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pr-045",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "NAND",
+    "#8",
+    "NOT",
+    "RSH",
+    "#9",
+    "/",
+    "#0",
+    "+",
+    "-",
+    "NEG",
+    "#1",
+    "NOR",
+    "(",
+    "#1",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-046",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#4",
+    "ROR",
+    "#7",
+    "/",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pr-047",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "QWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "/",
+    "AND",
+    "#0",
+    "#0",
+    "BS",
+    "NOR",
+    "#0",
+    "#0",
+    "NEG",
+    "#1",
+    "TAM",
+    "#0",
+    "R:HEX",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pr-048",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "BS",
+    "TAM",
+    "#5",
+    "#4",
+    "NEG",
+    "#1",
+    "#6",
+    "NOT",
+    "#3",
+    "/",
+    "#3",
+    "*",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-049",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "QWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#0",
+    "#0",
+    "#0",
+    "R:BIN",
+    "/",
+    "#1",
+    "#0",
+    "%",
+    "OR",
+    "#1",
+    "#1",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pr-050",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#9",
+    "NOR",
+    "#5",
+    "TAM",
+    "#1",
+    "#0",
+    "#2",
+    "#4",
+    "#6",
+    "-",
+    "#5",
+    "#1",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-051",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#4",
+    "(",
+    "NOT",
+    "-",
+    "#3",
+    "/",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-052",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "NEG",
+    "AND",
+    "+",
+    "#4",
+    "#2",
+    "NOT",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-053",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "TAM",
+    "#3",
+    "NOT",
+    "#0",
+    "#0",
+    "RSH",
+    "#6",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pr-054",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#4",
+    "-",
+    "#0",
+    "TAM",
+    "(",
+    "#6",
+    "#4",
+    "*",
+    "-",
+    "XOR",
+    "(",
+    "#1",
+    "NEG",
+    "/",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-055",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "BYTE",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#1",
+    "-",
+    "NEG",
+    "#9",
+    "/",
+    "*",
+    "#3",
+    "#7",
+    "#6",
+    "AND",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-056",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "ROR",
+    "%",
+    "#0",
+    "#0",
+    "NOT",
+    "#0",
+    "#1",
+    "#0",
+    "OR",
+    "#1",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-057",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "WORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "-",
+    "/",
+    "+",
+    "C",
+    "NEG",
+    "#4",
+    "#1",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pr-058",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "-",
+    "#4",
+    "#0",
+    "#5",
+    "NOT",
+    "BS",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-059",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "-",
+    "#2",
+    "#2",
+    "#3",
+    "#0",
+    "#0",
+    "LSH",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pr-060",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    ")",
+    "#3",
+    "NOR",
+    "#4",
+    "#9",
+    "/",
+    "#2",
+    "#C",
+    "#2",
+    "#8",
+    ")",
+    "-",
+    "-",
+    "#D",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-061",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "BYTE",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#8",
+    "NEG",
+    "#7",
+    "*",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pr-062",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "/",
+    "C",
+    "+",
+    "*",
+    "BS",
+    "#2",
+    "#5",
+    "(",
+    "#3",
+    "#3",
+    "#3",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pr-063",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "BYTE",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "/",
+    "NOR",
+    "LSH",
+    "#2",
+    ")",
+    "BS",
+    "#1",
+    "/",
+    "#2",
+    "TAM",
+    "=",
+    "="
+   ],
+   "n_teclas": 12
+  },
+  {
+   "id": "dif2-Pr-064",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "OR",
+    "TAM",
+    "AND",
+    "#0",
+    "#0",
+    "BS",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-065",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "-",
+    "#1",
+    "#5",
+    "#7",
+    "ROL",
+    "=",
+    "OR",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pr-066",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "QWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#1",
+    "#8",
+    "AND",
+    "#0",
+    "XOR",
+    "/",
+    "NEG",
+    "#5",
+    "*",
+    "#1",
+    "#3",
+    "RSH",
+    "#7",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pr-067",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#5",
+    "#4",
+    "%",
+    "#5",
+    "#3",
+    "C",
+    "TAM",
+    "NOR",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pr-068",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "BYTE",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "#0",
+    "/",
+    "/",
+    "#1",
+    "%",
+    "#0",
+    "-",
+    "#1",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pr-069",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "=",
+    "R:HEX",
+    "RORC",
+    ")",
+    "#6",
+    "OR",
+    "#4",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pr-070",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "DWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "(",
+    "NEG",
+    "*",
+    "#3",
+    "#9",
+    "R:DEC",
+    "R:OCT",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pr-071",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "DWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#1",
+    "#0",
+    "+",
+    "#0",
+    "+",
+    "(",
+    "#1",
+    "RSH",
+    "=",
+    "#1",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-072",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "AND",
+    "#5",
+    "#4",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Pr-073",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "NOR",
+    "BS",
+    "+",
+    ")",
+    "#6",
+    "#3",
+    "XOR",
+    "+",
+    "#3",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-074",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "QWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "/",
+    "#F",
+    "=",
+    "RORC",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pr-075",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "C",
+    "R:DEC",
+    "NOR",
+    "+",
+    "#9",
+    "#9",
+    "TAM",
+    "=",
+    "BS",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-076",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "BS",
+    "#2",
+    "NOR",
+    "#4",
+    "BS",
+    "NEG",
+    "AND",
+    "#1",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-077",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "QWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "/",
+    "#1",
+    "OR",
+    "#1",
+    "NOR",
+    "/",
+    "#1",
+    "*",
+    "#0",
+    "#0",
+    "#0",
+    "#0",
+    "NOR",
+    "+",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-078",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "=",
+    "#5",
+    "NOR",
+    "#7",
+    "NOT",
+    "-",
+    "NOR",
+    "#6",
+    "#5",
+    "#1",
+    "#2",
+    "ROL",
+    "=",
+    "="
+   ],
+   "n_teclas": 14
+  },
+  {
+   "id": "dif2-Pr-079",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "NOT",
+    "*",
+    "#0",
+    "#1",
+    "XOR",
+    "*",
+    "="
+   ],
+   "n_teclas": 7
+  },
+  {
+   "id": "dif2-Pr-080",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "%",
+    ")",
+    "XOR",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Pr-081",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#2",
+    "(",
+    "#6",
+    "+",
+    "-",
+    "#5",
+    "#4",
+    "XOR",
+    "-",
+    "NEG",
+    "ROR",
+    "*",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-082",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "BYTE",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#9",
+    "AND",
+    "="
+   ],
+   "n_teclas": 3
+  },
+  {
+   "id": "dif2-Pr-083",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "+",
+    "/",
+    "-",
+    "=",
+    "NOT",
+    "="
+   ],
+   "n_teclas": 6
+  },
+  {
+   "id": "dif2-Pr-084",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "BYTE",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "R:BIN",
+    "#0",
+    "#0",
+    "#1",
+    "TAM",
+    "#1",
+    "/",
+    "#1",
+    "#0",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-085",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "(",
+    "AND",
+    "#2",
+    "="
+   ],
+   "n_teclas": 4
+  },
+  {
+   "id": "dif2-Pr-086",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#8",
+    "#0",
+    "#3",
+    "*",
+    "%",
+    "NAND",
+    "#2",
+    "="
+   ],
+   "n_teclas": 8
+  },
+  {
+   "id": "dif2-Pr-087",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "BYTE",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#2",
+    "#1",
+    "#8",
+    "%",
+    ")",
+    "#1",
+    "=",
+    "AND",
+    "#9",
+    "="
+   ],
+   "n_teclas": 10
+  },
+  {
+   "id": "dif2-Pr-088",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "DWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "=",
+    "#7",
+    "#2",
+    "NOT",
+    "NOR",
+    "#D",
+    "TAM",
+    "#F",
+    "-",
+    "%",
+    "RSH",
+    "NEG",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-089",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "#7",
+    "*",
+    "#0",
+    "+",
+    "ROL",
+    "NOT",
+    "#3",
+    "#5",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pr-090",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "QWORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "#4",
+    "TAM",
+    "/",
+    "#4",
+    "#4",
+    "%",
+    "#7",
+    "+",
+    "#6",
+    "+",
+    "#1",
+    "*",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-091",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "#0",
+    "#5",
+    "/",
+    "/",
+    "#7",
+    "#5",
+    "%",
+    "#7",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pr-092",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "WORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "(",
+    "#4",
+    "#1",
+    "#4",
+    "R:HEX",
+    "#A",
+    "#0",
+    "#F",
+    "#8",
+    "+",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-093",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "BYTE",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "ROR",
+    "#1",
+    "ROR",
+    ")",
+    "#0",
+    "NAND",
+    "#0",
+    "#1",
+    "%",
+    "ROL",
+    "XOR",
+    "-",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-094",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "BYTE",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    ")",
+    "RSH",
+    "#1",
+    "=",
+    ")",
+    "R:BIN",
+    "#0",
+    "#0",
+    "#0",
+    "#0",
+    "="
+   ],
+   "n_teclas": 11
+  },
+  {
+   "id": "dif2-Pr-095",
+   "modo": "programador",
+   "preparo": {
+    "base": "DEC",
+    "tamanho": "WORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "OR",
+    "#5",
+    "+",
+    "#2",
+    "TAM",
+    "OR",
+    "#6",
+    "#7",
+    "NOT",
+    "#8",
+    "NAND",
+    "NOR",
+    "="
+   ],
+   "n_teclas": 13
+  },
+  {
+   "id": "dif2-Pr-096",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#1",
+    "#5",
+    "#2",
+    "#5",
+    "BS",
+    "#6",
+    "%",
+    "ROLC",
+    "#6",
+    "(",
+    "#4",
+    "BS",
+    "NOR",
+    "#1",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-097",
+   "modo": "programador",
+   "preparo": {
+    "base": "BIN",
+    "tamanho": "QWORD",
+    "deslocamento": "Carry"
+   },
+   "passos": [
+    "#1",
+    "#1",
+    "R:OCT",
+    "-",
+    "="
+   ],
+   "n_teclas": 5
+  },
+  {
+   "id": "dif2-Pr-098",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "QWORD",
+    "deslocamento": "Circ"
+   },
+   "passos": [
+    "XOR",
+    "BS",
+    "-",
+    "=",
+    "#3",
+    "#C",
+    "%",
+    "#F",
+    "-",
+    "#3",
+    "+",
+    "NEG",
+    "(",
+    "#C",
+    "="
+   ],
+   "n_teclas": 15
+  },
+  {
+   "id": "dif2-Pr-099",
+   "modo": "programador",
+   "preparo": {
+    "base": "OCT",
+    "tamanho": "DWORD",
+    "deslocamento": "Arit"
+   },
+   "passos": [
+    "/",
+    "LSH",
+    "LSH",
+    "#0",
+    "(",
+    "#0",
+    "#3",
+    "#0",
+    "="
+   ],
+   "n_teclas": 9
+  },
+  {
+   "id": "dif2-Pr-100",
+   "modo": "programador",
+   "preparo": {
+    "base": "HEX",
+    "tamanho": "WORD",
+    "deslocamento": "Log"
+   },
+   "passos": [
+    "LSH",
+    ")",
+    "#F",
+    "="
+   ],
+   "n_teclas": 4
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+# Calculadora 11.2607.0.0 X64; cultura pt-BR; UI pt-BR; 2026-10-22T19:39:41
+# Formato: ID [→n apos X]: visor | expressao(OCR) | hist: [expressao | resultado]; ... (topo primeiro) | mem: v1; v2 (topo primeiro) | botoes -- obs
+# visor = NormalOutput (UIA RawView); hist/mem = texto dos TextBlocks HistoryItemExpression/HistoryItemValue/MemoryItemValue (UIA RawView, sem transcricao); expressao = OCR da captura capturas/<ID>-<n|final>.png
+3b-02 →1 [apos ×]: 5 | (vazia) | hist(1): [2   +   3 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-02: 20 | (vazia) | hist(2): [5   ×   4 = | 20]; [2   +   3 = | 5] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des
+3b-08: 22 | 21+1= | hist(20): [21   +   1 = | 22]; [20   +   1 = | 21]; [19   +   1 = | 20]; [18   +   1 = | 19]; [17   +   1 = | 18]; [16   +   1 = | 17]; [15   +   1 = | 16]; [14   +   1 = | 15]; [13   +   1 = | 14]; [12   +   1 = | 13]; [11   +   1 = | 12]; [10   +   1 = | 11]; [9   +   1 = | 10]; [8   +   1 = | 9]; [7   +   1 = | 8]; [6   +   1 = | 7]; [5   +   1 = | 6]; [4   +   1 = | 5]; [3   +   1 = | 4]; [2   +   1 = | 3] | mem: (vazia; M▾ desabilitado) | MC=des MR=des M+=hab M−=hab MS=hab M▾=des

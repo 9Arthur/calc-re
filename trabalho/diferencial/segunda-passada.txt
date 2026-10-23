@@ -1,0 +1,8 @@
+segunda passada (Ci-062..100) preparada: 2026-10-23T11:21:27-03:00
+980bdf30b5ec2702ca2508bb996b7d9414c71b068813d32f5fb417d2ec024d6f  relatorio/03-diferencial-casos.json
+16cf4641cd1408d8749c890d560cf0c3372d5247376ae1d3e916117ebc759dc8  trabalho/automacao/rodar-casos.ps1
+eb1c98849f2db74a5a6d19d7e2d277f8e2ba351f45bdca0f09218c45f6b54d69  trabalho/diferencial/comparar.py
+523fb1474653855e5e40d89af68a3bfb0ffed275cc4bc959b981b156c321cd8c  trabalho/diferencial/gerar_casos.py
+f1cdaaa336d8e12d87cd66385f356b87cac72acfb6beb8f9bbbed3fc9dcdf82b  trabalho/diferencial/rodar_reimpl.py
+tentativa 1 da segunda passada (11:21:32-11:21:33): 39 x 'CoreWindow nao encontrada' antes de qualquer tecla; arquivos movidos para trabalho/diferencial/tentativa1-p2-corewindow*.  2026-10-23T11:21:59-03:00
+rodar-casos.ps1 após correção (tentativa 2): 6a8da490eaf71873b399dd1836886e3bced0b795ec2c40a978b55aa258b1650e  2026-10-23T11:22:07-03:00

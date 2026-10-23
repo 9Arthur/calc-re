@@ -1,0 +1,119 @@
+# Execucao 2026-10-22T18:55:06 - Calculadora 11.2607.0.0 X64, cultura pt-BR, UI pt-BR
+# SHA-256 instalado CalculatorApp.exe = f26a20f8bd65fd23f9a7cf13145a52b01f37beb51962a7aa3b7892eb7894b242
+# SHA-256 instalado CalculatorApp.dll = e08455206dab3ab28ee355c0b085d5da6a91afee19e4e21b09174330a462cf28
+# SHA-256 instalado CalcViewModel.dll = 072cd589ec97875b71e4a63c31b1c8a7eb38952721321019f22ecad0acd9d21d
+
+== 3a-18 (modo Alt+1): C 1 / 3 =
+   leitura apos [=]: NormalOutput='0,3333333333333333' visor.Name='A exibição é 0,3333333333333333' expressao.Name='Expression é 1 ÷ 3=' OCR='(vazia)' captura=capturas/3a-18-final.png
+
+== 3a-19 (modo Alt+1): C 2 / 3 =
+   leitura apos [=]: NormalOutput='0,6666666666666667' visor.Name='A exibição é 0,6666666666666667' expressao.Name='Expression é 2 ÷ 3=' OCR='(vazia)' captura=capturas/3a-19-final.png
+
+== 3a-22 (modo Alt+1): C 1 / 3000 =
+   leitura apos [=]: NormalOutput='3,333333333333333e-4' visor.Name='A exibição é 3,333333333333333e-4' expressao.Name='Expression é 1 ÷ 3000=' OCR='1 + 3000' captura=capturas/3a-22-final.png
+
+== 3a-21 (modo Alt+1): C 9999999999999999 + 1 =
+   leitura apos [=]: NormalOutput='1,e+16' visor.Name='A exibição é 1,e+16' expressao.Name='Expression é 9999999999999999 + 1=' OCR='9999999999999999 + 1 =' captura=capturas/3a-21-final.png
+
+== 3a-20 (modo Alt+1): C 1234567890123456 > 7
+   leitura apos [6]: NormalOutput='1.234.567.890.123.456' visor.Name='A exibição é 1.234.567.890.123.456' expressao.Name='' OCR='(vazia)' captura=capturas/3a-20-1.png
+   leitura apos [7]: NormalOutput='1.234.567.890.123.456' visor.Name='A exibição é 1.234.567.890.123.456' expressao.Name='' OCR='(vazia)' captura=capturas/3a-20-final.png
+
+== 3a-08 (modo Alt+1): C 4 NEG SQRT
+   leitura apos [√]: NormalOutput='Entrada inválida' visor.Name='A exibição é Entrada inválida' expressao.Name='Expression é √(-4)' OCR='(vazia)' captura=capturas/3a-08-final.png
+
+== 3a-26 (modo Alt+1): C 9999999999999999 SQR > SQR > SQR > SQR > SQR > SQR > SQR > SQR > SQR > SQR
+   leitura apos [x²]: NormalOutput='9,999999999999998e+31' visor.Name='A exibição é 9,999999999999998e+31' expressao.Name='Expression é quadrado (9999999999999999)' OCR='sqr( 9999999999999999)' captura=capturas/3a-26-1.png
+   leitura apos [x²]: NormalOutput='9,999999999999996e+63' visor.Name='A exibição é 9,999999999999996e+63' expressao.Name='Expression é quadrado (quadrado (9999999999999999))' OCR='sqr( sqr( 9999999999999999 ) )' captura=capturas/3a-26-2.png
+   leitura apos [x²]: NormalOutput='9,999999999999992e+127' visor.Name='A exibição é 9,999999999999992e+127' expressao.Name='Expression é quadrado (quadrado (quadrado (9999999999999999)))' OCR='sqr( sqr( sqr( 9999999999999999 ) ) )' captura=capturas/3a-26-3.png
+   leitura apos [x²]: NormalOutput='9,999999999999984e+255' visor.Name='A exibição é 9,999999999999984e+255' expressao.Name='Expression é quadrado (quadrado (quadrado (quadrado (9999999999999999))))' OCR='sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) )' captura=capturas/3a-26-4.png
+   leitura apos [x²]: NormalOutput='9,999999999999968e+511' visor.Name='A exibição é 9,999999999999968e+511' expressao.Name='Expression é quadrado (quadrado (quadrado (quadrado (quadrado (9999999999999999)))))' OCR='sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) )' captura=capturas/3a-26-5.png
+   leitura apos [x²]: NormalOutput='9,999999999999936e+1023' visor.Name='A exibição é 9,999999999999936e+1023' expressao.Name='Expression é quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (9999999999999999))))))' OCR='sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) )' captura=capturas/3a-26-6.png
+   leitura apos [x²]: NormalOutput='9,999999999999872e+2047' visor.Name='A exibição é 9,999999999999872e+2047' expressao.Name='Expression é quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (9999999999999999)))))))' OCR='sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) )' captura=capturas/3a-26-7.png
+   leitura apos [x²]: NormalOutput='9,999999999999744e+4095' visor.Name='A exibição é 9,999999999999744e+4095' expressao.Name='Expression é quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (9999999999999999))))))))' OCR='sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) )' captura=capturas/3a-26-8.png
+   leitura apos [x²]: NormalOutput='9,999999999999488e+8191' visor.Name='A exibição é 9,999999999999488e+8191' expressao.Name='Expression é quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (9999999999999999)))))))))' OCR='sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) ) )' captura=capturas/3a-26-9.png
+   leitura apos [x²]: NormalOutput='Estouro' visor.Name='A exibição é Estouro' expressao.Name='Expression é quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (quadrado (9999999999999999))))))))))' OCR='< qr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( sqr( 9999999999999999 ) ) ) ) ) ) ) ) ) )' captura=capturas/3a-26-final.png
+
+== 3a-01 (modo Alt+1): C 7 + 5 =
+   leitura apos [=]: NormalOutput='12' visor.Name='A exibição é 12' expressao.Name='Expression é 7 + 5=' OCR='(vazia)' captura=capturas/3a-01-final.png
+
+== 3a-02 (modo Alt+1): C 2 + 3 * > 4 =
+   leitura apos [×]: NormalOutput='5' visor.Name='A exibição é 5' expressao.Name='Expression é 5 × ' OCR='(vazia)' captura=capturas/3a-02-1.png
+   leitura apos [=]: NormalOutput='20' visor.Name='A exibição é 20' expressao.Name='Expression é 5 × 4=' OCR='(vazia)' captura=capturas/3a-02-final.png
+
+== 3a-02c (modo Alt+2): C 2 + 3 * > 4 =
+   leitura apos [×]: NormalOutput='3' visor.Name='A exibição é 3' expressao.Name='Expression é 2 + 3 × ' OCR='(vazia)' captura=capturas/3a-02c-1.png
+   leitura apos [=]: NormalOutput='14' visor.Name='A exibição é 14' expressao.Name='Expression é 2 + 3 × 4=' OCR='2+3 x' captura=capturas/3a-02c-final.png
+
+== 3a-03 (modo Alt+1): C 9 - 12 =
+   leitura apos [=]: NormalOutput='-3' visor.Name='A exibição é -3' expressao.Name='Expression é 9 Menos ( 12=' OCR='9-12=' captura=capturas/3a-03-final.png
+
+== 3a-04 (modo Alt+1): C 8 / 0 =
+   leitura apos [=]: NormalOutput='Não é possível dividir por zero' visor.Name='A exibição é Não é possível dividir por zero' expressao.Name='Expression é 8 ÷ ' OCR='(vazia)' captura=capturas/3a-04-final.png
+
+== 3a-05 (modo Alt+1): C 0 / 0 =
+   leitura apos [=]: NormalOutput='Resultado indefinido' visor.Name='A exibição é Resultado indefinido' expressao.Name='Expression é 0 ÷ ' OCR='(vazia)' captura=capturas/3a-05-final.png
+
+== 3a-06 (modo Alt+1): C / 0 =
+   leitura apos [=]: NormalOutput='Resultado indefinido' visor.Name='A exibição é Resultado indefinido' expressao.Name='Expression é 0 ÷ ' OCR='(vazia)' captura=capturas/3a-06-final.png
+
+== 3a-07 (modo Alt+1): C 0 INV
+   leitura apos [1/x]: NormalOutput='Não é possível dividir por zero' visor.Name='A exibição é Não é possível dividir por zero' expressao.Name='Expression é 1/(0)' OCR='1/(0)' captura=capturas/3a-07-final.png
+
+== 3a-10 (modo Alt+1): C 8 / 0 = > CE
+   leitura apos [=]: NormalOutput='Não é possível dividir por zero' visor.Name='A exibição é Não é possível dividir por zero' expressao.Name='Expression é 8 ÷ ' OCR='(vazia)' captura=capturas/3a-10-1.png
+   leitura apos [CE]: NormalOutput='0' visor.Name='A exibição é 0' expressao.Name='' OCR='(vazia)' captura=capturas/3a-10-final.png
+
+== 3a-11 (modo Alt+1): C 2 + 3 = > =
+   leitura apos [=]: NormalOutput='5' visor.Name='A exibição é 5' expressao.Name='Expression é 2 + 3=' OCR='(vazia)' captura=capturas/3a-11-1.png
+   leitura apos [=]: NormalOutput='8' visor.Name='A exibição é 8' expressao.Name='Expression é 5 + 3=' OCR='(vazia)' captura=capturas/3a-11-final.png
+
+== 3a-12 (modo Alt+1): C 2 + 3 = > 4 =
+   leitura apos [=]: NormalOutput='5' visor.Name='A exibição é 5' expressao.Name='Expression é 2 + 3=' OCR='(vazia)' captura=capturas/3a-12-1.png
+   leitura apos [=]: NormalOutput='7' visor.Name='A exibição é 7' expressao.Name='Expression é 4 + 3=' OCR='(vazia)' captura=capturas/3a-12-final.png
+
+== 3a-13 (modo Alt+1): C 5 * =
+   leitura apos [=]: NormalOutput='25' visor.Name='A exibição é 25' expressao.Name='Expression é 5 × 5=' OCR='(vazia)' captura=capturas/3a-13-final.png
+
+== 3a-14 (modo Alt+1): C 5 + * 3 =
+   leitura apos [=]: NormalOutput='15' visor.Name='A exibição é 15' expressao.Name='Expression é 5 × 3=' OCR='(vazia)' captura=capturas/3a-14-final.png
+
+== 3a-15 (modo Alt+1): C 50 + 10 % > =
+   leitura apos [%]: NormalOutput='5' visor.Name='A exibição é 5' expressao.Name='Expression é 50 + 5' OCR='50 +5' captura=capturas/3a-15-1.png
+   leitura apos [=]: NormalOutput='55' visor.Name='A exibição é 55' expressao.Name='Expression é 50 + 5=' OCR='50+5=' captura=capturas/3a-15-final.png
+
+== 3a-16 (modo Alt+1): C 50 * 10 % > =
+   leitura apos [%]: NormalOutput='0,1' visor.Name='A exibição é 0,1' expressao.Name='Expression é 50 × 0,1' OCR='50 x' captura=capturas/3a-16-1.png
+   leitura apos [=]: NormalOutput='5' visor.Name='A exibição é 5' expressao.Name='Expression é 50 × 0,1=' OCR='50 x =' captura=capturas/3a-16-final.png
+
+== 3a-17 (modo Alt+1): C 10 %
+   leitura apos [%]: NormalOutput='0' visor.Name='A exibição é 0' expressao.Name='Expression é 0' OCR='(vazia)' captura=capturas/3a-17-final.png
+
+== 3a-24 (modo Alt+1): C 2 + 3 = > BS
+   leitura apos [=]: NormalOutput='5' visor.Name='A exibição é 5' expressao.Name='Expression é 2 + 3=' OCR='(vazia)' captura=capturas/3a-24-1.png
+   leitura apos [⌫]: NormalOutput='5' visor.Name='A exibição é 5' expressao.Name='' OCR='(vazia)' captura=capturas/3a-24-final.png
+
+== 3a-27 (modo Alt+1): C 9 SQRT
+   leitura apos [√]: NormalOutput='3' visor.Name='A exibição é 3' expressao.Name='Expression é √(9)' OCR='(9)' captura=capturas/3a-27-final.png
+
+== 3a-28 (modo Alt+1): C 3 SQR > C 4 INV
+   leitura apos [x²]: NormalOutput='9' visor.Name='A exibição é 9' expressao.Name='Expression é quadrado (3)' OCR='(vazia)' captura=capturas/3a-28-1.png
+   leitura apos [1/x]: NormalOutput='0,25' visor.Name='A exibição é 0,25' expressao.Name='Expression é 1/(4)' OCR='(vazia)' captura=capturas/3a-28-final.png
+
+== 3a-29 (modo Alt+1): C 5 + 3 CE 2 =
+   leitura apos [=]: NormalOutput='7' visor.Name='A exibição é 7' expressao.Name='Expression é 5 + 2=' OCR='(vazia)' captura=capturas/3a-29-final.png
+
+== 3a-09 (modo Alt+1): C 8 / 0 = > + > 5
+   leitura apos [=]: NormalOutput='Não é possível dividir por zero' visor.Name='A exibição é Não é possível dividir por zero' expressao.Name='Expression é 8 ÷ ' OCR='(vazia)' captura=capturas/3a-09-1.png
+   tecla + desabilitada, nao pressionada
+   leitura apos [+]: NormalOutput='Não é possível dividir por zero' visor.Name='A exibição é Não é possível dividir por zero' expressao.Name='Expression é 8 ÷ ' OCR='(vazia)' captura=capturas/3a-09-2.png
+   leitura apos [5]: NormalOutput='5' visor.Name='A exibição é 5' expressao.Name='' OCR='(vazia)' captura=capturas/3a-09-final.png
+
+== 3a-23 (modo Alt+1): C 000 > DEC > BS
+   leitura apos [0]: NormalOutput='0' visor.Name='A exibição é 0' expressao.Name='' OCR='(vazia)' captura=capturas/3a-23-1.png
+   leitura apos [,]: NormalOutput='0,' visor.Name='Exibição é de 0 ponto(s)' expressao.Name='' OCR='(vazia)' captura=capturas/3a-23-2.png
+   leitura apos [⌫]: NormalOutput='0' visor.Name='A exibição é 0' expressao.Name='' OCR='(vazia)' captura=capturas/3a-23-final.png
+
+== 3a-25 (modo Alt+1): C 0 NEG > C 5 NEG
+   leitura apos [±]: NormalOutput='0' visor.Name='A exibição é 0' expressao.Name='' OCR='(vazia)' captura=capturas/3a-25-1.png
+   leitura apos [±]: NormalOutput='-5' visor.Name='A exibição é -5' expressao.Name='' OCR='(vazia)' captura=capturas/3a-25-final.png

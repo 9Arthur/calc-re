@@ -1,0 +1,704 @@
+{
+ "por_modo": {
+  "cientifico": {
+   "casos": 39,
+   "acertos": 34,
+   "sem_leitura": 0,
+   "com_falha_automacao": 0
+  }
+ },
+ "casos": [
+  {
+   "id": "dif-Ci-062",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "8 NEG ( 0 0 MS 8 CBRT * / 2^X 7 NEG ) =",
+   "acerto": false,
+   "visor_real": "-0,28571428571428571428571428571429",
+   "visor_reimpl": "2,2857142857142857142857142857143",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-063",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "- 0 E EX =",
+   "acerto": true,
+   "visor_real": "-15,15426224147926418976043027263",
+   "visor_reimpl": "-15,15426224147926418976043027263",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-064",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "+ 7 0 NEG 0 P10 NEG = =",
+   "acerto": true,
+   "visor_real": "-2,e-700",
+   "visor_reimpl": "-2,e-700",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-065",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "* MS 1 NEG 1 SQRT =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-066",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": ") BS 2 MOD E =",
+   "acerto": true,
+   "visor_real": "2",
+   "visor_reimpl": "2",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-067",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "ATAN 4 - 0 M- MS 9 =",
+   "acerto": true,
+   "visor_real": "-5",
+   "visor_reimpl": "-5",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-068",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "MOD 1 9 DEC SQRT 8 =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-069",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "/ 4 =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-070",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "SIN - =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-071",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "/ COS / 9 3 =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-072",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "4 ( / SINH 4 E 4 NEG 6 4 MOD 9 4 =",
+   "acerto": true,
+   "visor_real": "375,9655172413793103448275862069",
+   "visor_reimpl": "375,9655172413793103448275862069",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-073",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "* 4 6 8 LOG 3 4 8 9 0 ( 4 ) * =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-074",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "- 2 3 2^X CUBE C 1 SQR + =",
+   "acerto": true,
+   "visor_real": "2",
+   "visor_reimpl": "2",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-075",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "SQRT 3 MS 7 5 PI SIN DEC 9 2 POW ) / =",
+   "acerto": true,
+   "visor_real": "1",
+   "visor_reimpl": "1",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-076",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "C + = 2 =",
+   "acerto": true,
+   "visor_real": "2",
+   "visor_reimpl": "2",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-077",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "1 * 7 PI 3 3 4 9 SIN LOG 3 =",
+   "acerto": true,
+   "visor_real": "3",
+   "visor_reimpl": "3",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-078",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "( 1 ) 3 DEC - PI + MOD = =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-079",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "POW 5 * * 8 =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-080",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "/ 8 POW CEIL SQRT 2 COSH 8 FE ASIN LOGY MOD FLOOR MC =",
+   "acerto": false,
+   "visor_real": "0",
+   "visor_reimpl": "0,e+0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [
+    "LOGY: tecla LOGY (shiftButton) desabilitada, nao pressionada",
+    "MOD: botao modButton desabilitado, nao pressionado",
+    "FLOOR: submenu de funcButton nao abriu",
+    "MC: botao ClearMemoryButton desabilitado, nao pressionado"
+   ],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-081",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "0 5 + COSH =",
+   "acerto": true,
+   "visor_real": "79,209948524787844444106108044488",
+   "visor_reimpl": "79,209948524787844444106108044488",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-082",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "CUBE 7 3 EXP EXP / MS M- / 8 8 1 = 4 =",
+   "acerto": true,
+   "visor_real": "0,00454029511918274687854710556186",
+   "visor_reimpl": "0,00454029511918274687854710556186",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-083",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "7 ) ASIN + FLOOR 6 ( 8 DEC =",
+   "acerto": true,
+   "visor_real": "48",
+   "visor_reimpl": "48",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [
+    "+: botao plusButton desabilitado, nao pressionado",
+    "FLOOR: submenu de funcButton nao abriu"
+   ],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-084",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "MC 6 CUBE ASIN ) - ( 7 7 M+ / EXP =",
+   "acerto": false,
+   "visor_real": "1",
+   "visor_reimpl": "-1",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [
+    "MC: botao ClearMemoryButton desabilitado, nao pressionado",
+    "): botao closeParenthesisButton desabilitado, nao pressionado",
+    "-: botao minusButton desabilitado, nao pressionado",
+    "(: botao openParenthesisButton desabilitado, nao pressionado"
+   ],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-085",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "ACOS * CEIL =",
+   "acerto": true,
+   "visor_real": "8.100",
+   "visor_reimpl": "8.100",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-086",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "LN 8 ) ASIN DEC MS PI EXP - 8 TANH 0 =",
+   "acerto": false,
+   "visor_real": "0",
+   "visor_reimpl": "3,1415926535897932384626433832795",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [
+    "DEC: botao decimalSeparatorButton desabilitado, nao pressionado",
+    "MS: botao memButton desabilitado, nao pressionado",
+    "PI: botao piButton desabilitado, nao pressionado",
+    "EXP: botao expButton desabilitado, nao pressionado",
+    "-: botao minusButton desabilitado, nao pressionado"
+   ],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-087",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "NEG BS 8 5 / TANH COSH MR =",
+   "acerto": true,
+   "visor_real": "55,084613261430258963873075024223",
+   "visor_reimpl": "55,084613261430258963873075024223",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [
+    "MR: botao MemRecall desabilitado, nao pressionado"
+   ],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-088",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "C 8 CUBE 5 5 NEG ATAN ASIN MOD FE + LN NEG NEG =",
+   "acerto": false,
+   "visor_real": "0",
+   "visor_reimpl": "0,e+0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [
+    "MOD: botao modButton desabilitado, nao pressionado",
+    "NEG: botao negateButton desabilitado, nao pressionado",
+    "NEG: botao negateButton desabilitado, nao pressionado"
+   ],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-089",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "SQRT M+ 5 EXP 7 3 MOD POW P10 7 E 0 ( 7 =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-090",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "P10 POW ( * =",
+   "acerto": true,
+   "visor_real": "1",
+   "visor_reimpl": "1",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-091",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "* ABS 5 = * E 2 + SIN + MOD COS =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-092",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "TAN PI ABS MOD ( 4 1 ) 2^X LOG 8 =",
+   "acerto": true,
+   "visor_real": "3,1415926535897932384626433832795",
+   "visor_reimpl": "3,1415926535897932384626433832795",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-093",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "( DEC 9 CEIL BS 1 MOD CBRT MC =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [
+    "MC: botao ClearMemoryButton desabilitado, nao pressionado"
+   ],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-094",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": ") EX MS ASIN NEG COS CEIL 5 * =",
+   "acerto": true,
+   "visor_real": "25",
+   "visor_reimpl": "25",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-095",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "NEG COS ) 7 C * 5 ABS 5 SINH / =",
+   "acerto": true,
+   "visor_real": "Resultado indefinido",
+   "visor_reimpl": "Resultado indefinido",
+   "erro_real": true,
+   "erro_reimpl": true,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-096",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "8 CEIL 0 4 TANH MS 6 7 YROOT * =",
+   "acerto": true,
+   "visor_real": "4.489",
+   "visor_reimpl": "4.489",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-097",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "1 ASIN * FE P10 2 7 =",
+   "acerto": true,
+   "visor_real": "2,7e+3",
+   "visor_reimpl": "2,7e+3",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-098",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "GRAD"
+   },
+   "passos": "P10 POW FE COSH 6 8 =",
+   "acerto": true,
+   "visor_real": "1,e+0",
+   "visor_reimpl": "1,e+0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-099",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "DEG"
+   },
+   "passos": "- CBRT ) SIN 7 8 NEG M- ) DEC =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  },
+  {
+   "id": "dif-Ci-100",
+   "modo": "cientifico",
+   "preparo": {
+    "angulo": "RAD"
+   },
+   "passos": "POW BS 9 8 DEC ( ) MC NEG 1 2^X CUBE BS * =",
+   "acerto": true,
+   "visor_real": "0",
+   "visor_reimpl": "0",
+   "erro_real": false,
+   "erro_reimpl": false,
+   "notas_real": [
+    "MC: botao ClearMemoryButton desabilitado, nao pressionado"
+   ],
+   "falha_real": null,
+   "notas_reimpl": [],
+   "suspeita_automacao": false
+  }
+ ]
+}

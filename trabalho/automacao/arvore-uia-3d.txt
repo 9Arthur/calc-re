@@ -1,0 +1,431 @@
+# Arvore UIA do modo Programador - Calculadora 11.2607.0.0; 2026-10-23T01:26:08
+Header='Modo Calculadora Programador'
+
+##### RawView da janela (teclado completo) #####
+[Window] Name="Calculadora" AutomationId="" Class="ApplicationFrameWindow" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="TitleBar" Class="ApplicationFrameTitleBarWindow" Enabled=True Offscreen=False
+    [MenuBar] Name="Sistema" AutomationId="SystemMenuBar" Class="" Enabled=True Offscreen=False
+      [MenuItem] Name="Sistema" AutomationId="" Class="" Enabled=True Offscreen=False
+    [Button] Name="Minimizar Calculadora" AutomationId="Minimize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Maximizar Calculadora" AutomationId="Maximize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Fechar Calculadora" AutomationId="Close" Class="" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="" Class="Windows.UI.Core.CoreWindow" Enabled=True Offscreen=False
+    [Image] Name="" AutomationId="AppIcon" Class="Image" Enabled=True Offscreen=False
+    [Text] Name="Calculadora" AutomationId="AppName" Class="TextBlock" Enabled=True Offscreen=False
+    [Custom] Name="" AutomationId="NavView" Class="" Enabled=True Offscreen=False
+      [Button] Name="Abrir Navegação" AutomationId="TogglePaneButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="" AutomationId="PaneTitleTextBlock" Class="TextBlock" Enabled=True Offscreen=True
+      [Group] Name="" AutomationId="" Class="LandmarkTarget" Enabled=True Offscreen=False
+        [Text] Name="Expression é " AutomationId="CalculatorExpression" Class="" Enabled=True Offscreen=True
+        [Text] Name="A exibição é 0" AutomationId="CalculatorResults" Class="" Enabled=True Offscreen=False
+          [Pane] Name="0" AutomationId="TextContainer" Class="ScrollViewer" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="NormalOutput" Class="TextBlock" Enabled=True Offscreen=False
+        [Group] Name="Seleção de base" AutomationId="ProgrammerOperators" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [RadioButton] Name="Hexadecimal 0 " AutomationId="hexButton" Class="RadioButton" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="ContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="HEX" AutomationId="LabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="CheckedContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="HEX" AutomationId="CheckedLabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [RadioButton] Name="Decimal 0" AutomationId="decimalButton" Class="RadioButton" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="ContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="DEC" AutomationId="LabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="CheckedContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="DEC" AutomationId="CheckedLabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [RadioButton] Name="Octal 0 " AutomationId="octolButton" Class="RadioButton" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="ContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="OCT" AutomationId="LabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="CheckedContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="OCT" AutomationId="CheckedLabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [RadioButton] Name="Binário 0 " AutomationId="binaryButton" Class="RadioButton" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="ContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="BIN" AutomationId="LabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="CheckedContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+            [Text] Name="BIN" AutomationId="CheckedLabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+        [Group] Name="Seleção de método de entrada" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [RadioButton] Name="Teclado completo" AutomationId="fullKeypad" Class="RadioButton" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [RadioButton] Name="Teclado de alternância de bits" AutomationId="bitFlip" Class="RadioButton" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="Alternância de palavra quádrupla" AutomationId="qwordButton" Class="Button" Enabled=True Offscreen=False
+          [Text] Name="QWORD" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Group] Name="Controles de memória" AutomationId="MemoryPanel" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Armazenamento de memória" AutomationId="memButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Abrir submenu de memória" AutomationId="MemoryButton" Class="Button" Enabled=False Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [List] Name="Painéis de operação do programador" AutomationId="" Class="ListView" Enabled=True Offscreen=False
+          [ListItem] Name="Bit a bit" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Button] Name="Bit a bit" AutomationId="bitwiseButton" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+              [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+              [Text] Name="Bit a bit" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+              [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [ListItem] Name="Bit-shift" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Button] Name="Bit-shift" AutomationId="bitShiftButton" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+              [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+              [Text] Name="Deslocamento de bit" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+              [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Group] Name="Operadores de programador" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Deslocamento à esquerda" AutomationId="lshButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Deslocamento à direita" AutomationId="rshButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Group] Name="Controles de exibição" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Limpar" AutomationId="clearButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="C" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Backspace" AutomationId="backSpaceButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="Parêntese esquerdo" AutomationId="openParenthesisButton" Class="Button" Enabled=True Offscreen=False
+          [Text] Name="(" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="" AutomationId="ParenthesisCount" Class="TextBlock" Enabled=True Offscreen=True
+        [Button] Name="Parêntese direito" AutomationId="closeParenthesisButton" Class="Button" Enabled=True Offscreen=False
+          [Text] Name=")" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="Módulo" AutomationId="modButton" Class="Button" Enabled=True Offscreen=False
+          [Text] Name="%" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Group] Name="Operadores padrão" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Dividir por" AutomationId="divideButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Multiplicar por" AutomationId="multiplyButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Menos" AutomationId="minusButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Mais" AutomationId="plusButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Igual a" AutomationId="equalButton" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Group] Name="Teclado numérico" AutomationId="NumberPad" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="A" AutomationId="aButton" Class="Button" Enabled=False Offscreen=False
+            [Text] Name="A" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="B" AutomationId="bButton" Class="Button" Enabled=False Offscreen=False
+            [Text] Name="B" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="C" AutomationId="cButton" Class="Button" Enabled=False Offscreen=False
+            [Text] Name="C" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="D" AutomationId="dButton" Class="Button" Enabled=False Offscreen=False
+            [Text] Name="D" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="E" AutomationId="eButton" Class="Button" Enabled=False Offscreen=False
+            [Text] Name="E" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="F" AutomationId="fButton" Class="Button" Enabled=False Offscreen=False
+            [Text] Name="F" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Zero" AutomationId="num0Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Um" AutomationId="num1Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="1" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Dois" AutomationId="num2Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="2" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Três" AutomationId="num3Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="3" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Quatro" AutomationId="num4Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="4" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Cinco" AutomationId="num5Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="5" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Seis" AutomationId="num6Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="6" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Sete" AutomationId="num7Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="7" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Oito" AutomationId="num8Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="8" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Nove" AutomationId="num9Button" Class="Button" Enabled=True Offscreen=False
+            [Text] Name="9" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Button] Name="Separador decimal" AutomationId="decimalSeparatorButton" Class="Button" Enabled=False Offscreen=False
+            [Text] Name="," AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="Positivo negativo" AutomationId="negateButton" Class="Button" Enabled=True Offscreen=False
+          [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Text] Name="Modo Calculadora Programador" AutomationId="Header" Class="TextBlock" Enabled=True Offscreen=False
+  [Pane] Name="" AutomationId="" Class="ApplicationFrameInputSinkWindow" Enabled=True Offscreen=False
+
+##### apos clicar bitwiseButton (Bit a bit) #####
+Clicar: 
+[Window] Name="Popup" AutomationId="" Class="Popup" Enabled=True Offscreen=True
+  [Pane] Name="" AutomationId="BitwiseFlyout" Class="Flyout" Enabled=True Offscreen=False
+    [Pane] Name="" AutomationId="ScrollViewer" Class="ScrollViewer" Enabled=True Offscreen=False
+      [Button] Name="E" AutomationId="andButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="AND" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Ou" AutomationId="orButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="OR" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Not" AutomationId="notButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="NOT" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Nand" AutomationId="nandButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="NAND" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Nor" AutomationId="norButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="NOR" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Exclusiva ou" AutomationId="xorButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="XOR" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+
+##### apos clicar bitShiftButton (Bit-shift) #####
+Clicar: 
+[Window] Name="Popup" AutomationId="" Class="Popup" Enabled=True Offscreen=True
+  [Pane] Name="" AutomationId="BitShiftFlyout" Class="Flyout" Enabled=True Offscreen=False
+    [Pane] Name="" AutomationId="ScrollViewer" Class="ScrollViewer" Enabled=True Offscreen=False
+      [RadioButton] Name="Deslocamento aritmético" AutomationId="arithmeticShiftButton" Class="RadioButton" Enabled=True Offscreen=False
+        [Text] Name="Deslocamento aritmético" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [RadioButton] Name="Deslocamento lógico" AutomationId="logicalShiftButton" Class="RadioButton" Enabled=True Offscreen=False
+        [Text] Name="Deslocamento lógico" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [RadioButton] Name="Girar deslocamento circular" AutomationId="rotateCircularButton" Class="RadioButton" Enabled=True Offscreen=False
+        [Text] Name="Girar deslocamento circular" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [RadioButton] Name="Girar através do deslocamento circular de transporte" AutomationId="rotateCarryShiftButton" Class="RadioButton" Enabled=True Offscreen=False
+        [Text] Name="Girar através do deslocamento circular de transporte" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+
+##### apos ligar bitFlip #####
+Clicar: 
+[Window] Name="Calculadora" AutomationId="" Class="Windows.UI.Core.CoreWindow" Enabled=True Offscreen=False
+  [Image] Name="" AutomationId="AppIcon" Class="Image" Enabled=True Offscreen=False
+  [Text] Name="Calculadora" AutomationId="AppName" Class="TextBlock" Enabled=True Offscreen=False
+  [Custom] Name="" AutomationId="NavView" Class="" Enabled=True Offscreen=False
+    [Button] Name="Abrir Navegação" AutomationId="TogglePaneButton" Class="Button" Enabled=True Offscreen=False
+      [Text] Name="" AutomationId="PaneTitleTextBlock" Class="TextBlock" Enabled=True Offscreen=True
+    [Group] Name="" AutomationId="" Class="LandmarkTarget" Enabled=True Offscreen=False
+      [Text] Name="Expression é " AutomationId="CalculatorExpression" Class="" Enabled=True Offscreen=True
+      [Text] Name="A exibição é 0" AutomationId="CalculatorResults" Class="" Enabled=True Offscreen=False
+        [Pane] Name="0" AutomationId="TextContainer" Class="ScrollViewer" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="NormalOutput" Class="TextBlock" Enabled=True Offscreen=False
+      [Group] Name="Seleção de base" AutomationId="ProgrammerOperators" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+        [RadioButton] Name="Hexadecimal 0 " AutomationId="hexButton" Class="RadioButton" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="ContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="HEX" AutomationId="LabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="CheckedContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="HEX" AutomationId="CheckedLabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+        [RadioButton] Name="Decimal 0" AutomationId="decimalButton" Class="RadioButton" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="ContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="DEC" AutomationId="LabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="CheckedContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="DEC" AutomationId="CheckedLabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+        [RadioButton] Name="Octal 0 " AutomationId="octolButton" Class="RadioButton" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="ContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="OCT" AutomationId="LabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="CheckedContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="OCT" AutomationId="CheckedLabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+        [RadioButton] Name="Binário 0 " AutomationId="binaryButton" Class="RadioButton" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="ContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="BIN" AutomationId="LabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="CheckedContentPresenter" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="BIN" AutomationId="CheckedLabelPresenter" Class="TextBlock" Enabled=True Offscreen=False
+      [Group] Name="Seleção de método de entrada" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+        [RadioButton] Name="Teclado completo" AutomationId="fullKeypad" Class="RadioButton" Enabled=True Offscreen=False
+          [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [RadioButton] Name="Teclado de alternância de bits" AutomationId="bitFlip" Class="RadioButton" Enabled=True Offscreen=False
+          [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Alternância de palavra quádrupla" AutomationId="qwordButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="QWORD" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Group] Name="Controles de memória" AutomationId="MemoryPanel" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+        [Button] Name="Armazenamento de memória" AutomationId="memButton" Class="Button" Enabled=True Offscreen=False
+          [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="Abrir submenu de memória" AutomationId="MemoryButton" Class="Button" Enabled=False Offscreen=False
+          [Text] Name="" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+      [Group] Name="Teclado de alternância de bits" AutomationId="BitFlipPanel" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+        [Text] Name="60" AutomationId="Label60" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="56" AutomationId="Label56" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="52" AutomationId="Label52" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="48" AutomationId="Label48" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="44" AutomationId="Label44" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="40" AutomationId="Label40" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="36" AutomationId="Label36" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="32" AutomationId="Label32" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="28" AutomationId="Label28" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="24" AutomationId="Label24" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="20" AutomationId="Label20" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="16" AutomationId="Label16" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="12" AutomationId="Label12" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="8" AutomationId="Label8" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="4" AutomationId="Label4" Class="TextBlock" Enabled=True Offscreen=False
+        [Text] Name="0" AutomationId="Label0" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="bit mais significativo, valor 0" AutomationId="Bit63" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="62º bit, valor 0" AutomationId="Bit62" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="61º bit, valor 0" AutomationId="Bit61" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="60º bit, valor 0" AutomationId="Bit60" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="59º bit, valor 0" AutomationId="Bit59" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="58º bit, valor 0" AutomationId="Bit58" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="57º bit, valor 0" AutomationId="Bit57" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="56º bit, valor 0" AutomationId="Bit56" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="55º bit, valor 0" AutomationId="Bit55" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="54º bit, valor 0" AutomationId="Bit54" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="53º bit, valor 0" AutomationId="Bit53" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="52º bit, valor 0" AutomationId="Bit52" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="51º bit, valor 0" AutomationId="Bit51" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="50º bit, valor 0" AutomationId="Bit50" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="49º bit, valor 0" AutomationId="Bit49" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="48º bit, valor 0" AutomationId="Bit48" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="47º bit, valor 0" AutomationId="Bit47" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="46º bit, valor 0" AutomationId="Bit46" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="45º bit, valor 0" AutomationId="Bit45" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="44º bit, valor 0" AutomationId="Bit44" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="43º bit, valor 0" AutomationId="Bit43" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="42º bit, valor 0" AutomationId="Bit42" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="41º bit, valor 0" AutomationId="Bit41" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="40º bit, valor 0" AutomationId="Bit40" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="39º bit, valor 0" AutomationId="Bit39" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="38º bit, valor 0" AutomationId="Bit38" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="37º bit, valor 0" AutomationId="Bit37" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="36º bit, valor 0" AutomationId="Bit36" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="35º bit, valor 0" AutomationId="Bit35" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="34º bit, valor 0" AutomationId="Bit34" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="33º bit, valor 0" AutomationId="Bit33" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="32º bit, valor 0" AutomationId="Bit32" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="31º bit, valor 0" AutomationId="Bit31" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="30º bit, valor 0" AutomationId="Bit30" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="29º bit, valor 0" AutomationId="Bit29" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="28º bit, valor 0" AutomationId="Bit28" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="27º bit, valor 0" AutomationId="Bit27" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="26º bit, valor 0" AutomationId="Bit26" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="25º bit, valor 0" AutomationId="Bit25" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="24º bit, valor 0" AutomationId="Bit24" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="23º bit, valor 0" AutomationId="Bit23" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="22º bit, valor 0" AutomationId="Bit22" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="21º bit, valor 0" AutomationId="Bit21" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="20º bit, valor 0" AutomationId="Bit20" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="19º bit, valor 0" AutomationId="Bit19" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="18º bit, valor 0" AutomationId="Bit18" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="17º bit, valor 0" AutomationId="Bit17" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="16º bit, valor 0" AutomationId="Bit16" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="15º bit, valor 0" AutomationId="Bit15" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="14º bit, valor 0" AutomationId="Bit14" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="13º bit, valor 0" AutomationId="Bit13" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="12º bit, valor 0" AutomationId="Bit12" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="11º bit, valor 0" AutomationId="Bit11" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="10º bit, valor 0" AutomationId="Bit10" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="9º bit, valor 0" AutomationId="Bit9" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="8º bit, valor 0" AutomationId="Bit8" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="7º bit, valor 0" AutomationId="Bit7" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="6º bit, valor 0" AutomationId="Bit6" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="5º bit, valor 0" AutomationId="Bit5" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="4º bit, valor 0" AutomationId="Bit4" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="3º bit, valor 0" AutomationId="Bit3" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="2º bit, valor 0" AutomationId="Bit2" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="1º bit, valor 0" AutomationId="Bit1" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="bit menos significativo, valor 0" AutomationId="Bit0" Class="ToggleButton" Enabled=True Offscreen=False toggle=Off
+          [Text] Name="0" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [Text] Name="0" AutomationId="BinaryZero" Class="TextBlock" Enabled=True Offscreen=False
+    [Text] Name="Modo Calculadora Programador" AutomationId="Header" Class="TextBlock" Enabled=True Offscreen=False
+Clicar fullKeypad: 
+
+##### botao de tamanho: 4 cliques (visor em 0) #####
+antes do clique 1: visiveis=qwordButton
+antes do clique 2: visiveis=dwordButton
+antes do clique 3: visiveis=wordButton
+antes do clique 4: visiveis=byteButton
+final: visiveis=qwordButton
+visor no fim: '0'

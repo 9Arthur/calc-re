@@ -1,0 +1,31 @@
+padrao: 98/100 (98%); sem leitura 0; com indício de falha da automação 0
+cientifico: 96/100 (96%); sem leitura 0; com indício de falha da automação 3
+programador: 99/100 (99%); sem leitura 0; com indício de falha da automação 0
+
+dif2-Pd-005 {}: 2 = INV % MR - NEG 1 7 5 * =
+  real  : '30.621,5001' erro=False ['MR: tecla MR desabilitada, nao pressionada'] 
+  reimpl: '30.625' erro=False ['MR desabilitado, não pressionado']
+
+dif2-Pd-087 {}: BS 7 = 3 MS 3 % =
+  real  : '0,21' erro=False [] 
+  reimpl: '0' erro=False []
+
+dif2-Ci-010 {'angulo': 'RAD'}: ) - SIN EX + MC 8 ( ( = =
+  real  : '127' erro=False ['SIN: submenu Trigonometria nao abriu', 'MC: botao ClearMemoryButton desabilitado, nao pressionado'] 
+  reimpl: '504' erro=False ['MC desabilitado, não pressionado']
+
+dif2-Ci-028 {'angulo': 'RAD'}: 8 * + - 6 8 COS FE 3 ( C =
+  real  : '0' erro=False [] 
+  reimpl: '0,e+0' erro=False []
+
+dif2-Ci-097 {'angulo': 'DEG'}: E PI E SQR NEG P10 PI CBRT - DEC ACOS =
+  real  : '1,4645918875615232630201425272638' erro=False ['ACOS: toggle trigShiftButton ausente'] 
+  reimpl: '-88,535408112438476736979857472736' erro=False []
+
+dif2-Ci-098 {'angulo': 'RAD'}: E POW 9 TANH FLOOR MS ) =
+  real  : '8.103,0839275753840077099966894328' erro=False ['TANH: toggle hypShiftButton ausente'] 
+  reimpl: '1' erro=False []
+
+dif2-Pr-078 {'base': 'OCT', 'tamanho': 'QWORD', 'deslocamento': 'Circ'}: = #5 NOR #7 NOT - NOR #6 #5 #1 #2 ROL = =
+  real  : '4' erro=False [] 
+  reimpl: '3' erro=False []

@@ -1,0 +1,21 @@
+cientifico: 34/39 (87%); sem leitura 0; com indício de falha da automação 0
+
+dif-Ci-062 {'angulo': 'DEG'}: 8 NEG ( 0 0 MS 8 CBRT * / 2^X 7 NEG ) =
+  real  : '-0,28571428571428571428571428571429' erro=False [] 
+  reimpl: '2,2857142857142857142857142857143' erro=False []
+
+dif-Ci-080 {'angulo': 'RAD'}: / 8 POW CEIL SQRT 2 COSH 8 FE ASIN LOGY MOD FLOOR MC =
+  real  : '0' erro=False ['LOGY: tecla LOGY (shiftButton) desabilitada, nao pressionada', 'MOD: botao modButton desabilitado, nao pressionado', 'FLOOR: submenu de funcButton nao abriu', 'MC: botao ClearMemoryButton desabilitado, nao pressionado'] 
+  reimpl: '0,e+0' erro=False []
+
+dif-Ci-084 {'angulo': 'GRAD'}: MC 6 CUBE ASIN ) - ( 7 7 M+ / EXP =
+  real  : '1' erro=False ['MC: botao ClearMemoryButton desabilitado, nao pressionado', '): botao closeParenthesisButton desabilitado, nao pressionado', '-: botao minusButton desabilitado, nao pressionado', '(: botao openParenthesisButton desabilitado, nao pressionado'] 
+  reimpl: '-1' erro=False []
+
+dif-Ci-086 {'angulo': 'DEG'}: LN 8 ) ASIN DEC MS PI EXP - 8 TANH 0 =
+  real  : '0' erro=False ['DEC: botao decimalSeparatorButton desabilitado, nao pressionado', 'MS: botao memButton desabilitado, nao pressionado', 'PI: botao piButton desabilitado, nao pressionado', 'EXP: botao expButton desabilitado, nao pressionado', '-: botao minusButton desabilitado, nao pressionado'] 
+  reimpl: '3,1415926535897932384626433832795' erro=False []
+
+dif-Ci-088 {'angulo': 'RAD'}: C 8 CUBE 5 5 NEG ATAN ASIN MOD FE + LN NEG NEG =
+  real  : '0' erro=False ['MOD: botao modButton desabilitado, nao pressionado', 'NEG: botao negateButton desabilitado, nao pressionado', 'NEG: botao negateButton desabilitado, nao pressionado'] 
+  reimpl: '0,e+0' erro=False []

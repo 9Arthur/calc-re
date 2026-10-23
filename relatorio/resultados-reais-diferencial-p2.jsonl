@@ -1,0 +1,40 @@
+# Calculadora 11.2607.0.0 X64; cultura pt-BR; UI pt-BR; inicio 2026-10-23T11:22:08.1822391-03:00; casos SHA-256 980bdf30b5ec2702ca2508bb996b7d9414c71b068813d32f5fb417d2ec024d6f; semente 20261023; 39 casos; verificar preparo=True
+{"id":"dif-Ci-062","visor":"-0,28571428571428571428571428571429","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:22:08.3113748-03:00","fim":"2026-10-23T11:22:24.0367185-03:00"}
+{"id":"dif-Ci-063","visor":"-15,15426224147926418976043027263","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:22:24.0457200-03:00","fim":"2026-10-23T11:22:29.4166927-03:00"}
+{"id":"dif-Ci-064","visor":"-2,e-700","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:22:29.4226906-03:00","fim":"2026-10-23T11:22:35.1418033-03:00"}
+{"id":"dif-Ci-065","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:22:35.1467856-03:00","fim":"2026-10-23T11:22:40.9693168-03:00"}
+{"id":"dif-Ci-066","visor":"2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:22:40.9743221-03:00","fim":"2026-10-23T11:22:44.9520561-03:00"}
+{"id":"dif-Ci-067","visor":"-5","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:22:44.9560578-03:00","fim":"2026-10-23T11:22:51.6244888-03:00"}
+{"id":"dif-Ci-068","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:22:51.6294921-03:00","fim":"2026-10-23T11:22:57.1465802-03:00"}
+{"id":"dif-Ci-069","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:22:57.1515846-03:00","fim":"2026-10-23T11:23:01.0287323-03:00"}
+{"id":"dif-Ci-070","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:01.0347286-03:00","fim":"2026-10-23T11:23:05.1262511-03:00"}
+{"id":"dif-Ci-071","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:05.1321031-03:00","fim":"2026-10-23T11:23:10.2460025-03:00"}
+{"id":"dif-Ci-072","visor":"375,9655172413793103448275862069","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:10.2520002-03:00","fim":"2026-10-23T11:23:19.2893020-03:00"}
+{"id":"dif-Ci-073","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:19.2933389-03:00","fim":"2026-10-23T11:23:27.3091617-03:00"}
+{"id":"dif-Ci-074","visor":"2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:27.3141579-03:00","fim":"2026-10-23T11:23:34.6834317-03:00"}
+{"id":"dif-Ci-075","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:34.6880116-03:00","fim":"2026-10-23T11:23:41.8053060-03:00"}
+{"id":"dif-Ci-076","visor":"2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:41.8103076-03:00","fim":"2026-10-23T11:23:45.7336649-03:00"}
+{"id":"dif-Ci-077","visor":"3","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:45.7396631-03:00","fim":"2026-10-23T11:23:52.6184502-03:00"}
+{"id":"dif-Ci-078","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:52.6232725-03:00","fim":"2026-10-23T11:23:58.9539149-03:00"}
+{"id":"dif-Ci-079","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:23:58.9589169-03:00","fim":"2026-10-23T11:24:04.3190719-03:00"}
+{"id":"dif-Ci-080","visor":"0","mais_habilitado":true,"notas":["LOGY: tecla LOGY (shiftButton) desabilitada, nao pressionada","MOD: botao modButton desabilitado, nao pressionado","FLOOR: submenu de funcButton nao abriu","MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T11:24:04.3239265-03:00","fim":"2026-10-23T11:24:18.2470689-03:00"}
+{"id":"dif-Ci-081","visor":"79,209948524787844444106108044488","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:24:18.2600718-03:00","fim":"2026-10-23T11:24:24.5028191-03:00"}
+{"id":"dif-Ci-082","visor":"0,00454029511918274687854710556186","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:24:24.5082041-03:00","fim":"2026-10-23T11:24:32.9683049-03:00"}
+{"id":"dif-Ci-083","visor":"48","mais_habilitado":true,"notas":["+: botao plusButton desabilitado, nao pressionado","FLOOR: submenu de funcButton nao abriu"],"falha":null,"inicio":"2026-10-23T11:24:32.9743041-03:00","fim":"2026-10-23T11:24:43.4511610-03:00"}
+{"id":"dif-Ci-084","visor":"1","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado","): botao closeParenthesisButton desabilitado, nao pressionado","-: botao minusButton desabilitado, nao pressionado","(: botao openParenthesisButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T11:24:43.4561629-03:00","fim":"2026-10-23T11:24:50.3547018-03:00"}
+{"id":"dif-Ci-085","visor":"8.100","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:24:50.3609994-03:00","fim":"2026-10-23T11:24:56.9793847-03:00"}
+{"id":"dif-Ci-086","visor":"0","mais_habilitado":true,"notas":["DEC: botao decimalSeparatorButton desabilitado, nao pressionado","MS: botao memButton desabilitado, nao pressionado","PI: botao piButton desabilitado, nao pressionado","EXP: botao expButton desabilitado, nao pressionado","-: botao minusButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T11:24:56.9843819-03:00","fim":"2026-10-23T11:25:04.2128297-03:00"}
+{"id":"dif-Ci-087","visor":"55,084613261430258963873075024223","mais_habilitado":true,"notas":["MR: botao MemRecall desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T11:25:04.2178321-03:00","fim":"2026-10-23T11:25:10.8901553-03:00"}
+{"id":"dif-Ci-088","visor":"0","mais_habilitado":true,"notas":["MOD: botao modButton desabilitado, nao pressionado","NEG: botao negateButton desabilitado, nao pressionado","NEG: botao negateButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T11:25:10.8948856-03:00","fim":"2026-10-23T11:25:20.7415352-03:00"}
+{"id":"dif-Ci-089","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:25:20.7463771-03:00","fim":"2026-10-23T11:25:34.8781164-03:00"}
+{"id":"dif-Ci-090","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:25:34.8841047-03:00","fim":"2026-10-23T11:25:39.6414705-03:00"}
+{"id":"dif-Ci-091","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:25:39.6464674-03:00","fim":"2026-10-23T11:25:49.1028759-03:00"}
+{"id":"dif-Ci-092","visor":"3,1415926535897932384626433832795","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:25:49.1088828-03:00","fim":"2026-10-23T11:25:56.4508658-03:00"}
+{"id":"dif-Ci-093","visor":"0","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T11:25:56.4558680-03:00","fim":"2026-10-23T11:26:04.0489170-03:00"}
+{"id":"dif-Ci-094","visor":"25","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:26:04.0539201-03:00","fim":"2026-10-23T11:26:13.9592671-03:00"}
+{"id":"dif-Ci-095","visor":"Resultado indefinido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T11:26:13.9651046-03:00","fim":"2026-10-23T11:26:24.1831386-03:00"}
+{"id":"dif-Ci-096","visor":"4.489","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:26:24.1881528-03:00","fim":"2026-10-23T11:26:33.6085383-03:00"}
+{"id":"dif-Ci-097","visor":"2,7e+3","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:26:33.6135613-03:00","fim":"2026-10-23T11:26:40.5870993-03:00"}
+{"id":"dif-Ci-098","visor":"1,e+0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:26:40.5930700-03:00","fim":"2026-10-23T11:26:46.7722691-03:00"}
+{"id":"dif-Ci-099","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:26:46.7792539-03:00","fim":"2026-10-23T11:26:54.8295245-03:00"}
+{"id":"dif-Ci-100","visor":"0","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T11:26:54.8365019-03:00","fim":"2026-10-23T11:27:03.2590778-03:00"}

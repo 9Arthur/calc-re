@@ -1,0 +1,90 @@
+captura	origem	texto
+3c-01-final	manual	cos₀( 90 )
+3c-02-final	manual	tan₀( 90 )
+3c-03-final	manual	sinᵣ( 3,1415926535897932384626433832795 )
+3c-04-final	manual	sin₀( 180 )
+3c-05-final	manual	cosᵣ( 0 )
+3c-06-final	manual	sin₀⁻¹( 1 )
+3c-07-final	manual	sin₀⁻¹( 2 )
+3c-08-1	ocr	(vazia)
+3c-08-final	manual	sin₀( 1,e+100 )
+3c-09-final	ocr	(vazia)
+3c-10-final	ocr	fact( 5 )
+3c-11-final	ocr	fact( 0 )
+3c-12-final	manual	fact( 20 )
+3c-13-final	manual	fact( -1 )
+3c-14-final	manual	fact( 3250 )
+3c-15-final	manual	7 Mod 3 =
+3c-16-final	ocr	-7 Mod 3 =
+3c-17-final	ocr	7 Mod -3 =
+3c-18-final	ocr	7,5 Mod 2 =
+3c-19-final	manual	5 Mod 0 =
+3c-20-final	manual	2 ^ 10 =
+3c-21-final	manual	2 ^ -1 =
+3c-22-final	manual	0 ^
+3c-23-final	manual	10^( 3 )
+3c-24-final	manual	10^( 31 )
+3c-25-final	manual	10^( 32 )
+3c-26-final	ocr	log( 0 )
+3c-27-final	manual	ln( -1 )
+3c-28-1	ocr	(vazia)
+3c-28-2	ocr	(vazia)
+3c-28-final	ocr	2000 =
+3c-29-1	ocr	(vazia)
+3c-29-final	ocr	0,0001 =
+3c-30-1	ocr	123 =
+3c-30-2	ocr	123 =
+3c-30-final	ocr	123 =
+3c-31-final	ocr	abs( -5 )
+3c-32-final	manual	1 ÷ 3 =
+3c-33-final	manual	2 ÷ 30 =
+3c-34-final	manual	1 ÷ 300 =
+3c-35-final	manual	1 ÷ 3000 =
+3c-36-1	ocr	(vazia)
+3c-36-final	ocr	(vazia)
+3c-37-1	manual	2 × 3 +
+3c-37-final	manual	2 × 3 + 4 × 5 =
+3c-38-1	manual	2 ^ 3 ^
+3c-38-final	manual	2 ^ 3 ^ 2 =
+3c-39-final	manual	2 + 3 × 4 ^ 2 =
+3c-40-final	manual	7 Mod 4 × 2 =
+3c-41-1	manual	( 2 + 3 ) ×
+3c-41-final	manual	( 2 + 3 ) × 4 =
+3c-42-1	ocr	( 2 + 3 )
+3c-42-final	manual	( 2 + 3 ) × 4 =
+3c-43-final	manual	( 2 + 3 ) =
+3c-44-final	manual	2 × ( 3 + ( 4 - 1 ) ) =
+3c-45-final	manual	2 × ( 3 + 4 ) =
+3c-46-1	ocr	1 + ( 2 + 3 )
+3c-46-2	manual	1 + ( 2 + 3 ) ×
+3c-46-final	manual	1 + ( 2 + 3 ) × 4 =
+3c-47-final	manual	2 + 3 × 4 =
+3c-50-final	manual	sin₀( 30 )
+3c-51-final	manual	cos₀( 60 )
+3c-52-final	manual	sin₀( 45 )
+3c-53-final	manual	tan₀( 45 )
+3c-54-final	manual	sin₀( -30 )
+3c-55-final	manual	sinᵣ( 1 )
+3c-56-final	manual	tanᵣ( 1 )
+3c-57-final	manual	cos₉( 1 )
+3c-58-final	manual	sin₉( 100 )
+3c-59-final	manual	sin₀⁻¹( 0,5 )
+3c-60-final	manual	cosᵣ⁻¹( 0,5 )
+3c-61-final	manual	tan₉⁻¹( 1 )
+3c-62-1	ocr	(vazia)
+3c-62-final	manual	sin₀( -1,e+100 )
+3c-63-1	ocr	(vazia)
+3c-63-2	ocr	(vazia)
+3c-63-final	ocr	(vazia)
+3c-64-final	ocr	(vazia)
+3c-65-final	manual	e^( 1 )
+3c-66-final	manual	e^( -10 )
+3c-67-final	manual	ln( 10 )
+3c-68-final	ocr	log( 2 )
+3c-69-final	ocr	log( 1000 )
+3c-70-final	manual	10^( 0,5 )
+3c-71-final	manual	2 ^ 0,5 =
+3c-72-final	ocr	27 yroot 3 =
+3c-73-final	ocr	-8 yroot 3 =
+3c-74-final	ocr	8 log base 2 =
+3c-75-final	manual	fact( 0,5 )

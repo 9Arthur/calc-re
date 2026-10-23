@@ -1,0 +1,8 @@
+congelamento: 2026-10-23T10:27:30-03:00
+980bdf30b5ec2702ca2508bb996b7d9414c71b068813d32f5fb417d2ec024d6f  relatorio/03-diferencial-casos.json
+4f603685aed8975f76053c9b3136f3bb07a2c96f3e88d2554cc0a1337ddb2f2d  trabalho/automacao/rodar-casos.ps1
+36661bd12ad546481b3d6b043b6137f6f87f9146bddcedc1c9bd3b40be9c41f1  trabalho/diferencial/comparar.py
+523fb1474653855e5e40d89af68a3bfb0ffed275cc4bc959b981b156c321cd8c  trabalho/diferencial/gerar_casos.py
+4209097a667b2f1f0d6d925f765005a477fc60a2dddfd04099094ff11d665859  trabalho/diferencial/rodar_reimpl.py
+"sha256_arvore": "100ee57a5915f8018232e9846586edab760a0a2c7da3ece8e4f26533c36a70d3"
+nenhuma execução da Calculadora nem da reimplementação antes deste registro

@@ -1,0 +1,301 @@
+# Calculadora 11.2607.0.0 X64; cultura pt-BR; UI pt-BR; inicio 2026-10-23T11:55:05.7995101-03:00; casos SHA-256 8df85a473e5c12bd8a4d0ed500aa30a6431e2ae3b39363cf38d0b2ae415e4826; semente 20261024; 300 casos; verificar preparo=True
+{"id":"dif2-Pd-001","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:05.9491382-03:00","fim":"2026-10-23T11:55:10.7033311-03:00"}
+{"id":"dif2-Pd-002","visor":"Não é possível dividir por zero","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:10.7133315-03:00","fim":"2026-10-23T11:55:14.6842609-03:00"}
+{"id":"dif2-Pd-003","visor":"3","mais_habilitado":true,"notas":["MC: tecla MC desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:55:14.6912589-03:00","fim":"2026-10-23T11:55:18.4254355-03:00"}
+{"id":"dif2-Pd-004","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:18.4304353-03:00","fim":"2026-10-23T11:55:23.7721614-03:00"}
+{"id":"dif2-Pd-005","visor":"30.621,5001","mais_habilitado":true,"notas":["MR: tecla MR desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:55:23.7771537-03:00","fim":"2026-10-23T11:55:28.9968779-03:00"}
+{"id":"dif2-Pd-006","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:29.0018780-03:00","fim":"2026-10-23T11:55:34.0401090-03:00"}
+{"id":"dif2-Pd-007","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:34.0507062-03:00","fim":"2026-10-23T11:55:36.9440648-03:00"}
+{"id":"dif2-Pd-008","visor":"64","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:36.9500464-03:00","fim":"2026-10-23T11:55:39.8318862-03:00"}
+{"id":"dif2-Pd-009","visor":"5.741","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:39.8368682-03:00","fim":"2026-10-23T11:55:44.9539626-03:00"}
+{"id":"dif2-Pd-010","visor":"-2","mais_habilitado":true,"notas":["MR: tecla MR desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:55:44.9629433-03:00","fim":"2026-10-23T11:55:47.5062051-03:00"}
+{"id":"dif2-Pd-011","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:47.5113934-03:00","fim":"2026-10-23T11:55:52.6084370-03:00"}
+{"id":"dif2-Pd-012","visor":"2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:52.6124957-03:00","fim":"2026-10-23T11:55:56.0909737-03:00"}
+{"id":"dif2-Pd-013","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:56.0988205-03:00","fim":"2026-10-23T11:55:59.0172010-03:00"}
+{"id":"dif2-Pd-014","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:55:59.0221815-03:00","fim":"2026-10-23T11:56:03.4969220-03:00"}
+{"id":"dif2-Pd-015","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:03.5019094-03:00","fim":"2026-10-23T11:56:08.0101208-03:00"}
+{"id":"dif2-Pd-016","visor":"8","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:08.0151838-03:00","fim":"2026-10-23T11:56:10.6189615-03:00"}
+{"id":"dif2-Pd-017","visor":"45","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:10.6239632-03:00","fim":"2026-10-23T11:56:13.7495829-03:00"}
+{"id":"dif2-Pd-018","visor":"67,2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:13.7545872-03:00","fim":"2026-10-23T11:56:18.2652784-03:00"}
+{"id":"dif2-Pd-019","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:18.2709004-03:00","fim":"2026-10-23T11:56:21.1537646-03:00"}
+{"id":"dif2-Pd-020","visor":"-20","mais_habilitado":true,"notas":["MR: tecla MR desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:56:21.1594698-03:00","fim":"2026-10-23T11:56:25.1439535-03:00"}
+{"id":"dif2-Pd-021","visor":"-63","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:25.1498117-03:00","fim":"2026-10-23T11:56:27.7739401-03:00"}
+{"id":"dif2-Pd-022","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:27.7806499-03:00","fim":"2026-10-23T11:56:31.1654965-03:00"}
+{"id":"dif2-Pd-023","visor":"2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:31.1711147-03:00","fim":"2026-10-23T11:56:35.3573400-03:00"}
+{"id":"dif2-Pd-024","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:35.3633279-03:00","fim":"2026-10-23T11:56:38.5728505-03:00"}
+{"id":"dif2-Pd-025","visor":"26","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:38.5788527-03:00","fim":"2026-10-23T11:56:43.1291735-03:00"}
+{"id":"dif2-Pd-026","visor":"-15,07","mais_habilitado":true,"notas":["MC: tecla MC desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:56:43.1354572-03:00","fim":"2026-10-23T11:56:47.6607681-03:00"}
+{"id":"dif2-Pd-027","visor":"0","mais_habilitado":true,"notas":["MC: tecla MC desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:56:47.6667632-03:00","fim":"2026-10-23T11:56:50.5570754-03:00"}
+{"id":"dif2-Pd-028","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:50.5630753-03:00","fim":"2026-10-23T11:56:53.1236330-03:00"}
+{"id":"dif2-Pd-029","visor":"66","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:53.1299041-03:00","fim":"2026-10-23T11:56:55.7543380-03:00"}
+{"id":"dif2-Pd-030","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:55.7603394-03:00","fim":"2026-10-23T11:56:59.1157353-03:00"}
+{"id":"dif2-Pd-031","visor":"3,333333333333333","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:56:59.1217002-03:00","fim":"2026-10-23T11:57:01.6395042-03:00"}
+{"id":"dif2-Pd-032","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:01.6454773-03:00","fim":"2026-10-23T11:57:06.3393082-03:00"}
+{"id":"dif2-Pd-033","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:06.3462836-03:00","fim":"2026-10-23T11:57:08.6339779-03:00"}
+{"id":"dif2-Pd-034","visor":"Resultado indefinido","mais_habilitado":false,"notas":["*: tecla × desabilitada, nao pressionada","INV: tecla 1/x desabilitada, nao pressionada","+: tecla + desabilitada, nao pressionada","-: tecla − desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:57:08.6449774-03:00","fim":"2026-10-23T11:57:10.9346704-03:00"}
+{"id":"dif2-Pd-035","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:10.9406692-03:00","fim":"2026-10-23T11:57:14.5496172-03:00"}
+{"id":"dif2-Pd-036","visor":"6,193873641409331","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:14.5595897-03:00","fim":"2026-10-23T11:57:18.9638688-03:00"}
+{"id":"dif2-Pd-037","visor":"84","mais_habilitado":true,"notas":["MC: tecla MC desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:57:18.9705595-03:00","fim":"2026-10-23T11:57:23.1744561-03:00"}
+{"id":"dif2-Pd-038","visor":"6.561","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:23.1804151-03:00","fim":"2026-10-23T11:57:27.6431082-03:00"}
+{"id":"dif2-Pd-039","visor":"1.820","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:27.6500830-03:00","fim":"2026-10-23T11:57:30.7017443-03:00"}
+{"id":"dif2-Pd-040","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:30.7087192-03:00","fim":"2026-10-23T11:57:34.3155641-03:00"}
+{"id":"dif2-Pd-041","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:34.3215654-03:00","fim":"2026-10-23T11:57:37.9769921-03:00"}
+{"id":"dif2-Pd-042","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:37.9839696-03:00","fim":"2026-10-23T11:57:41.0928882-03:00"}
+{"id":"dif2-Pd-043","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:41.0998544-03:00","fim":"2026-10-23T11:57:43.9011040-03:00"}
+{"id":"dif2-Pd-044","visor":"-54","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:43.9070893-03:00","fim":"2026-10-23T11:57:46.1496623-03:00"}
+{"id":"dif2-Pd-045","visor":"11","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:46.1606340-03:00","fim":"2026-10-23T11:57:50.5472569-03:00"}
+{"id":"dif2-Pd-046","visor":"-53.281","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:50.5532394-03:00","fim":"2026-10-23T11:57:55.5116913-03:00"}
+{"id":"dif2-Pd-047","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:55.5166654-03:00","fim":"2026-10-23T11:57:58.5737156-03:00"}
+{"id":"dif2-Pd-048","visor":"0,3779644730092272","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:57:58.5786927-03:00","fim":"2026-10-23T11:58:02.7599328-03:00"}
+{"id":"dif2-Pd-049","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:02.7659072-03:00","fim":"2026-10-23T11:58:08.2959296-03:00"}
+{"id":"dif2-Pd-050","visor":"80","mais_habilitado":true,"notas":["MR: tecla MR desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:58:08.3059024-03:00","fim":"2026-10-23T11:58:11.6415031-03:00"}
+{"id":"dif2-Pd-051","visor":"-6","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:11.6474779-03:00","fim":"2026-10-23T11:58:16.0358327-03:00"}
+{"id":"dif2-Pd-052","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:16.0412190-03:00","fim":"2026-10-23T11:58:19.5718725-03:00"}
+{"id":"dif2-Pd-053","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:19.5788679-03:00","fim":"2026-10-23T11:58:23.0359843-03:00"}
+{"id":"dif2-Pd-054","visor":"87","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:23.0423500-03:00","fim":"2026-10-23T11:58:28.1711454-03:00"}
+{"id":"dif2-Pd-055","visor":"0","mais_habilitado":true,"notas":["MC: tecla MC desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:58:28.1761199-03:00","fim":"2026-10-23T11:58:30.5270305-03:00"}
+{"id":"dif2-Pd-056","visor":"8","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:30.5330293-03:00","fim":"2026-10-23T11:58:33.9403515-03:00"}
+{"id":"dif2-Pd-057","visor":"4.426","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:33.9453524-03:00","fim":"2026-10-23T11:58:38.7910277-03:00"}
+{"id":"dif2-Pd-058","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:38.7974839-03:00","fim":"2026-10-23T11:58:41.6641856-03:00"}
+{"id":"dif2-Pd-059","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:41.6703777-03:00","fim":"2026-10-23T11:58:45.5641538-03:00"}
+{"id":"dif2-Pd-060","visor":"0,7587141249717989","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:45.5708618-03:00","fim":"2026-10-23T11:58:49.9939921-03:00"}
+{"id":"dif2-Pd-061","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:50.0006545-03:00","fim":"2026-10-23T11:58:52.8570363-03:00"}
+{"id":"dif2-Pd-062","visor":"0,0512","mais_habilitado":true,"notas":["SQR: tecla x² desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:58:52.8630275-03:00","fim":"2026-10-23T11:58:57.8390177-03:00"}
+{"id":"dif2-Pd-063","visor":"8.526","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:58:57.8449543-03:00","fim":"2026-10-23T11:59:03.0754694-03:00"}
+{"id":"dif2-Pd-064","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:03.0864446-03:00","fim":"2026-10-23T11:59:07.3151998-03:00"}
+{"id":"dif2-Pd-065","visor":"2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:07.3221801-03:00","fim":"2026-10-23T11:59:11.8910812-03:00"}
+{"id":"dif2-Pd-066","visor":"-46","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:11.8970780-03:00","fim":"2026-10-23T11:59:15.3054480-03:00"}
+{"id":"dif2-Pd-067","visor":"697","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:15.3121104-03:00","fim":"2026-10-23T11:59:20.3711264-03:00"}
+{"id":"dif2-Pd-068","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:20.3811331-03:00","fim":"2026-10-23T11:59:23.2479757-03:00"}
+{"id":"dif2-Pd-069","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:23.2536228-03:00","fim":"2026-10-23T11:59:27.5165153-03:00"}
+{"id":"dif2-Pd-070","visor":"142","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:27.5226242-03:00","fim":"2026-10-23T11:59:31.8421763-03:00"}
+{"id":"dif2-Pd-071","visor":"0,2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:31.8471729-03:00","fim":"2026-10-23T11:59:34.6895906-03:00"}
+{"id":"dif2-Pd-072","visor":"11","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:34.6944306-03:00","fim":"2026-10-23T11:59:38.1690826-03:00"}
+{"id":"dif2-Pd-073","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:38.1750853-03:00","fim":"2026-10-23T11:59:43.3718814-03:00"}
+{"id":"dif2-Pd-074","visor":"0","mais_habilitado":true,"notas":["MC: tecla MC desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:59:43.3778493-03:00","fim":"2026-10-23T11:59:46.5354338-03:00"}
+{"id":"dif2-Pd-075","visor":"-8,962962962962963","mais_habilitado":true,"notas":["MR: tecla MR desabilitada, nao pressionada","MR: tecla MR desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T11:59:46.5414336-03:00","fim":"2026-10-23T11:59:50.2130864-03:00"}
+{"id":"dif2-Pd-076","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:50.2200864-03:00","fim":"2026-10-23T11:59:53.8839564-03:00"}
+{"id":"dif2-Pd-077","visor":"-2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:53.8901993-03:00","fim":"2026-10-23T11:59:57.9022489-03:00"}
+{"id":"dif2-Pd-078","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T11:59:57.9082502-03:00","fim":"2026-10-23T12:00:02.2131119-03:00"}
+{"id":"dif2-Pd-079","visor":"-64","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:02.2191040-03:00","fim":"2026-10-23T12:00:07.5556586-03:00"}
+{"id":"dif2-Pd-080","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:07.5646578-03:00","fim":"2026-10-23T12:00:11.8452282-03:00"}
+{"id":"dif2-Pd-081","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:11.8512297-03:00","fim":"2026-10-23T12:00:15.3004129-03:00"}
+{"id":"dif2-Pd-082","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:15.3070011-03:00","fim":"2026-10-23T12:00:18.1444429-03:00"}
+{"id":"dif2-Pd-083","visor":"42","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:18.1511138-03:00","fim":"2026-10-23T12:00:21.3142266-03:00"}
+{"id":"dif2-Pd-084","visor":"5","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:21.3202271-03:00","fim":"2026-10-23T12:00:25.8676658-03:00"}
+{"id":"dif2-Pd-085","visor":"14","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:25.8743469-03:00","fim":"2026-10-23T12:00:28.7203429-03:00"}
+{"id":"dif2-Pd-086","visor":"900","mais_habilitado":true,"notas":["+: tecla + desabilitada, nao pressionada","SQRT: tecla √ desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T12:00:28.7263395-03:00","fim":"2026-10-23T12:00:33.5290507-03:00"}
+{"id":"dif2-Pd-087","visor":"0,21","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:33.5350314-03:00","fim":"2026-10-23T12:00:36.8943559-03:00"}
+{"id":"dif2-Pd-088","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:36.9023237-03:00","fim":"2026-10-23T12:00:40.6768566-03:00"}
+{"id":"dif2-Pd-089","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:40.6831077-03:00","fim":"2026-10-23T12:00:43.8325554-03:00"}
+{"id":"dif2-Pd-090","visor":"8,69","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:43.8385570-03:00","fim":"2026-10-23T12:00:47.8791168-03:00"}
+{"id":"dif2-Pd-091","visor":"982","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:47.8860922-03:00","fim":"2026-10-23T12:00:51.3155153-03:00"}
+{"id":"dif2-Pd-092","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:51.3215167-03:00","fim":"2026-10-23T12:00:53.8841455-03:00"}
+{"id":"dif2-Pd-093","visor":"0","mais_habilitado":true,"notas":["MR: tecla MR desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T12:00:53.8911427-03:00","fim":"2026-10-23T12:00:57.0882962-03:00"}
+{"id":"dif2-Pd-094","visor":"3","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:00:57.0953800-03:00","fim":"2026-10-23T12:01:00.9994678-03:00"}
+{"id":"dif2-Pd-095","visor":"49","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:01.0044695-03:00","fim":"2026-10-23T12:01:04.6758157-03:00"}
+{"id":"dif2-Pd-096","visor":"-18","mais_habilitado":true,"notas":["MR: tecla MR desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T12:01:04.6824713-03:00","fim":"2026-10-23T12:01:09.8127924-03:00"}
+{"id":"dif2-Pd-097","visor":"-16.439,28","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:09.8196691-03:00","fim":"2026-10-23T12:01:14.3532220-03:00"}
+{"id":"dif2-Pd-098","visor":"6","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:14.3602186-03:00","fim":"2026-10-23T12:01:19.4239878-03:00"}
+{"id":"dif2-Pd-099","visor":"0","mais_habilitado":true,"notas":["MC: tecla MC desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T12:01:19.4299911-03:00","fim":"2026-10-23T12:01:22.8313907-03:00"}
+{"id":"dif2-Pd-100","visor":"116","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:22.8373805-03:00","fim":"2026-10-23T12:01:25.7444120-03:00"}
+{"id":"dif2-Ci-001","visor":"0,19000366741821746280208370546801","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:25.7519522-03:00","fim":"2026-10-23T12:01:34.2904082-03:00"}
+{"id":"dif2-Ci-002","visor":"0","mais_habilitado":true,"notas":["DEC: botao decimalSeparatorButton desabilitado, nao pressionado","2^X: tecla 2^X (shiftButton) desabilitada, nao pressionada","EXP: botao expButton desabilitado, nao pressionado","CUBE: tecla CUBE (shiftButton) desabilitada, nao pressionada","PI: botao piButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:01:34.2965985-03:00","fim":"2026-10-23T12:01:38.4401041-03:00"}
+{"id":"dif2-Ci-003","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:38.4461021-03:00","fim":"2026-10-23T12:01:43.2446732-03:00"}
+{"id":"dif2-Ci-004","visor":"2,7182818284590452353602874713527","mais_habilitado":true,"notas":["ASIN: botao trigButton desabilitado, nao pressionado","NEG: botao negateButton desabilitado, nao pressionado","*: botao multiplyButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:01:43.2511097-03:00","fim":"2026-10-23T12:01:48.2441335-03:00"}
+{"id":"dif2-Ci-005","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:48.2511143-03:00","fim":"2026-10-23T12:01:53.6199473-03:00"}
+{"id":"dif2-Ci-006","visor":"-6","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:53.6259343-03:00","fim":"2026-10-23T12:01:59.1696366-03:00"}
+{"id":"dif2-Ci-007","visor":"-13","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:01:59.1766372-03:00","fim":"2026-10-23T12:02:04.4007067-03:00"}
+{"id":"dif2-Ci-008","visor":"4,4487989505128276054946633404685","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:02:04.4087091-03:00","fim":"2026-10-23T12:02:10.7379616-03:00"}
+{"id":"dif2-Ci-009","visor":"2","mais_habilitado":true,"notas":["MR: botao MemRecall desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:02:10.7450743-03:00","fim":"2026-10-23T12:02:18.9368787-03:00"}
+{"id":"dif2-Ci-010","visor":"127","mais_habilitado":true,"notas":["SIN: submenu Trigonometria nao abriu","MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:02:18.9490049-03:00","fim":"2026-10-23T12:02:31.4082667-03:00"}
+{"id":"dif2-Ci-011","visor":"0","mais_habilitado":true,"notas":["MR: botao MemRecall desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:02:31.4152576-03:00","fim":"2026-10-23T12:02:35.0731734-03:00"}
+{"id":"dif2-Ci-012","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:02:35.0791766-03:00","fim":"2026-10-23T12:02:41.8720456-03:00"}
+{"id":"dif2-Ci-013","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:02:41.8790759-03:00","fim":"2026-10-23T12:02:47.9388370-03:00"}
+{"id":"dif2-Ci-014","visor":"-75,199900401159568141979565994599","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:02:47.9445226-03:00","fim":"2026-10-23T12:02:53.9542476-03:00"}
+{"id":"dif2-Ci-015","visor":"Não é possível dividir por zero","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:02:53.9612453-03:00","fim":"2026-10-23T12:03:01.1167561-03:00"}
+{"id":"dif2-Ci-016","visor":"0","mais_habilitado":true,"notas":["MR: botao MemRecall desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:03:01.1236745-03:00","fim":"2026-10-23T12:03:08.1009091-03:00"}
+{"id":"dif2-Ci-017","visor":"474.402.551.102.912.549.470.081","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:03:08.1069051-03:00","fim":"2026-10-23T12:03:12.5823472-03:00"}
+{"id":"dif2-Ci-018","visor":"0,01234567901234567901234567901235","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:03:12.5883457-03:00","fim":"2026-10-23T12:03:18.6930557-03:00"}
+{"id":"dif2-Ci-019","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:03:18.7000569-03:00","fim":"2026-10-23T12:03:22.1975413-03:00"}
+{"id":"dif2-Ci-020","visor":"3,770052e+6","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:03:22.2035445-03:00","fim":"2026-10-23T12:03:29.1930738-03:00"}
+{"id":"dif2-Ci-021","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:03:29.1990726-03:00","fim":"2026-10-23T12:03:37.0374318-03:00"}
+{"id":"dif2-Ci-022","visor":"-8","mais_habilitado":true,"notas":["MR: botao MemRecall desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:03:37.0444110-03:00","fim":"2026-10-23T12:03:44.7313626-03:00"}
+{"id":"dif2-Ci-023","visor":"8","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:03:44.7383492-03:00","fim":"2026-10-23T12:03:49.1761622-03:00"}
+{"id":"dif2-Ci-024","visor":"0,e+0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:03:49.1868955-03:00","fim":"2026-10-23T12:03:56.9898867-03:00"}
+{"id":"dif2-Ci-025","visor":"2","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:03:56.9959421-03:00","fim":"2026-10-23T12:04:02.8011342-03:00"}
+{"id":"dif2-Ci-026","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:04:02.8082864-03:00","fim":"2026-10-23T12:04:08.7175987-03:00"}
+{"id":"dif2-Ci-027","visor":"-1,2899336180489709784426545832767e+291","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:04:08.7245952-03:00","fim":"2026-10-23T12:04:14.9196185-03:00"}
+{"id":"dif2-Ci-028","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:04:14.9266184-03:00","fim":"2026-10-23T12:04:23.7401916-03:00"}
+{"id":"dif2-Ci-029","visor":"0","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:04:23.7481890-03:00","fim":"2026-10-23T12:04:28.6790976-03:00"}
+{"id":"dif2-Ci-030","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:04:28.6850638-03:00","fim":"2026-10-23T12:04:36.3035236-03:00"}
+{"id":"dif2-Ci-031","visor":"2","mais_habilitado":true,"notas":["DEC: botao decimalSeparatorButton desabilitado, nao pressionado","2^X: tecla 2^X (shiftButton) desabilitada, nao pressionada"],"falha":null,"inicio":"2026-10-23T12:04:36.3102774-03:00","fim":"2026-10-23T12:04:42.3141088-03:00"}
+{"id":"dif2-Ci-032","visor":"128","mais_habilitado":true,"notas":["MR: botao MemRecall desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:04:42.3207472-03:00","fim":"2026-10-23T12:04:51.0359863-03:00"}
+{"id":"dif2-Ci-033","visor":"-0,52040401228521308908591147426898","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:04:51.0419794-03:00","fim":"2026-10-23T12:04:58.1401257-03:00"}
+{"id":"dif2-Ci-034","visor":"297","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:04:58.1471340-03:00","fim":"2026-10-23T12:05:02.6826462-03:00"}
+{"id":"dif2-Ci-035","visor":"5","mais_habilitado":true,"notas":["INV: botao invertButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:05:02.6893229-03:00","fim":"2026-10-23T12:05:12.9539804-03:00"}
+{"id":"dif2-Ci-036","visor":"6","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:05:12.9603285-03:00","fim":"2026-10-23T12:05:19.4113089-03:00"}
+{"id":"dif2-Ci-037","visor":"-8,8636363636363636363636363636364","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:05:19.4182901-03:00","fim":"2026-10-23T12:05:25.5508088-03:00"}
+{"id":"dif2-Ci-038","visor":"9.999,0049452463132695486681198147","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:05:25.5567716-03:00","fim":"2026-10-23T12:05:34.6142629-03:00"}
+{"id":"dif2-Ci-039","visor":"0","mais_habilitado":true,"notas":["MR: botao MemRecall desabilitado, nao pressionado","MR: botao MemRecall desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:05:34.6210312-03:00","fim":"2026-10-23T12:05:42.1864355-03:00"}
+{"id":"dif2-Ci-040","visor":"10,93184495962329131913033417422","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:05:42.1932726-03:00","fim":"2026-10-23T12:05:48.2351559-03:00"}
+{"id":"dif2-Ci-041","visor":"Entrada inválida","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:05:48.2421391-03:00","fim":"2026-10-23T12:05:54.2150185-03:00"}
+{"id":"dif2-Ci-042","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:05:54.2220118-03:00","fim":"2026-10-23T12:05:59.9314551-03:00"}
+{"id":"dif2-Ci-043","visor":"80","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:05:59.9384566-03:00","fim":"2026-10-23T12:06:04.5599204-03:00"}
+{"id":"dif2-Ci-044","visor":"10","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:06:04.5659195-03:00","fim":"2026-10-23T12:06:10.5164290-03:00"}
+{"id":"dif2-Ci-045","visor":"14","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:06:10.5231026-03:00","fim":"2026-10-23T12:06:19.4012182-03:00"}
+{"id":"dif2-Ci-046","visor":"0,41256729561895887677352120717813","mais_habilitado":true,"notas":["MR: botao MemRecall desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:06:19.4084870-03:00","fim":"2026-10-23T12:06:27.7220683-03:00"}
+{"id":"dif2-Ci-047","visor":"0","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:06:27.7290723-03:00","fim":"2026-10-23T12:06:36.5542358-03:00"}
+{"id":"dif2-Ci-048","visor":"1,4757731615945520692769166956322","mais_habilitado":true,"notas":["FLOOR: submenu de funcButton nao abriu"],"falha":null,"inicio":"2026-10-23T12:06:36.5618266-03:00","fim":"2026-10-23T12:06:52.4730847-03:00"}
+{"id":"dif2-Ci-049","visor":"0","mais_habilitado":true,"notas":["*: botao multiplyButton desabilitado, nao pressionado","POW: botao powerButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:06:52.4800680-03:00","fim":"2026-10-23T12:06:59.5888656-03:00"}
+{"id":"dif2-Ci-050","visor":"-3","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:06:59.5958665-03:00","fim":"2026-10-23T12:07:05.1824167-03:00"}
+{"id":"dif2-Ci-051","visor":"1.314","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:07:05.1942230-03:00","fim":"2026-10-23T12:07:10.8722318-03:00"}
+{"id":"dif2-Ci-052","visor":"0,00394736842105263157894736842105","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:07:10.8782282-03:00","fim":"2026-10-23T12:07:19.7464454-03:00"}
+{"id":"dif2-Ci-053","visor":"-1,82e+2","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:07:19.7530936-03:00","fim":"2026-10-23T12:07:30.5117645-03:00"}
+{"id":"dif2-Ci-054","visor":"-1,1627611959162682149522530455168","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:07:30.5177661-03:00","fim":"2026-10-23T12:07:37.0159542-03:00"}
+{"id":"dif2-Ci-055","visor":"194,77874452256718078468388976333","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:07:37.0224260-03:00","fim":"2026-10-23T12:07:41.7353792-03:00"}
+{"id":"dif2-Ci-056","visor":"21","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:07:41.7413793-03:00","fim":"2026-10-23T12:07:48.3512926-03:00"}
+{"id":"dif2-Ci-057","visor":"3","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:07:48.3582913-03:00","fim":"2026-10-23T12:07:54.5945533-03:00"}
+{"id":"dif2-Ci-058","visor":"0,75944610394991248096956655250681","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:07:54.6015449-03:00","fim":"2026-10-23T12:08:05.0248363-03:00"}
+{"id":"dif2-Ci-059","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:08:05.0331361-03:00","fim":"2026-10-23T12:08:11.5970846-03:00"}
+{"id":"dif2-Ci-060","visor":"18","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:08:11.6046257-03:00","fim":"2026-10-23T12:08:21.8784141-03:00"}
+{"id":"dif2-Ci-061","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:08:21.8854146-03:00","fim":"2026-10-23T12:08:26.2866520-03:00"}
+{"id":"dif2-Ci-062","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:08:26.2944953-03:00","fim":"2026-10-23T12:08:29.8414684-03:00"}
+{"id":"dif2-Ci-063","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:08:29.8491700-03:00","fim":"2026-10-23T12:08:41.3933102-03:00"}
+{"id":"dif2-Ci-064","visor":"2","mais_habilitado":true,"notas":["E: botao eulerButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:08:41.4013333-03:00","fim":"2026-10-23T12:08:48.7603521-03:00"}
+{"id":"dif2-Ci-065","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:08:48.7683260-03:00","fim":"2026-10-23T12:08:53.4330392-03:00"}
+{"id":"dif2-Ci-066","visor":"-992","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:08:53.4400005-03:00","fim":"2026-10-23T12:09:00.1972157-03:00"}
+{"id":"dif2-Ci-067","visor":"2,7182818284590452353602874713527","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:09:00.2050860-03:00","fim":"2026-10-23T12:09:07.9031014-03:00"}
+{"id":"dif2-Ci-068","visor":"0,48089834696298780245330822700063","mais_habilitado":true,"notas":["MC: botao ClearMemoryButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:09:07.9101023-03:00","fim":"2026-10-23T12:09:16.7354857-03:00"}
+{"id":"dif2-Ci-069","visor":"Entrada inválida","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:09:16.7424839-03:00","fim":"2026-10-23T12:09:23.1390519-03:00"}
+{"id":"dif2-Ci-070","visor":"0,03571428571428571428571428571429","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:09:23.1470076-03:00","fim":"2026-10-23T12:09:28.1031702-03:00"}
+{"id":"dif2-Ci-071","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:09:28.1101722-03:00","fim":"2026-10-23T12:09:34.2166213-03:00"}
+{"id":"dif2-Ci-072","visor":"Resultado indefinido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:09:34.2246206-03:00","fim":"2026-10-23T12:09:40.3465887-03:00"}
+{"id":"dif2-Ci-073","visor":"25,249443184631669995125135849716","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:09:40.3541711-03:00","fim":"2026-10-23T12:09:43.8675846-03:00"}
+{"id":"dif2-Ci-074","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:09:43.8742284-03:00","fim":"2026-10-23T12:09:53.7465914-03:00"}
+{"id":"dif2-Ci-075","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:09:53.7542183-03:00","fim":"2026-10-23T12:09:58.9885246-03:00"}
+{"id":"dif2-Ci-076","visor":"0","mais_habilitado":true,"notas":["EX: tecla EX (shiftButton) desabilitada, nao pressionada","SQRT: botao squareRootButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:09:58.9956105-03:00","fim":"2026-10-23T12:10:03.9896899-03:00"}
+{"id":"dif2-Ci-077","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:10:04.0031537-03:00","fim":"2026-10-23T12:10:08.0382324-03:00"}
+{"id":"dif2-Ci-078","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:10:08.0466946-03:00","fim":"2026-10-23T12:10:13.1402350-03:00"}
+{"id":"dif2-Ci-079","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:10:13.1476871-03:00","fim":"2026-10-23T12:10:18.9892332-03:00"}
+{"id":"dif2-Ci-080","visor":"7,7182818284590452353602874713527","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:10:18.9963278-03:00","fim":"2026-10-23T12:10:23.7367583-03:00"}
+{"id":"dif2-Ci-081","visor":"12,108224214164178998236834412876","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:10:23.7447571-03:00","fim":"2026-10-23T12:10:33.9836023-03:00"}
+{"id":"dif2-Ci-082","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:10:33.9909820-03:00","fim":"2026-10-23T12:10:41.4889486-03:00"}
+{"id":"dif2-Ci-083","visor":"-8.059","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:10:41.4971221-03:00","fim":"2026-10-23T12:10:49.9682013-03:00"}
+{"id":"dif2-Ci-084","visor":"72","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:10:49.9752017-03:00","fim":"2026-10-23T12:10:53.5407590-03:00"}
+{"id":"dif2-Ci-085","visor":"0","mais_habilitado":true,"notas":["ACOS: botao trigButton desabilitado, nao pressionado","ASIN: submenu Trigonometria nao abriu"],"falha":null,"inicio":"2026-10-23T12:10:53.5486380-03:00","fim":"2026-10-23T12:11:09.3448292-03:00"}
+{"id":"dif2-Ci-086","visor":"4.137.969.488","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:11:09.3525201-03:00","fim":"2026-10-23T12:11:19.4831079-03:00"}
+{"id":"dif2-Ci-087","visor":"5","mais_habilitado":true,"notas":["POW: botao powerButton desabilitado, nao pressionado","M+: botao MemPlus desabilitado, nao pressionado","FACT: botao factorialButton desabilitado, nao pressionado","/: botao divideButton desabilitado, nao pressionado","+: botao plusButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:11:19.4909670-03:00","fim":"2026-10-23T12:11:25.4669118-03:00"}
+{"id":"dif2-Ci-088","visor":"7","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:11:25.4744314-03:00","fim":"2026-10-23T12:11:31.5853099-03:00"}
+{"id":"dif2-Ci-089","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:11:31.5981472-03:00","fim":"2026-10-23T12:11:39.9821748-03:00"}
+{"id":"dif2-Ci-090","visor":"110.592","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:11:39.9911426-03:00","fim":"2026-10-23T12:11:45.6370518-03:00"}
+{"id":"dif2-Ci-091","visor":"1,3480061545972776673742363139031","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:11:45.6490167-03:00","fim":"2026-10-23T12:11:53.7360837-03:00"}
+{"id":"dif2-Ci-092","visor":"80,408653940929284283882660312991","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:11:53.7450566-03:00","fim":"2026-10-23T12:12:02.7997872-03:00"}
+{"id":"dif2-Ci-093","visor":"5,025","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:12:02.8067622-03:00","fim":"2026-10-23T12:12:11.0295175-03:00"}
+{"id":"dif2-Ci-094","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:12:11.0374925-03:00","fim":"2026-10-23T12:12:17.6197914-03:00"}
+{"id":"dif2-Ci-095","visor":"0,48","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:12:17.6267888-03:00","fim":"2026-10-23T12:12:22.9612578-03:00"}
+{"id":"dif2-Ci-096","visor":"120","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:12:22.9742995-03:00","fim":"2026-10-23T12:12:28.0246095-03:00"}
+{"id":"dif2-Ci-097","visor":"1,4645918875615232630201425272638","mais_habilitado":true,"notas":["ACOS: toggle trigShiftButton ausente"],"falha":null,"inicio":"2026-10-23T12:12:28.0365817-03:00","fim":"2026-10-23T12:12:36.0562121-03:00"}
+{"id":"dif2-Ci-098","visor":"8.103,0839275753840077099966894328","mais_habilitado":true,"notas":["TANH: toggle hypShiftButton ausente"],"falha":null,"inicio":"2026-10-23T12:12:36.0651871-03:00","fim":"2026-10-23T12:12:43.0278720-03:00"}
+{"id":"dif2-Ci-099","visor":"9,e+0","mais_habilitado":true,"notas":["COSH: toggle hypShiftButton ausente"],"falha":null,"inicio":"2026-10-23T12:12:43.0358442-03:00","fim":"2026-10-23T12:12:52.0672534-03:00"}
+{"id":"dif2-Ci-100","visor":"41","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:12:52.0812209-03:00","fim":"2026-10-23T12:12:56.0633024-03:00"}
+{"id":"dif2-Pr-001","visor":"1111 1111 1111 1111","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:12:56.0722566-03:00","fim":"2026-10-23T12:13:08.4827014-03:00"}
+{"id":"dif2-Pr-002","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:13:08.4896782-03:00","fim":"2026-10-23T12:13:21.0461856-03:00"}
+{"id":"dif2-Pr-003","visor":"0","mais_habilitado":true,"notas":["AND: submenu de bitwiseButton nao abriu"],"falha":null,"inicio":"2026-10-23T12:13:21.0541619-03:00","fim":"2026-10-23T12:13:33.5715279-03:00"}
+{"id":"dif2-Pr-004","visor":"373","mais_habilitado":true,"notas":["NAND: submenu de bitwiseButton nao abriu"],"falha":null,"inicio":"2026-10-23T12:13:33.5784938-03:00","fim":"2026-10-23T12:13:47.1184281-03:00"}
+{"id":"dif2-Pr-005","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:13:47.1263877-03:00","fim":"2026-10-23T12:13:56.6140636-03:00"}
+{"id":"dif2-Pr-006","visor":"Resultado não definido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:13:56.6220988-03:00","fim":"2026-10-23T12:14:03.4545088-03:00"}
+{"id":"dif2-Pr-007","visor":"Resultado não definido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:14:03.4621735-03:00","fim":"2026-10-23T12:14:12.0198701-03:00"}
+{"id":"dif2-Pr-008","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:14:12.0278511-03:00","fim":"2026-10-23T12:14:21.6081551-03:00"}
+{"id":"dif2-Pr-009","visor":"47","mais_habilitado":true,"notas":["RORC: botao  sem Invoke/Toggle/SelectionItem"],"falha":null,"inicio":"2026-10-23T12:14:21.6162156-03:00","fim":"2026-10-23T12:14:35.3941101-03:00"}
+{"id":"dif2-Pr-010","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:14:35.4031150-03:00","fim":"2026-10-23T12:14:41.7876677-03:00"}
+{"id":"dif2-Pr-011","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:14:41.7956619-03:00","fim":"2026-10-23T12:14:48.7080052-03:00"}
+{"id":"dif2-Pr-012","visor":"Resultado não definido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:14:48.7156425-03:00","fim":"2026-10-23T12:14:57.1071437-03:00"}
+{"id":"dif2-Pr-013","visor":"5","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:14:57.1158000-03:00","fim":"2026-10-23T12:15:06.0623516-03:00"}
+{"id":"dif2-Pr-014","visor":"B1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:15:06.0703127-03:00","fim":"2026-10-23T12:15:15.9905291-03:00"}
+{"id":"dif2-Pr-015","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:15:15.9995813-03:00","fim":"2026-10-23T12:15:24.4829435-03:00"}
+{"id":"dif2-Pr-016","visor":"B7","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:15:24.4897000-03:00","fim":"2026-10-23T12:15:33.9650921-03:00"}
+{"id":"dif2-Pr-017","visor":"0001","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:15:33.9710689-03:00","fim":"2026-10-23T12:15:44.1908941-03:00"}
+{"id":"dif2-Pr-018","visor":"-1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:15:44.1978944-03:00","fim":"2026-10-23T12:15:53.0220469-03:00"}
+{"id":"dif2-Pr-019","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:15:53.0286505-03:00","fim":"2026-10-23T12:16:03.0463705-03:00"}
+{"id":"dif2-Pr-020","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:16:03.0553895-03:00","fim":"2026-10-23T12:16:08.2345974-03:00"}
+{"id":"dif2-Pr-021","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:16:08.2415706-03:00","fim":"2026-10-23T12:16:15.6885471-03:00"}
+{"id":"dif2-Pr-022","visor":"-3.928","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:16:15.6955273-03:00","fim":"2026-10-23T12:16:27.5825648-03:00"}
+{"id":"dif2-Pr-023","visor":"0011","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:16:27.5905625-03:00","fim":"2026-10-23T12:16:33.9449276-03:00"}
+{"id":"dif2-Pr-024","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:16:33.9525698-03:00","fim":"2026-10-23T12:16:40.9564640-03:00"}
+{"id":"dif2-Pr-025","visor":"0011","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:16:40.9640729-03:00","fim":"2026-10-23T12:16:51.0217340-03:00"}
+{"id":"dif2-Pr-026","visor":"20","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:16:51.0284690-03:00","fim":"2026-10-23T12:16:58.4471560-03:00"}
+{"id":"dif2-Pr-027","visor":"Resultado não definido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:16:58.4556354-03:00","fim":"2026-10-23T12:17:08.3723464-03:00"}
+{"id":"dif2-Pr-028","visor":"F","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:17:08.3803208-03:00","fim":"2026-10-23T12:17:18.7266114-03:00"}
+{"id":"dif2-Pr-029","visor":"2","mais_habilitado":true,"notas":["XOR: submenu de bitwiseButton nao abriu"],"falha":null,"inicio":"2026-10-23T12:17:18.7336011-03:00","fim":"2026-10-23T12:17:30.6134740-03:00"}
+{"id":"dif2-Pr-030","visor":"7","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:17:30.6211042-03:00","fim":"2026-10-23T12:17:40.5365978-03:00"}
+{"id":"dif2-Pr-031","visor":"1111 1011","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:17:40.5446421-03:00","fim":"2026-10-23T12:17:49.4263248-03:00"}
+{"id":"dif2-Pr-032","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:17:49.4346810-03:00","fim":"2026-10-23T12:17:57.4446778-03:00"}
+{"id":"dif2-Pr-033","visor":"4 146","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:17:57.4516771-03:00","fim":"2026-10-23T12:18:06.2814633-03:00"}
+{"id":"dif2-Pr-034","visor":"0110","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:18:06.2954607-03:00","fim":"2026-10-23T12:18:12.5976498-03:00"}
+{"id":"dif2-Pr-035","visor":"Resultado indefinido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:18:12.6056311-03:00","fim":"2026-10-23T12:18:20.0064372-03:00"}
+{"id":"dif2-Pr-036","visor":"20","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:18:20.0146244-03:00","fim":"2026-10-23T12:18:29.2371398-03:00"}
+{"id":"dif2-Pr-037","visor":"6","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:18:29.2459712-03:00","fim":"2026-10-23T12:18:39.3874995-03:00"}
+{"id":"dif2-Pr-038","visor":"0010","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:18:39.3954967-03:00","fim":"2026-10-23T12:18:47.1777536-03:00"}
+{"id":"dif2-Pr-039","visor":"374","mais_habilitado":true,"notas":["ROLC: botao  sem Invoke/Toggle/SelectionItem"],"falha":null,"inicio":"2026-10-23T12:18:47.1864592-03:00","fim":"2026-10-23T12:19:00.1733836-03:00"}
+{"id":"dif2-Pr-040","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:19:00.1820191-03:00","fim":"2026-10-23T12:19:06.7257194-03:00"}
+{"id":"dif2-Pr-041","visor":"36.927","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:19:06.7337263-03:00","fim":"2026-10-23T12:19:17.2475580-03:00"}
+{"id":"dif2-Pr-042","visor":"D7B","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:19:17.2567850-03:00","fim":"2026-10-23T12:19:23.8381814-03:00"}
+{"id":"dif2-Pr-043","visor":"Não é possível dividir por zero","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:19:23.8455258-03:00","fim":"2026-10-23T12:19:29.6596255-03:00"}
+{"id":"dif2-Pr-044","visor":"6","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:19:29.6673006-03:00","fim":"2026-10-23T12:19:37.4561831-03:00"}
+{"id":"dif2-Pr-045","visor":"-2","mais_habilitado":true,"notas":["-: botao minusButton desabilitado, nao pressionado","NEG: botao negateButton desabilitado, nao pressionado"],"falha":null,"inicio":"2026-10-23T12:19:37.4641800-03:00","fim":"2026-10-23T12:19:49.1724992-03:00"}
+{"id":"dif2-Pr-046","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:19:49.1802396-03:00","fim":"2026-10-23T12:19:54.5103755-03:00"}
+{"id":"dif2-Pr-047","visor":"FFFF FFFF","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:19:54.5229611-03:00","fim":"2026-10-23T12:20:05.6638287-03:00"}
+{"id":"dif2-Pr-048","visor":"1","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:20:05.6728094-03:00","fim":"2026-10-23T12:20:14.5050833-03:00"}
+{"id":"dif2-Pr-049","visor":"0011","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:20:14.5136860-03:00","fim":"2026-10-23T12:20:23.8322247-03:00"}
+{"id":"dif2-Pr-050","visor":"-10.204","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:20:23.8412247-03:00","fim":"2026-10-23T12:20:34.6900264-03:00"}
+{"id":"dif2-Pr-051","visor":"177 750","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:20:34.6980262-03:00","fim":"2026-10-23T12:20:42.6235238-03:00"}
+{"id":"dif2-Pr-052","visor":"37 777 777 735","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:20:42.6321750-03:00","fim":"2026-10-23T12:20:51.9108108-03:00"}
+{"id":"dif2-Pr-053","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:20:51.9198012-03:00","fim":"2026-10-23T12:20:58.8912627-03:00"}
+{"id":"dif2-Pr-054","visor":"4","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:20:58.8999381-03:00","fim":"2026-10-23T12:21:09.3247536-03:00"}
+{"id":"dif2-Pr-055","visor":"-76","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:21:09.3327478-03:00","fim":"2026-10-23T12:21:19.0895980-03:00"}
+{"id":"dif2-Pr-056","visor":"0001","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:21:19.0962353-03:00","fim":"2026-10-23T12:21:29.9810611-03:00"}
+{"id":"dif2-Pr-057","visor":"41","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:21:29.9899770-03:00","fim":"2026-10-23T12:21:36.1821194-03:00"}
+{"id":"dif2-Pr-058","visor":"406","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:21:36.1917277-03:00","fim":"2026-10-23T12:21:44.7299020-03:00"}
+{"id":"dif2-Pr-059","visor":"Resultado não definido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:21:44.7388984-03:00","fim":"2026-10-23T12:21:52.7687062-03:00"}
+{"id":"dif2-Pr-060","visor":"8","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:21:52.7777036-03:00","fim":"2026-10-23T12:22:03.5399971-03:00"}
+{"id":"dif2-Pr-061","visor":"-111","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:22:03.5479334-03:00","fim":"2026-10-23T12:22:08.9864749-03:00"}
+{"id":"dif2-Pr-062","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:22:08.9991235-03:00","fim":"2026-10-23T12:22:17.3689327-03:00"}
+{"id":"dif2-Pr-063","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:22:17.3765716-03:00","fim":"2026-10-23T12:22:27.5833981-03:00"}
+{"id":"dif2-Pr-064","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:22:27.5923979-03:00","fim":"2026-10-23T12:22:37.2065445-03:00"}
+{"id":"dif2-Pr-065","visor":"1 777 777 777 777 777 777 442","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:22:37.2151635-03:00","fim":"2026-10-23T12:22:43.0734899-03:00"}
+{"id":"dif2-Pr-066","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:22:43.0830798-03:00","fim":"2026-10-23T12:22:52.2046048-03:00"}
+{"id":"dif2-Pr-067","visor":"377","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:22:52.2136031-03:00","fim":"2026-10-23T12:23:01.3379603-03:00"}
+{"id":"dif2-Pr-068","visor":"0001","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:23:01.3471408-03:00","fim":"2026-10-23T12:23:07.9229220-03:00"}
+{"id":"dif2-Pr-069","visor":"6","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:23:07.9325565-03:00","fim":"2026-10-23T12:23:15.9724494-03:00"}
+{"id":"dif2-Pr-070","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:23:15.9825336-03:00","fim":"2026-10-23T12:23:21.9259984-03:00"}
+{"id":"dif2-Pr-071","visor":"0001","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:23:21.9339663-03:00","fim":"2026-10-23T12:23:28.7523906-03:00"}
+{"id":"dif2-Pr-072","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:23:28.7603651-03:00","fim":"2026-10-23T12:23:36.3067988-03:00"}
+{"id":"dif2-Pr-073","visor":"66","mais_habilitado":true,"notas":["XOR: submenu de bitwiseButton nao abriu"],"falha":null,"inicio":"2026-10-23T12:23:36.3147956-03:00","fim":"2026-10-23T12:23:47.3405433-03:00"}
+{"id":"dif2-Pr-074","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:23:47.3505164-03:00","fim":"2026-10-23T12:23:52.4662273-03:00"}
+{"id":"dif2-Pr-075","visor":"198","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:23:52.4792218-03:00","fim":"2026-10-23T12:24:04.8350136-03:00"}
+{"id":"dif2-Pr-076","visor":"FFFD","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:24:04.8440082-03:00","fim":"2026-10-23T12:24:13.9963788-03:00"}
+{"id":"dif2-Pr-077","visor":"0","mais_habilitado":true,"notas":["NOR: submenu de bitwiseButton nao abriu"],"falha":null,"inicio":"2026-10-23T12:24:14.0053800-03:00","fim":"2026-10-23T12:24:28.4801698-03:00"}
+{"id":"dif2-Pr-078","visor":"4","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:24:28.4881703-03:00","fim":"2026-10-23T12:24:37.8005240-03:00"}
+{"id":"dif2-Pr-079","visor":"0001","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:24:37.8095365-03:00","fim":"2026-10-23T12:24:46.9487461-03:00"}
+{"id":"dif2-Pr-080","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:24:46.9573286-03:00","fim":"2026-10-23T12:24:53.5826642-03:00"}
+{"id":"dif2-Pr-081","visor":"37 777 776 342","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:24:53.5906687-03:00","fim":"2026-10-23T12:25:02.3156429-03:00"}
+{"id":"dif2-Pr-082","visor":"9","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:25:02.3242547-03:00","fim":"2026-10-23T12:25:09.2520048-03:00"}
+{"id":"dif2-Pr-083","visor":"177 777","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:25:09.2620052-03:00","fim":"2026-10-23T12:25:18.1604505-03:00"}
+{"id":"dif2-Pr-084","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:25:18.1701378-03:00","fim":"2026-10-23T12:25:25.8563768-03:00"}
+{"id":"dif2-Pr-085","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:25:25.8653739-03:00","fim":"2026-10-23T12:25:32.2067074-03:00"}
+{"id":"dif2-Pr-086","visor":"-3","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:25:32.2158891-03:00","fim":"2026-10-23T12:25:39.4331739-03:00"}
+{"id":"dif2-Pr-087","visor":"0","mais_habilitado":true,"notas":["AND: submenu de bitwiseButton nao abriu"],"falha":null,"inicio":"2026-10-23T12:25:39.4424516-03:00","fim":"2026-10-23T12:25:51.5287187-03:00"}
+{"id":"dif2-Pr-088","visor":"Resultado não definido","mais_habilitado":false,"notas":[],"falha":null,"inicio":"2026-10-23T12:25:51.5377184-03:00","fim":"2026-10-23T12:26:01.7849521-03:00"}
+{"id":"dif2-Pr-089","visor":"35","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:26:01.7939504-03:00","fim":"2026-10-23T12:26:09.0858024-03:00"}
+{"id":"dif2-Pr-090","visor":"7","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:26:09.0955891-03:00","fim":"2026-10-23T12:26:17.9407086-03:00"}
+{"id":"dif2-Pr-091","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:26:17.9498792-03:00","fim":"2026-10-23T12:26:25.1067314-03:00"}
+{"id":"dif2-Pr-092","visor":"41F0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:26:25.1163757-03:00","fim":"2026-10-23T12:26:32.2836315-03:00"}
+{"id":"dif2-Pr-093","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:26:32.2926243-03:00","fim":"2026-10-23T12:26:42.6507299-03:00"}
+{"id":"dif2-Pr-094","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:26:42.6607227-03:00","fim":"2026-10-23T12:26:49.8128778-03:00"}
+{"id":"dif2-Pr-095","visor":"-9","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:26:49.8218700-03:00","fim":"2026-10-23T12:27:02.1041809-03:00"}
+{"id":"dif2-Pr-096","visor":"37 777 777 774","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:27:02.1141817-03:00","fim":"2026-10-23T12:27:12.1746792-03:00"}
+{"id":"dif2-Pr-097","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:27:12.1839505-03:00","fim":"2026-10-23T12:27:19.8953304-03:00"}
+{"id":"dif2-Pr-098","visor":"9","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:27:19.9037265-03:00","fim":"2026-10-23T12:27:28.5655242-03:00"}
+{"id":"dif2-Pr-099","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:27:28.5745211-03:00","fim":"2026-10-23T12:27:35.7310128-03:00"}
+{"id":"dif2-Pr-100","visor":"0","mais_habilitado":true,"notas":[],"falha":null,"inicio":"2026-10-23T12:27:35.7415135-03:00","fim":"2026-10-23T12:27:41.5076436-03:00"}

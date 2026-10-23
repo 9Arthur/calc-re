@@ -1,0 +1,1910 @@
+{
+ "sha256_arvore": "2a2df4fe1ceef1a63022ad6c4cd10ef5ed40f15a5243b9c9efb602c1ae463ef9",
+ "congelada": true,
+ "resultados": [
+  {
+   "id": "dif2-Pd-001",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-002",
+   "visor": "Não é possível dividir por zero",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-003",
+   "visor": "3",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-004",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-005",
+   "visor": "30.625",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-006",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-007",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-008",
+   "visor": "64",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-009",
+   "visor": "5.741",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-010",
+   "visor": "-2",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-011",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-012",
+   "visor": "2",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-013",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-014",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-015",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-016",
+   "visor": "8",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-017",
+   "visor": "45",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-018",
+   "visor": "67,2",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-019",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-020",
+   "visor": "-20",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-021",
+   "visor": "-63",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-022",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-023",
+   "visor": "2",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-024",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-025",
+   "visor": "26",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-026",
+   "visor": "-15,07",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-027",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-028",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-029",
+   "visor": "66",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-030",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-031",
+   "visor": "3,333333333333333",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-032",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-033",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-034",
+   "visor": "Resultado indefinido",
+   "erro": true,
+   "notas": [
+    "* desabilitado, não pressionado",
+    "INV desabilitado, não pressionado",
+    "+ desabilitado, não pressionado",
+    "- desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-035",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-036",
+   "visor": "6,193873641409331",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-037",
+   "visor": "84",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-038",
+   "visor": "6.561",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-039",
+   "visor": "1.820",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-040",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-041",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-042",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-043",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-044",
+   "visor": "-54",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-045",
+   "visor": "11",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-046",
+   "visor": "-53.281",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-047",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-048",
+   "visor": "0,3779644730092272",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-049",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-050",
+   "visor": "80",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-051",
+   "visor": "-6",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-052",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-053",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-054",
+   "visor": "87",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-055",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-056",
+   "visor": "8",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-057",
+   "visor": "4.426",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-058",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-059",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-060",
+   "visor": "0,7587141249717989",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-061",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-062",
+   "visor": "0,0512",
+   "erro": false,
+   "notas": [
+    "SQR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-063",
+   "visor": "8.526",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-064",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-065",
+   "visor": "2",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-066",
+   "visor": "-46",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-067",
+   "visor": "697",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-068",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-069",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-070",
+   "visor": "142",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-071",
+   "visor": "0,2",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-072",
+   "visor": "11",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-073",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-074",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-075",
+   "visor": "-8,962962962962963",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado",
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-076",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-077",
+   "visor": "-2",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-078",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-079",
+   "visor": "-64",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-080",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-081",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-082",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-083",
+   "visor": "42",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-084",
+   "visor": "5",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-085",
+   "visor": "14",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-086",
+   "visor": "900",
+   "erro": false,
+   "notas": [
+    "+ desabilitado, não pressionado",
+    "SQRT desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-087",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-088",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-089",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-090",
+   "visor": "8,69",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-091",
+   "visor": "982",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-092",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-093",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-094",
+   "visor": "3",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-095",
+   "visor": "49",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-096",
+   "visor": "-18",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-097",
+   "visor": "-16.439,28",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-098",
+   "visor": "6",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pd-099",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pd-100",
+   "visor": "116",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-001",
+   "visor": "0,19000366741821746280208370546801",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-002",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "DEC desabilitado, não pressionado",
+    "2^X desabilitado, não pressionado",
+    "EXP desabilitado, não pressionado",
+    "CUBE desabilitado, não pressionado",
+    "PI desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-003",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-004",
+   "visor": "2,7182818284590452353602874713527",
+   "erro": false,
+   "notas": [
+    "ASIN desabilitado, não pressionado",
+    "NEG desabilitado, não pressionado",
+    "* desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-005",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-006",
+   "visor": "-6",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-007",
+   "visor": "-13",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-008",
+   "visor": "4,4487989505128276054946633404685",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-009",
+   "visor": "2",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-010",
+   "visor": "504",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-011",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-012",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-013",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-014",
+   "visor": "-75,199900401159568141979565994599",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-015",
+   "visor": "Não é possível dividir por zero",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-016",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-017",
+   "visor": "474.402.551.102.912.549.470.081",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-018",
+   "visor": "0,01234567901234567901234567901235",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-019",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-020",
+   "visor": "3,770052e+6",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-021",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-022",
+   "visor": "-8",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-023",
+   "visor": "8",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-024",
+   "visor": "0,e+0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-025",
+   "visor": "2",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-026",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-027",
+   "visor": "-1,2899336180489709784426545832767e+291",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-028",
+   "visor": "0,e+0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-029",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-030",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-031",
+   "visor": "2",
+   "erro": false,
+   "notas": [
+    "DEC desabilitado, não pressionado",
+    "2^X desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-032",
+   "visor": "128",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-033",
+   "visor": "-0,52040401228521308908591147426898",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-034",
+   "visor": "297",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-035",
+   "visor": "5",
+   "erro": false,
+   "notas": [
+    "INV desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-036",
+   "visor": "6",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-037",
+   "visor": "-8,8636363636363636363636363636364",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-038",
+   "visor": "9.999,0049452463132695486681198147",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-039",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado",
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-040",
+   "visor": "10,93184495962329131913033417422",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-041",
+   "visor": "Entrada inválida",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-042",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-043",
+   "visor": "80",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-044",
+   "visor": "10",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-045",
+   "visor": "14",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-046",
+   "visor": "0,41256729561895887677352120717813",
+   "erro": false,
+   "notas": [
+    "MR desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-047",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-048",
+   "visor": "1,4757731615945520692769166956322",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-049",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "* desabilitado, não pressionado",
+    "POW desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-050",
+   "visor": "-3",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-051",
+   "visor": "1.314",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-052",
+   "visor": "0,00394736842105263157894736842105",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-053",
+   "visor": "-1,82e+2",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-054",
+   "visor": "-1,1627611959162682149522530455168",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-055",
+   "visor": "194,77874452256718078468388976333",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-056",
+   "visor": "21",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-057",
+   "visor": "3",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-058",
+   "visor": "0,75944610394991248096956655250681",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-059",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-060",
+   "visor": "18",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-061",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-062",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-063",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-064",
+   "visor": "2",
+   "erro": false,
+   "notas": [
+    "E desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-065",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-066",
+   "visor": "-992",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-067",
+   "visor": "2,7182818284590452353602874713527",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-068",
+   "visor": "0,48089834696298780245330822700063",
+   "erro": false,
+   "notas": [
+    "MC desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-069",
+   "visor": "Entrada inválida",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-070",
+   "visor": "0,03571428571428571428571428571429",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-071",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-072",
+   "visor": "Resultado indefinido",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-073",
+   "visor": "25,249443184631669995125135849716",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-074",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-075",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-076",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "EX desabilitado, não pressionado",
+    "SQRT desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-077",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-078",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-079",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-080",
+   "visor": "7,7182818284590452353602874713527",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-081",
+   "visor": "12,108224214164178998236834412876",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-082",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-083",
+   "visor": "-8.059",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-084",
+   "visor": "72",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-085",
+   "visor": "0",
+   "erro": false,
+   "notas": [
+    "ACOS desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-086",
+   "visor": "4.137.969.488",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-087",
+   "visor": "5",
+   "erro": false,
+   "notas": [
+    "POW desabilitado, não pressionado",
+    "M+ desabilitado, não pressionado",
+    "FACT desabilitado, não pressionado",
+    "/ desabilitado, não pressionado",
+    "+ desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Ci-088",
+   "visor": "7",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-089",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-090",
+   "visor": "110.592",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-091",
+   "visor": "1,3480061545972776673742363139031",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-092",
+   "visor": "80,408653940929284283882660312991",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-093",
+   "visor": "5,025",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-094",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-095",
+   "visor": "0,48",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-096",
+   "visor": "120",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-097",
+   "visor": "-88,535408112438476736979857472736",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-098",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-099",
+   "visor": "9,e+0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Ci-100",
+   "visor": "41",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-001",
+   "visor": "1111 1111 1111 1111",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-002",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-003",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-004",
+   "visor": "373",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-005",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-006",
+   "visor": "Resultado não definido",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-007",
+   "visor": "Resultado não definido",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-008",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-009",
+   "visor": "47",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-010",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-011",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-012",
+   "visor": "Resultado não definido",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-013",
+   "visor": "5",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-014",
+   "visor": "B1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-015",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-016",
+   "visor": "B7",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-017",
+   "visor": "0001",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-018",
+   "visor": "-1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-019",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-020",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-021",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-022",
+   "visor": "-3.928",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-023",
+   "visor": "0011",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-024",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-025",
+   "visor": "0011",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-026",
+   "visor": "20",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-027",
+   "visor": "Resultado não definido",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-028",
+   "visor": "F",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-029",
+   "visor": "2",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-030",
+   "visor": "7",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-031",
+   "visor": "1111 1011",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-032",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-033",
+   "visor": "4 146",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-034",
+   "visor": "0110",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-035",
+   "visor": "Resultado indefinido",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-036",
+   "visor": "20",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-037",
+   "visor": "6",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-038",
+   "visor": "0010",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-039",
+   "visor": "374",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-040",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-041",
+   "visor": "36.927",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-042",
+   "visor": "D7B",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-043",
+   "visor": "Não é possível dividir por zero",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-044",
+   "visor": "6",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-045",
+   "visor": "-2",
+   "erro": false,
+   "notas": [
+    "- desabilitado, não pressionado",
+    "NEG desabilitado, não pressionado"
+   ]
+  },
+  {
+   "id": "dif2-Pr-046",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-047",
+   "visor": "FFFF FFFF",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-048",
+   "visor": "1",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-049",
+   "visor": "0011",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-050",
+   "visor": "-10.204",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-051",
+   "visor": "177 750",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-052",
+   "visor": "37 777 777 735",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-053",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-054",
+   "visor": "4",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-055",
+   "visor": "-76",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-056",
+   "visor": "0001",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-057",
+   "visor": "41",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-058",
+   "visor": "406",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-059",
+   "visor": "Resultado não definido",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-060",
+   "visor": "8",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-061",
+   "visor": "-111",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-062",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-063",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-064",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-065",
+   "visor": "1 777 777 777 777 777 777 442",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-066",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-067",
+   "visor": "377",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-068",
+   "visor": "0001",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-069",
+   "visor": "6",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-070",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-071",
+   "visor": "0001",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-072",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-073",
+   "visor": "66",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-074",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-075",
+   "visor": "198",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-076",
+   "visor": "FFFD",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-077",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-078",
+   "visor": "3",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-079",
+   "visor": "0001",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-080",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-081",
+   "visor": "37 777 776 342",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-082",
+   "visor": "9",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-083",
+   "visor": "177 777",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-084",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-085",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-086",
+   "visor": "-3",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-087",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-088",
+   "visor": "Resultado não definido",
+   "erro": true,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-089",
+   "visor": "35",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-090",
+   "visor": "7",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-091",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-092",
+   "visor": "41F0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-093",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-094",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-095",
+   "visor": "-9",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-096",
+   "visor": "37 777 777 774",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-097",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-098",
+   "visor": "9",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-099",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  },
+  {
+   "id": "dif2-Pr-100",
+   "visor": "0",
+   "erro": false,
+   "notas": []
+  }
+ ]
+}

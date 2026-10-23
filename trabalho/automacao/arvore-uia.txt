@@ -1,0 +1,134 @@
+# Arvore UI Automation da Calculadora 11.2607.0.0 X64
+# Coletada em 2026-10-22T18:49:58; cultura pt-BR, UI pt-BR
+
+##### Modo Padrao (Alt+1) #####
+[Window] Name="Calculadora" AutomationId="" Class="ApplicationFrameWindow" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="TitleBar" Class="ApplicationFrameTitleBarWindow" Enabled=True Offscreen=False
+    [MenuBar] Name="Sistema" AutomationId="SystemMenuBar" Class="" Enabled=True Offscreen=False
+      [MenuItem] Name="Sistema" AutomationId="" Class="" Enabled=True Offscreen=False
+    [Button] Name="Minimizar Calculadora" AutomationId="Minimize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Maximizar Calculadora" AutomationId="Maximize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Fechar Calculadora" AutomationId="Close" Class="" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="" Class="Windows.UI.Core.CoreWindow" Enabled=True Offscreen=False
+    [Text] Name="Calculadora" AutomationId="AppName" Class="TextBlock" Enabled=True Offscreen=False
+    [Custom] Name="" AutomationId="NavView" Class="" Enabled=True Offscreen=False
+      [Button] Name="Abrir Navegação" AutomationId="TogglePaneButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="" AutomationId="PaneTitleTextBlock" Class="TextBlock" Enabled=True Offscreen=True
+      [Group] Name="" AutomationId="" Class="LandmarkTarget" Enabled=True Offscreen=False
+        [Text] Name="Expression é " AutomationId="CalculatorExpression" Class="" Enabled=True Offscreen=True
+        [Text] Name="A exibição é 0" AutomationId="CalculatorResults" Class="" Enabled=True Offscreen=False
+        [Button] Name="Abrir submenu de histórico" AutomationId="HistoryButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Controles de memória" AutomationId="MemoryPanel" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Limpar toda a memória" AutomationId="ClearMemoryButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Rechamada de memória" AutomationId="MemRecall" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Adição de memória" AutomationId="MemPlus" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Subtração de memória" AutomationId="MemMinus" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Armazenamento de memória" AutomationId="memButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Abrir submenu de memória" AutomationId="MemoryButton" Class="Button" Enabled=False Offscreen=False
+        [Group] Name="Controles de exibição" AutomationId="DisplayControls" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Por cento" AutomationId="percentButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Limpar entrada" AutomationId="clearEntryButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Limpar" AutomationId="clearButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Backspace" AutomationId="backSpaceButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Funções padrão" AutomationId="StandardFunctions" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Recíproco" AutomationId="invertButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Quadrado" AutomationId="xpower2Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Raiz quadrada" AutomationId="squareRootButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Operadores padrão" AutomationId="StandardOperators" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Dividir por" AutomationId="divideButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Multiplicar por" AutomationId="multiplyButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Menos" AutomationId="minusButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Mais" AutomationId="plusButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Igual a" AutomationId="equalButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Teclado numérico" AutomationId="NumberPad" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Zero" AutomationId="num0Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Um" AutomationId="num1Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Dois" AutomationId="num2Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Três" AutomationId="num3Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Quatro" AutomationId="num4Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Cinco" AutomationId="num5Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Seis" AutomationId="num6Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Sete" AutomationId="num7Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Oito" AutomationId="num8Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Nove" AutomationId="num9Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Separador decimal" AutomationId="decimalSeparatorButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Positivo negativo" AutomationId="negateButton" Class="Button" Enabled=True Offscreen=False
+      [Text] Name="Modo Calculadora Padrão" AutomationId="Header" Class="TextBlock" Enabled=True Offscreen=False
+      [Button] Name="Manter na parte superior" AutomationId="NormalAlwaysOnTopButton" Class="Button" Enabled=True Offscreen=False
+  [Pane] Name="" AutomationId="" Class="ApplicationFrameInputSinkWindow" Enabled=True Offscreen=False
+
+##### Modo Cientifico (Alt+2) #####
+[Window] Name="Calculadora" AutomationId="" Class="ApplicationFrameWindow" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="TitleBar" Class="ApplicationFrameTitleBarWindow" Enabled=True Offscreen=False
+    [MenuBar] Name="Sistema" AutomationId="SystemMenuBar" Class="" Enabled=True Offscreen=False
+      [MenuItem] Name="Sistema" AutomationId="" Class="" Enabled=True Offscreen=False
+    [Button] Name="Minimizar Calculadora" AutomationId="Minimize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Maximizar Calculadora" AutomationId="Maximize" Class="" Enabled=True Offscreen=False
+    [Button] Name="Fechar Calculadora" AutomationId="Close" Class="" Enabled=True Offscreen=False
+  [Window] Name="Calculadora" AutomationId="" Class="Windows.UI.Core.CoreWindow" Enabled=True Offscreen=False
+    [Text] Name="Calculadora" AutomationId="AppName" Class="TextBlock" Enabled=True Offscreen=False
+    [Custom] Name="" AutomationId="NavView" Class="" Enabled=True Offscreen=False
+      [Button] Name="Abrir Navegação" AutomationId="TogglePaneButton" Class="Button" Enabled=True Offscreen=False
+        [Text] Name="" AutomationId="PaneTitleTextBlock" Class="TextBlock" Enabled=True Offscreen=True
+      [Group] Name="" AutomationId="" Class="LandmarkTarget" Enabled=True Offscreen=False
+        [Text] Name="Expression é " AutomationId="CalculatorExpression" Class="" Enabled=True Offscreen=True
+        [Text] Name="A exibição é 0" AutomationId="CalculatorResults" Class="" Enabled=True Offscreen=False
+        [Button] Name="Abrir submenu de histórico" AutomationId="HistoryButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Operadores de ângulo" AutomationId="ScientificAngleOperators" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Alternância de graus" AutomationId="degButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Notação científica" AutomationId="ftoeButton" Class="ToggleButton" Enabled=True Offscreen=False
+        [Group] Name="Controles de memória" AutomationId="MemoryPanel" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Limpar toda a memória" AutomationId="ClearMemoryButton" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Rechamada de memória" AutomationId="MemRecall" Class="Button" Enabled=False Offscreen=False
+          [Button] Name="Adição de memória" AutomationId="MemPlus" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Subtração de memória" AutomationId="MemMinus" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Armazenamento de memória" AutomationId="memButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Abrir submenu de memória" AutomationId="MemoryButton" Class="Button" Enabled=False Offscreen=False
+        [List] Name="Painéis de operação científica" AutomationId="" Class="ListView" Enabled=True Offscreen=False
+          [ListItem] Name="Trigonometria" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Button] Name="Trigonometria" AutomationId="trigButton" Class="ToggleButton" Enabled=True Offscreen=False
+              [Text] Name="Trigonometria" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+          [ListItem] Name="Funções" AutomationId="" Class="ListViewItem" Enabled=True Offscreen=False
+            [Button] Name="Funções" AutomationId="funcButton" Class="ToggleButton" Enabled=True Offscreen=False
+              [Text] Name="Função" AutomationId="" Class="TextBlock" Enabled=True Offscreen=False
+        [Button] Name="Função inversa" AutomationId="shiftButton" Class="ToggleButton" Enabled=True Offscreen=False
+        [Button] Name="Pi" AutomationId="piButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Número de Euler" AutomationId="eulerButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Controles de exibição" AutomationId="DisplayControls" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Limpar" AutomationId="clearButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Backspace" AutomationId="backSpaceButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Funções científicas" AutomationId="" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Quadrado" AutomationId="xpower2Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Raiz quadrada" AutomationId="squareRootButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Potência de “X”" AutomationId="powerButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Potência de dez" AutomationId="powerOf10Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Log" AutomationId="logBase10Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Logaritmo natural" AutomationId="logBaseEButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Recíproco" AutomationId="invertButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Valor absoluto" AutomationId="absButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Exponencial" AutomationId="expButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Módulo" AutomationId="modButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Parêntese esquerdo" AutomationId="openParenthesisButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Parêntese direito" AutomationId="closeParenthesisButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Fatorial" AutomationId="factorialButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Operadores padrão" AutomationId="StandardOperators" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Dividir por" AutomationId="divideButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Multiplicar por" AutomationId="multiplyButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Menos" AutomationId="minusButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Mais" AutomationId="plusButton" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Igual a" AutomationId="equalButton" Class="Button" Enabled=True Offscreen=False
+        [Button] Name="Positivo negativo" AutomationId="negateButton" Class="Button" Enabled=True Offscreen=False
+        [Group] Name="Teclado numérico" AutomationId="NumberPad" Class="NamedContainerAutomationPeer" Enabled=True Offscreen=False
+          [Button] Name="Zero" AutomationId="num0Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Um" AutomationId="num1Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Dois" AutomationId="num2Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Três" AutomationId="num3Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Quatro" AutomationId="num4Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Cinco" AutomationId="num5Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Seis" AutomationId="num6Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Sete" AutomationId="num7Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Oito" AutomationId="num8Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Nove" AutomationId="num9Button" Class="Button" Enabled=True Offscreen=False
+          [Button] Name="Separador decimal" AutomationId="decimalSeparatorButton" Class="Button" Enabled=True Offscreen=False
+      [Text] Name="Modo Calculadora Científica" AutomationId="Header" Class="TextBlock" Enabled=True Offscreen=False
+  [Pane] Name="" AutomationId="" Class="ApplicationFrameInputSinkWindow" Enabled=True Offscreen=False

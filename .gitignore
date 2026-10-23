@@ -1,0 +1,135 @@
+# ---------------------------------------------------------------------------
+# .gitignore
+#
+# Sections 1-3: ordinary hygiene (caches, virtual environments, logs, editors).
+# Section 4:    the proprietary Microsoft binaries that were analysed. They are
+#               never to be committed.
+# Section 5:    working files that were *derived from* the Microsoft binaries
+#               (decompiled code, extracted strings and resources, screenshots
+#               of the original app). They are ignored by default, pending the
+#               rights review. Delete a line here only after deciding that the
+#               corresponding file can be published.
+# ---------------------------------------------------------------------------
+
+# 1. Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+
+# 2. Logs, temporary and OS/editor files
+*.log
+nohup.out
+*.tmp
+*.bak
+*.orig
+*~
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 3. Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# 4. Proprietary Microsoft binaries (the analysed APPX package contents). Never publish.
+binarios/
+binarios-ptbr/
+
+# 5. Working files derived from the Microsoft binaries. Ignored pending rights review.
+#    (own scripts, notes, logs, UIA box measurements and reimplementation screenshots stay tracked)
+
+# 5a. Decompiled pseudocode (Ghidra output for CalcViewModel.dll functions)
+trabalho/pseudocodigo/
+trabalho/fase3c/cis-chamadores-to_wstring.txt
+trabalho/fase3c/l11-tabela-salto.txt
+
+# 5b. Raw strings extracted from the DLLs.
+trabalho/strings/
+
+# 5c. RTTI, WinRT metadata and global-string dumps of the DLLs and .winmd files
+trabalho/rtti/
+trabalho/winmd/
+trabalho/hstring-globais.json
+trabalho/cengine-ids.json
+trabalho/fase1-pe.json
+trabalho/fase1-winmd-tipos.json
+
+# 5d. resources.pri dumps: compiled XAML (XBF) copied byte for byte, its disassembly and every localized UI string
+trabalho/pri/xbf/
+trabalho/pri/xbf-nos/
+trabalho/pri/xbf-strings/
+trabalho/pri/recursos.json
+trabalho/pri/Resources.tsv
+trabalho/pri/CEngineStrings.tsv
+trabalho/pri/blobs.json
+trabalho/pri/xbf-resumo.json
+trabalho/pri/xbf-botoes.tsv
+trabalho/ptbr/recursos.json
+trabalho/ptbr/Resources.tsv
+trabalho/ptbr/CEngineStrings.tsv
+trabalho/ptbr/blobs.json
+trabalho/ptbr/validacao-pri.json
+
+# 5e. REA evidence bundles and the Ghidra snapshot (embed pseudocode and local machine paths)
+trabalho/fase*-evidencias.json
+trabalho/ghidra/
+
+# 5f. XBF extractor and its type table. The node-stream disassembly in xbf_dump.py is ported from
+#     chausner/XbfTools (Apache-2.0) and xbf_framework_ids.json is converted from that project's tables
+#     (which it attributes to the Windows SDK). Kept out rather than published without the Apache-2.0 notices.
+trabalho/scripts/dados/
+trabalho/scripts/xbf_dump.py
+
+# 5g. Screenshots and video frames of the original Microsoft Calculator
+#     (*.uia.tsv measurement files in the same folders stay tracked; the GUI tests read them)
+trabalho/automacao/capturas/
+trabalho/visual/ref/**/*.png
+trabalho/visual/ref-claro/**/*.png
+trabalho/visual/ref-cientifico/**/*.png
+trabalho/visual/ref-cientifico-claro/**/*.png
+trabalho/visual/comparacoes*/*.png
+trabalho/visual/anim/
+
+# 6. Scratch outputs that embed a personal path (\\wsl.localhost\<distro>\home\<user>\...) and byte-identical
+#    duplicates of other logs. Ignored for privacy and tidiness; nothing in the reports depends on them.
+trabalho/automacao/saida-casos3c.txt
+trabalho/automacao/saida-casos3d.txt
+trabalho/diferencial/saida-ps1.txt
+trabalho/diferencial/saida-ps1-p2.txt
+trabalho/diferencial/saida-ps1-dif2.txt
+trabalho/automacao/log-execucao-3b.txt
+trabalho/automacao/log-execucao-3d.txt
+
+# 7. Run logs and regression screenshots that no report cites. The results they produced are already in
+#    relatorio/ (resultados-reais-*.jsonl) and trabalho/visual/comparacoes-regressao/resumo.txt.
+trabalho/automacao/log-execucao-3b-execucao2.txt
+trabalho/automacao/log-execucao-3d-execucao2.txt
+trabalho/automacao/log-execucao-diferencial.txt
+trabalho/automacao/log-resultados-reais-diferencial-p2.txt
+trabalho/automacao/log-resultados-reais-diferencial2.txt
+trabalho/visual/reimpl-regressao/
+
+# 8. Graphical interface that reproduces the original application's visual design, its screenshots
+#    and the visual-calibration material (measurements and captures). Kept out of the public repository.
+reimpl/calculadora/gui/
+reimpl/tests/test_gui.py
+reimpl/tests/test_gui_cientifico.py
+reimpl/ferramentas/abrir_gui.sh
+docs/screenshots/
+trabalho/visual/
+
+# 9. PRI parser written with chausner/PriTools (Apache-2.0) as a reference. Kept out until its
+#    attribution is settled.
+trabalho/scripts/pri_dump.py

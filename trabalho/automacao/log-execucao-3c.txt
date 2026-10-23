@@ -1,0 +1,312 @@
+# Execucao 3c 2026-10-22T20:15:50 - Calculadora 11.2607.0.0 X64, cultura pt-BR, UI pt-BR
+# SHA-256 instalado CalculatorApp.exe = f26a20f8bd65fd23f9a7cf13145a52b01f37beb51962a7aa3b7892eb7894b242
+# SHA-256 instalado CalculatorApp.dll = e08455206dab3ab28ee355c0b085d5da6a91afee19e4e21b09174330a462cf28
+# SHA-256 instalado CalcViewModel.dll = 072cd589ec97875b71e4a63c31b1c8a7eb38952721321019f22ecad0acd9d21d
+
+== 3c-01 (Cientifico, DEG): 90 COS
+   preparo: angulo DEG
+   leitura apos [cos]: NormalOutput='0' expressao.Name='Expression é graus do cosseno (90)' OCR='(vazia)' angulo=DEG captura=capturas/3c-01-final.png
+
+== 3c-02 (Cientifico, DEG): 90 TAN
+   preparo: angulo DEG
+   leitura apos [tan]: NormalOutput='Entrada inválida' expressao.Name='Expression é graus da tangente (90)' OCR='tano( 90 )' angulo=DEG captura=capturas/3c-02-final.png
+
+== 3c-03 (Cientifico, RAD): PI SIN
+   preparo: angulo RAD
+   leitura apos [sin]: NormalOutput='0' expressao.Name='Expression é radianos do seno (3,1415926535897932384626433832795)' OCR='3, 1415926535897932384626433832795 )' angulo=RAD captura=capturas/3c-03-final.png
+
+== 3c-04 (Cientifico, DEG): 180 SIN
+   preparo: angulo DEG
+   leitura apos [sin]: NormalOutput='0' expressao.Name='Expression é graus do seno (180)' OCR='sino(180)' angulo=DEG captura=capturas/3c-04-final.png
+
+== 3c-05 (Cientifico, RAD): 0 COS
+   preparo: angulo RAD
+   leitura apos [cos]: NormalOutput='1' expressao.Name='Expression é radianos do cosseno (0)' OCR='cosr(0)' angulo=RAD captura=capturas/3c-05-final.png
+
+== 3c-06 (Cientifico, DEG): 1 ASIN
+   preparo: angulo DEG
+   leitura apos [sin⁻¹]: NormalOutput='90' expressao.Name='Expression é graus inversos do seno (1)' OCR='sino-l(l )' angulo=DEG captura=capturas/3c-06-final.png
+
+== 3c-07 (Cientifico, DEG): 2 ASIN
+   preparo: angulo DEG
+   leitura apos [sin⁻¹]: NormalOutput='Entrada inválida' expressao.Name='Expression é graus inversos do seno (2)' OCR='sino-1( 2 )' angulo=DEG captura=capturas/3c-07-final.png
+
+== 3c-08 (Cientifico, DEG): 1 EXP 100 > SIN
+   preparo: angulo DEG
+   leitura apos [0]: NormalOutput='1,e+100' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-08-1.png
+   leitura apos [sin]: NormalOutput='Entrada inválida' expressao.Name='Expression é graus do seno (1,e+100)' OCR='(vazia)' angulo=DEG captura=capturas/3c-08-final.png
+
+== 3c-09 (Cientifico, DEG): 1 ANG 2
+   preparo: angulo DEG
+   leitura apos [2]: NormalOutput='2' expressao.Name='' OCR='(vazia)' angulo=RAD captura=capturas/3c-09-final.png
+
+== 3c-10 (Cientifico, DEG): 5 FACT
+   preparo: angulo DEG
+   leitura apos [n!]: NormalOutput='120' expressao.Name='Expression é fatorial (5)' OCR='fact( 5 )' angulo=DEG captura=capturas/3c-10-final.png
+
+== 3c-11 (Cientifico, DEG): 0 FACT
+   preparo: angulo DEG
+   leitura apos [n!]: NormalOutput='1' expressao.Name='Expression é fatorial (0)' OCR='fact(0)' angulo=DEG captura=capturas/3c-11-final.png
+
+== 3c-12 (Cientifico, DEG): 20 FACT
+   preparo: angulo DEG
+   leitura apos [n!]: NormalOutput='2.432.902.008.176.640.000' expressao.Name='Expression é fatorial (20)' OCR='(vazia)' angulo=DEG captura=capturas/3c-12-final.png
+
+== 3c-13 (Cientifico, DEG): 1 NEG FACT
+   preparo: angulo DEG
+   leitura apos [n!]: NormalOutput='Entrada inválida' expressao.Name='Expression é fatorial (-1)' OCR='fact(-l )' angulo=DEG captura=capturas/3c-13-final.png
+
+== 3c-14 (Cientifico, DEG): 3250 FACT
+   preparo: angulo DEG
+   leitura apos [n!]: NormalOutput='Estouro' expressao.Name='Expression é fatorial (3250)' OCR='(vazia)' angulo=DEG captura=capturas/3c-14-final.png
+
+== 3c-15 (Cientifico, DEG): 7 MOD 3 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='1' expressao.Name='Expression é 7 Mod 3=' OCR='(vazia)' angulo=DEG captura=capturas/3c-15-final.png
+
+== 3c-16 (Cientifico, DEG): 7 NEG MOD 3 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='2' expressao.Name='Expression é -7 Mod 3=' OCR='-7 Mod 3 =' angulo=DEG captura=capturas/3c-16-final.png
+
+== 3c-17 (Cientifico, DEG): 7 MOD 3 NEG =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='-2' expressao.Name='Expression é 7 Mod -3=' OCR='7 Mod -3 =' angulo=DEG captura=capturas/3c-17-final.png
+
+== 3c-18 (Cientifico, DEG): 7 DEC 5 MOD 2 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='1,5' expressao.Name='Expression é 7,5 Mod 2=' OCR='7,5 Mod 2 =' angulo=DEG captura=capturas/3c-18-final.png
+
+== 3c-19 (Cientifico, DEG): 5 MOD 0 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='5' expressao.Name='Expression é 5 Mod 0=' OCR='5 Mod o =' angulo=DEG captura=capturas/3c-19-final.png
+
+== 3c-20 (Cientifico, DEG): 2 POW 10 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='1.024' expressao.Name='Expression é 2 ^ 10=' OCR='2A10=' angulo=DEG captura=capturas/3c-20-final.png
+
+== 3c-21 (Cientifico, DEG): 2 POW 1 NEG =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='0,5' expressao.Name='Expression é 2 ^ -1=' OCR='(vazia)' angulo=DEG captura=capturas/3c-21-final.png
+
+== 3c-22 (Cientifico, DEG): 0 POW 1 NEG =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='Entrada inválida' expressao.Name='Expression é 0 ^ ' OCR='(vazia)' angulo=DEG captura=capturas/3c-22-final.png
+
+== 3c-23 (Cientifico, DEG): 3 P10
+   preparo: angulo DEG
+   leitura apos [10^x]: NormalOutput='1.000' expressao.Name='Expression é 10^(3)' OCR='10A(3)' angulo=DEG captura=capturas/3c-23-final.png
+
+== 3c-24 (Cientifico, DEG): 31 P10
+   preparo: angulo DEG
+   leitura apos [10^x]: NormalOutput='10.000.000.000.000.000.000.000.000.000.000' expressao.Name='Expression é 10^(31)' OCR='10A(31 )' angulo=DEG captura=capturas/3c-24-final.png
+
+== 3c-25 (Cientifico, DEG): 32 P10
+   preparo: angulo DEG
+   leitura apos [10^x]: NormalOutput='1,e+32' expressao.Name='Expression é 10^(32)' OCR='10A(32)' angulo=DEG captura=capturas/3c-25-final.png
+
+== 3c-26 (Cientifico, DEG): 0 LOG
+   preparo: angulo DEG
+   leitura apos [log]: NormalOutput='Entrada inválida' expressao.Name='Expression é log(0)' OCR='log(0)' angulo=DEG captura=capturas/3c-26-final.png
+
+== 3c-27 (Cientifico, DEG): 1 NEG LN
+   preparo: angulo DEG
+   leitura apos [ln]: NormalOutput='Entrada inválida' expressao.Name='Expression é logaritmo natural (-1)' OCR='In(-l)' angulo=DEG captura=capturas/3c-27-final.png
+
+== 3c-28 (Cientifico, DEG): 2 EXP > 3 > =
+   preparo: angulo DEG
+   leitura apos [exp]: NormalOutput='2,e+0' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-28-1.png
+   leitura apos [3]: NormalOutput='2,e+3' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-28-2.png
+   leitura apos [=]: NormalOutput='2.000' expressao.Name='Expression é 2000=' OCR='2000 =' angulo=DEG captura=capturas/3c-28-final.png
+
+== 3c-29 (Cientifico, DEG): 1 EXP 4 NEG > =
+   preparo: angulo DEG
+   leitura apos [±]: NormalOutput='1,e-4' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-29-1.png
+   leitura apos [=]: NormalOutput='0,0001' expressao.Name='Expression é 0,0001=' OCR='0,0001 =' angulo=DEG captura=capturas/3c-29-final.png
+
+== 3c-30 (Cientifico, DEG): 123 = > FE > FE
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='123' expressao.Name='Expression é 123=' OCR='123 =' angulo=DEG captura=capturas/3c-30-1.png
+   leitura apos [F-E]: NormalOutput='1,23e+2' expressao.Name='Expression é 123=' OCR='123 =' angulo=DEG captura=capturas/3c-30-2.png
+   leitura apos [F-E]: NormalOutput='123' expressao.Name='Expression é 123=' OCR='123 =' angulo=DEG captura=capturas/3c-30-final.png
+
+== 3c-31 (Cientifico, DEG): 5 NEG ABS
+   preparo: angulo DEG
+   leitura apos [|x|]: NormalOutput='5' expressao.Name='Expression é Valor absoluto (-5)' OCR='abs( -5 )' angulo=DEG captura=capturas/3c-31-final.png
+
+== 3c-32 (Cientifico, DEG): 1 / 3 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='0,33333333333333333333333333333333' expressao.Name='Expression é 1 ÷ 3=' OCR='(vazia)' angulo=DEG captura=capturas/3c-32-final.png
+
+== 3c-33 (Cientifico, DEG): 2 / 30 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='0,06666666666666666666666666666667' expressao.Name='Expression é 2 ÷ 30=' OCR='2+30=' angulo=DEG captura=capturas/3c-33-final.png
+
+== 3c-34 (Cientifico, DEG): 1 / 300 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='0,00333333333333333333333333333333' expressao.Name='Expression é 1 ÷ 300=' OCR='1 + 300' angulo=DEG captura=capturas/3c-34-final.png
+
+== 3c-35 (Cientifico, DEG): 1 / 3000 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='3,3333333333333333333333333333333e-4' expressao.Name='Expression é 1 ÷ 3000=' OCR='1 + 3000' angulo=DEG captura=capturas/3c-35-final.png
+
+== 3c-36 (Cientifico, DEG): 12345678901234567890123456789012 > 3
+   preparo: angulo DEG
+   leitura apos [2]: NormalOutput='12.345.678.901.234.567.890.123.456.789.012' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-36-1.png
+   leitura apos [3]: NormalOutput='12.345.678.901.234.567.890.123.456.789.012' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-36-final.png
+
+== 3c-37 (Cientifico, DEG): 2 * 3 + > 4 * 5 =
+   preparo: angulo DEG
+   leitura apos [+]: NormalOutput='6' expressao.Name='Expression é 2 × 3 + ' OCR='(vazia)' angulo=DEG captura=capturas/3c-37-1.png
+   leitura apos [=]: NormalOutput='26' expressao.Name='Expression é 2 × 3 + 4 × 5=' OCR='2x3+4x5=' angulo=DEG captura=capturas/3c-37-final.png
+
+== 3c-38 (Cientifico, DEG): 2 POW 3 POW > 2 =
+   preparo: angulo DEG
+   leitura apos [x^y]: NormalOutput='8' expressao.Name='Expression é 2 ^ 3 ^ ' OCR='(vazia)' angulo=DEG captura=capturas/3c-38-1.png
+   leitura apos [=]: NormalOutput='64' expressao.Name='Expression é 2 ^ 3 ^ 2=' OCR='2A3A2=' angulo=DEG captura=capturas/3c-38-final.png
+
+== 3c-39 (Cientifico, DEG): 2 + 3 * 4 POW 2 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='50' expressao.Name='Expression é 2 + 3 × 4 ^ 2=' OCR='2+3x4A2=' angulo=DEG captura=capturas/3c-39-final.png
+
+== 3c-40 (Cientifico, DEG): 7 MOD 4 * 2 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='6' expressao.Name='Expression é 7 Mod 4 × 2=' OCR='7 Mod4x2=' angulo=DEG captura=capturas/3c-40-final.png
+
+== 3c-41 (Cientifico, DEG): 2 + 3 + * > 4 =
+   preparo: angulo DEG
+   leitura apos [×]: NormalOutput='5' expressao.Name='Expression é (2 + 3) × ' OCR='(2+3) x' angulo=DEG captura=capturas/3c-41-1.png
+   leitura apos [=]: NormalOutput='20' expressao.Name='Expression é (2 + 3) × 4=' OCR='(2+3) x' angulo=DEG captura=capturas/3c-41-final.png
+
+== 3c-42 (Cientifico, DEG): ( 2 + 3 ) > * 4 =
+   preparo: angulo DEG
+   leitura apos [)]: NormalOutput='5' expressao.Name='Expression é (2 + 3)' OCR='(2+3)' angulo=DEG captura=capturas/3c-42-1.png
+   leitura apos [=]: NormalOutput='20' expressao.Name='Expression é (2 + 3) × 4=' OCR='(2+3) x' angulo=DEG captura=capturas/3c-42-final.png
+
+== 3c-43 (Cientifico, DEG): ( 2 + 3 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='5' expressao.Name='Expression é (2 + 3)=' OCR='(vazia)' angulo=DEG captura=capturas/3c-43-final.png
+
+== 3c-44 (Cientifico, DEG): 2 * ( 3 + ( 4 - 1 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='12' expressao.Name='Expression é 2 × (3 + (4 Menos ( 1))=' OCR='2 x (3+(4-1)) =' angulo=DEG captura=capturas/3c-44-final.png
+
+== 3c-45 (Cientifico, DEG): 2 ( 3 + 4 ) =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='14' expressao.Name='Expression é 2 × (3 + 4)=' OCR='(vazia)' angulo=DEG captura=capturas/3c-45-final.png
+
+== 3c-46 (Cientifico, DEG): 1 + ( 2 + 3 ) > 4 > =
+   preparo: angulo DEG
+   leitura apos [)]: NormalOutput='5' expressao.Name='Expression é 1 + (2 + 3)' OCR='1+(2+3)' angulo=DEG captura=capturas/3c-46-1.png
+   leitura apos [4]: NormalOutput='4' expressao.Name='Expression é 1 + (2 + 3) × ' OCR='1+(2+3) x' angulo=DEG captura=capturas/3c-46-2.png
+   leitura apos [=]: NormalOutput='20' expressao.Name='Expression é 1 + (2 + 3) × 4=' OCR='1+(2+3) x' angulo=DEG captura=capturas/3c-46-final.png
+
+== 3c-47 (Cientifico, DEG): 2 + 3 ) * 4 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='14' expressao.Name='Expression é 2 + 3 × 4=' OCR='2+3 x' angulo=DEG captura=capturas/3c-47-final.png
+
+== 3c-50 (Cientifico, DEG): 30 SIN
+   preparo: angulo DEG
+   leitura apos [sin]: NormalOutput='0,5' expressao.Name='Expression é graus do seno (30)' OCR='(vazia)' angulo=DEG captura=capturas/3c-50-final.png
+
+== 3c-51 (Cientifico, DEG): 60 COS
+   preparo: angulo DEG
+   leitura apos [cos]: NormalOutput='0,5' expressao.Name='Expression é graus do cosseno (60)' OCR='(vazia)' angulo=DEG captura=capturas/3c-51-final.png
+
+== 3c-52 (Cientifico, DEG): 45 SIN
+   preparo: angulo DEG
+   leitura apos [sin]: NormalOutput='0,70710678118654752440084436210485' expressao.Name='Expression é graus do seno (45)' OCR='(vazia)' angulo=DEG captura=capturas/3c-52-final.png
+
+== 3c-53 (Cientifico, DEG): 45 TAN
+   preparo: angulo DEG
+   leitura apos [tan]: NormalOutput='1' expressao.Name='Expression é graus da tangente (45)' OCR='tano( 45 )' angulo=DEG captura=capturas/3c-53-final.png
+
+== 3c-54 (Cientifico, DEG): 30 NEG SIN
+   preparo: angulo DEG
+   leitura apos [sin]: NormalOutput='-0,5' expressao.Name='Expression é graus do seno (-30)' OCR='(vazia)' angulo=DEG captura=capturas/3c-54-final.png
+
+== 3c-55 (Cientifico, RAD): 1 SIN
+   preparo: angulo RAD
+   leitura apos [sin]: NormalOutput='0,8414709848078965066525023216303' expressao.Name='Expression é radianos do seno (1)' OCR='sinr( 1 )' angulo=RAD captura=capturas/3c-55-final.png
+
+== 3c-56 (Cientifico, RAD): 1 TAN
+   preparo: angulo RAD
+   leitura apos [tan]: NormalOutput='1,5574077246549022305069748074584' expressao.Name='Expression é radianos da tangente (1)' OCR='tanr(l )' angulo=RAD captura=capturas/3c-56-final.png
+
+== 3c-57 (Cientifico, GRAD): 1 COS
+   preparo: angulo GRAD
+   leitura apos [cos]: NormalOutput='0,99987663248166059863890712773125' expressao.Name='Expression é grados do cosseno (1)' OCR='coso 1' angulo=GRAD captura=capturas/3c-57-final.png
+
+== 3c-58 (Cientifico, GRAD): 100 SIN
+   preparo: angulo GRAD
+   leitura apos [sin]: NormalOutput='1' expressao.Name='Expression é grados do seno (100)' OCR='sing(100)' angulo=GRAD captura=capturas/3c-58-final.png
+
+== 3c-59 (Cientifico, DEG): 0 DEC 5 ASIN
+   preparo: angulo DEG
+   leitura apos [sin⁻¹]: NormalOutput='30' expressao.Name='Expression é graus inversos do seno (0,5)' OCR='(vazia)' angulo=DEG captura=capturas/3c-59-final.png
+
+== 3c-60 (Cientifico, RAD): 0 DEC 5 ACOS
+   preparo: angulo RAD
+   leitura apos [cos⁻¹]: NormalOutput='1,0471975511965977461542144610932' expressao.Name='Expression é radianos inversos do cosseno (0,5)' OCR='cost-' angulo=RAD captura=capturas/3c-60-final.png
+
+== 3c-61 (Cientifico, GRAD): 1 ATAN
+   preparo: angulo GRAD
+   leitura apos [tan⁻¹]: NormalOutput='50' expressao.Name='Expression é grados inversos da tangente (1)' OCR='(vazia)' angulo=GRAD captura=capturas/3c-61-final.png
+
+== 3c-62 (Cientifico, DEG): 1 NEG EXP 100 > SIN
+   preparo: angulo DEG
+   leitura apos [0]: NormalOutput='-1,e+100' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-62-1.png
+   leitura apos [sin]: NormalOutput='0,98480775301220805936674302458952' expressao.Name='Expression é graus do seno (-1,e+100)' OCR='(vazia)' angulo=DEG captura=capturas/3c-62-final.png
+
+== 3c-63 (Cientifico, DEG): PI > FE > FE
+   preparo: angulo DEG
+   leitura apos [π]: NormalOutput='3,1415926535897932384626433832795' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-63-1.png
+   leitura apos [F-E]: NormalOutput='3,1415926535897932384626433832795e+0' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-63-2.png
+   leitura apos [F-E]: NormalOutput='3,1415926535897932384626433832795' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-63-final.png
+
+== 3c-64 (Cientifico, DEG): E
+   preparo: angulo DEG
+   leitura apos [e]: NormalOutput='2,7182818284590452353602874713527' expressao.Name='' OCR='(vazia)' angulo=DEG captura=capturas/3c-64-final.png
+
+== 3c-65 (Cientifico, DEG): 1 EX
+   preparo: angulo DEG
+   leitura apos [eˣ]: NormalOutput='2,7182818284590452353602874713527' expressao.Name='Expression é e^(1)' OCR='eA(I)' angulo=DEG captura=capturas/3c-65-final.png
+
+== 3c-66 (Cientifico, DEG): 10 NEG EX
+   preparo: angulo DEG
+   leitura apos [eˣ]: NormalOutput='4,5399929762484851535591515560551e-5' expressao.Name='Expression é e^(-10)' OCR='(vazia)' angulo=DEG captura=capturas/3c-66-final.png
+
+== 3c-67 (Cientifico, DEG): 10 LN
+   preparo: angulo DEG
+   leitura apos [ln]: NormalOutput='2,3025850929940456840179914546844' expressao.Name='Expression é logaritmo natural (10)' OCR='In(10)' angulo=DEG captura=capturas/3c-67-final.png
+
+== 3c-68 (Cientifico, DEG): 2 LOG
+   preparo: angulo DEG
+   leitura apos [log]: NormalOutput='0,30102999566398119521373889472449' expressao.Name='Expression é log(2)' OCR='log(2)' angulo=DEG captura=capturas/3c-68-final.png
+
+== 3c-69 (Cientifico, DEG): 1000 LOG
+   preparo: angulo DEG
+   leitura apos [log]: NormalOutput='3' expressao.Name='Expression é log(1000)' OCR='log(1000)' angulo=DEG captura=capturas/3c-69-final.png
+
+== 3c-70 (Cientifico, DEG): 0 DEC 5 P10
+   preparo: angulo DEG
+   leitura apos [10^x]: NormalOutput='3,1622776601683793319988935444327' expressao.Name='Expression é 10^(0,5)' OCR='(vazia)' angulo=DEG captura=capturas/3c-70-final.png
+
+== 3c-71 (Cientifico, DEG): 2 POW 0 DEC 5 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='1,4142135623730950488016887242097' expressao.Name='Expression é 2 ^ 0,5=' OCR='(vazia)' angulo=DEG captura=capturas/3c-71-final.png
+
+== 3c-72 (Cientifico, DEG): 27 YROOT 3 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='3' expressao.Name='Expression é 27 raiz de y ( 3=' OCR='27 yroot3=' angulo=DEG captura=capturas/3c-72-final.png
+
+== 3c-73 (Cientifico, DEG): 8 NEG YROOT 3 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='-2' expressao.Name='Expression é -8 raiz de y ( 3=' OCR='-8 yroot 3 =' angulo=DEG captura=capturas/3c-73-final.png
+
+== 3c-74 (Cientifico, DEG): 8 LOGY 2 =
+   preparo: angulo DEG
+   leitura apos [=]: NormalOutput='3' expressao.Name='Expression é 8 Base de registro ( 2=' OCR='8 log base 2 =' angulo=DEG captura=capturas/3c-74-final.png
+
+== 3c-75 (Cientifico, DEG): 0 DEC 5 FACT
+   preparo: angulo DEG
+   leitura apos [n!]: NormalOutput='0,88622692545275801364908374167057' expressao.Name='Expression é fatorial (0,5)' OCR='(vazia)' angulo=DEG captura=capturas/3c-75-final.png
