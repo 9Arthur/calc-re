@@ -64,3 +64,18 @@ Ferramentas: REA (MCP) com provedor Ghidra 12.1.4.
 ## Entregáveis em ./relatorio
 00-inventario.md, 01-arquitetura.md, 02-features/<feature>.md,
 03-casos-de-teste.md, 04-lacunas.md (o que não foi possível determinar e por quê).
+
+## Adendo (2026-10-24): demonstração visual
+Atividade posterior ao experimento principal, feita depois de concluídas a análise,
+a validação e a reimplementação. As regras acima continuam valendo sem alteração.
+- Para produzir a demonstração visual do README, a Calculadora instalada foi executada
+  como caixa-preta (entrada de teclado e mouse, UI Automation e captura de tela), lado a
+  lado com a GUI da reimplementação, recebendo as mesmas entradas.
+- O modo Programador foi demonstrado à parte: a GUI da original ao lado da saída real
+  da CLI em Python, porque a GUI da reimplementação não tem esse modo.
+- Artefatos em docs/assets/; scripts de geração em trabalho/demo/.
+- Esta exceção vale só para gerar essas demonstrações documentadas. Ela não autoriza
+  executar binários durante a análise estática e não altera as regras de congelamento
+  das previsões, de integridade dos hashes nem de comparação dos resultados. Nada
+  observado nessa execução alimenta relatórios, casos de teste, resultados ou a
+  reimplementação.

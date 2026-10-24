@@ -1,0 +1,5 @@
+# Programador: só a original (a GUI da reimplementação não tem este modo). O último quadro restaura DEC e o Padrão.
+clica:240,160;tecla:%4;espera:1500;seleciona:fullKeypad;tecla:{ESC};seleciona:hexButton	Programmer, HEX	0
+tecla:f0	F0	0
+alterna:bitwiseButton;invoca:notButton	NOT	0
+seleciona:decimalButton;tecla:{ESC};tecla:%1;espera:1000	restaura	0

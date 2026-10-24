@@ -7,6 +7,49 @@
 
 [Versão curta em português](README.pt-BR.md) · Reports are written in Portuguese (see [Documentation](#documentation)).
 
+**Contents:** [Demo](#demo) · [Results at a glance](#results-at-a-glance) · [Overview](#overview) ·
+[The experiment](#the-experiment-rea-inside-claude-code) · [What was found](#what-was-found-short-version) ·
+[The reimplementation](#the-reimplementation) · [Running](#running) · [Results](#results) ·
+[Known limitations](#known-limitations) · [Documentation](#documentation) ·
+[Disclaimer](#disclaimer-and-what-is-not-in-this-repository)
+
+## Demo
+
+![Side-by-side screen captures: the installed Windows Calculator on the left and the Python reimplementation on the right, receiving the same keys in Standard and Scientific mode](docs/assets/demo-standard-scientific.gif)
+
+Left: the installed Windows Calculator 11.2607, driven as a black box. Right: the graphical
+front end of the Python reimplementation. Both received the same input (`12 + 7 × 3 =`,
+`1 ÷ 0 =`, then `2 + 3 × 4 =` and `30 sin` in Scientific mode), one after the other, and a
+frame was captured from each after every step. No frame was edited or dropped. Per frame,
+0.20% to 0.21% of the pixels differ ([`trabalho/demo/diferencas.txt`](trabalho/demo/diferencas.txt)):
+about 90% of them are in the 1-pixel window border, the rest in the title-bar icon (59 pixels)
+and three corner pixels of the `=` button. The display and the text match.
+
+The graphical front end is **not** in this repository: it reproduces the original's visual design
+and is kept out (see the [Disclaimer](#disclaimer-and-what-is-not-in-this-repository)). The published
+package is the engine, the view model and a command-line interface. Programmer mode exists only in
+those, so its comparison puts the original's window next to the CLI's text output:
+
+![Programmer mode: the original Calculator after HEX, F, 0, NOT on the left, and the text printed by the reimplementation's CLI for the same input on the right](docs/assets/programmer-original-vs-cli.png)
+
+The values match. The expression line differs in spacing (`NOT(F0)` against `NOT( F0 )`): its exact
+spacing was never determined, and the comparisons ignore spaces (see [Known limitations](#known-limitations)).
+Both images are produced by [`trabalho/demo/gerar-demo.sh`](trabalho/demo/gerar-demo.sh) from real
+captures; that step needs the installed Calculator and the unpublished front end.
+
+## Results at a glance
+
+| Measurement | What it tests | Result |
+|---|---|---:|
+| Predictions of the static analysis against the real app, first comparison | Was the analysis right? 215 cases written and hashed **before** running the app | 209/215 (97%) |
+| Reimplementation against the same frozen cases | Reproduction (in sample): the real results of these cases were known when the code was written and corrected | 215/215 |
+| Differential test 2: 300 random key sequences, new seed, after the corrections | Out of sample: identical final display and error state | 293/300 (97.7%) |
+
+None of these numbers proves full equivalence. The scientific cases do not tell the engine's own
+numeric algorithms apart from exact arithmetic, three rules found by the last differential test
+are still open, and several features are out of scope. Details are under [Results](#results) and
+[Known limitations](#known-limitations).
+
 ## Overview
 
 This repository documents an experiment: reverse engineering the Windows Calculator
@@ -113,9 +156,11 @@ reimpl/                    Python reimplementation and tests
   tests/                   oracle built from the frozen cases and the real results
   ferramentas/             case extractor, mutation harness
   README.md                technical notes on the reimplementation (Portuguese)
+docs/assets/               demo images used in this README
 trabalho/                  working files: parsers (PE, RTTI, PRI, winmd), UI Automation
                            scripts, logs and notes.
                            Artefacts extracted from the Microsoft binaries are git-ignored.
+  demo/                    script that captures both calculators and builds the demo images
 ```
 
 ## Running
@@ -290,6 +335,11 @@ All reports are in Portuguese.
   strings and resources, compiled XAML, screenshots of the original application) are
   excluded through `.gitignore`. The reports quote short excerpts of pseudocode and
   strings where needed as evidence.
+- The one exception is `docs/assets/`: the demo images contain screen captures of the
+  installed Calculator, published deliberately to show the comparison. They are pictures
+  of the running application, not content extracted from the binaries. The graphical
+  front end of the reimplementation shown next to them reproduces the original's visual
+  design and is not published.
 - The XBF (compiled XAML) extractor used during the analysis is not published either:
   part of it is ported from an Apache-2.0 project and its type table derives from the
   Windows SDK. Because of these exclusions, some file paths cited inside the reports

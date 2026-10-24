@@ -1,0 +1,17 @@
+# Padrão e Científico: as mesmas linhas vão para a original e para a GUI da reimplementação.
+# acoes<TAB>legenda do quadro<TAB>duração no GIF (ms). clica:240,160 = visor (CalculatorResults em 1,112,480x101).
+# O 1º clique é necessário porque o Tk só recebe teclado depois de um clique; a original recebe o mesmo clique.
+clica:240,160;tecla:%1;tecla:{ESC};clica:240,160	Alt+1  (Standard mode)	1000
+tecla:12	12	500
+tecla:{+}	+	500
+tecla:7	7	500
+tecla:*	×	500
+tecla:3	3	500
+tecla:=	=   no precedence in Standard: (12 + 7) × 3	1700
+tecla:{ESC}1/0	Esc  1 ÷ 0	700
+tecla:=	=   division by zero	1700
+tecla:{ESC};tecla:%2;clica:240,160	Esc  Alt+2  (Scientific mode)	1000
+tecla:2{+}3*4	2 + 3 × 4	800
+tecla:=	=   operator precedence in Scientific: 2 + (3 × 4)	1700
+tecla:{ESC}30	Esc  30	600
+tecla:s	s  =  sin, angle unit DEG	1700

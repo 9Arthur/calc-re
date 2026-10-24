@@ -101,6 +101,10 @@ trabalho/visual/ref-cientifico/**/*.png
 trabalho/visual/ref-cientifico-claro/**/*.png
 trabalho/visual/comparacoes*/*.png
 trabalho/visual/anim/
+#     Raw frames of the README demo (trabalho/demo/gerar-demo.sh). Exception, by the author's decision on
+#     2026-10-24: the composed demo images in docs/assets/ (screen captures of the installed Calculator next to
+#     the reimplementation) are published; nothing in them is extracted from the binaries.
+trabalho/demo/quadros/
 
 # 6. Scratch outputs that embed a personal path (\\wsl.localhost\<distro>\home\<user>\...) and byte-identical
 #    duplicates of other logs. Ignored for privacy and tidiness; nothing in the reports depends on them.

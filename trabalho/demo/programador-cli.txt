@@ -1,0 +1,9 @@
+$ python -m calculadora -m programador -- R:HEX '#F0' NOT
+
+  NOT( F0 )
+  FFFF FFFF FFFF FF0F
+  H FFFF FFFF FFFF FF0F
+  D -241
+  O 1 777 777 777 777 777 777 417
+  B 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 0000 1111
+  [QWORD, deslocamento Arit]

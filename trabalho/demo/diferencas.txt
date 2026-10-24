@@ -1,0 +1,16 @@
+# Diferença por quadro entre a original e a GUI da reimplementação (pixels com diferença > 24 em algum canal,
+# sem a última linha, que é a borda semitransparente da janela). Gerado por gerar-demo.sh.
+000	0.201136%	Alt+1  (Standard mode)
+001	0.207469%	12
+002	0.204755%	+
+003	0.202644%	7
+004	0.197819%	×
+005	0.196613%	3
+006	0.199025%	=   no precedence in Standard: (12 + 7) × 3
+007	0.202342%	Esc  1 ÷ 0
+008	0.202342%	=   division by zero
+009	0.201136%	Esc  Alt+2  (Scientific mode)
+010	0.202644%	2 + 3 × 4
+011	0.208977%	=   operator precedence in Scientific: 2 + (3 × 4)
+012	0.202644%	Esc  30
+013	0.200232%	s  =  sin, angle unit DEG
