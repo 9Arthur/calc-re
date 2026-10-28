@@ -352,5 +352,7 @@ All reports are in Portuguese.
 
 ## License
 
-No license has been defined for this project yet. Until one is added, reuse of the
-code and documentation is not expressly authorized by a project license.
+Code and documentation in this repository are released under the [MIT License](LICENSE).
+The license covers only the contents of this repository. The analysed Microsoft binaries,
+and any artefacts derived from them, are not included in this repository and are not
+covered by this license (see the Disclaimer above).

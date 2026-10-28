@@ -53,5 +53,7 @@ README em inglês.
 
 ## Licença
 
-Nenhuma licença foi definida ainda. Enquanto não houver uma, a reutilização do código e da
-documentação não está expressamente autorizada por uma licença do projeto.
+O código e a documentação deste repositório são distribuídos sob a [Licença MIT](LICENSE).
+A licença cobre apenas o conteúdo deste repositório. Os binários da Microsoft analisados, e
+quaisquer artefatos derivados deles, não estão incluídos neste repositório e não são
+cobertos por esta licença (ver o Disclaimer).
